@@ -1,0 +1,46 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:../db/dev.db"
+}
+
+model Ortschaft {
+  id        Int     @id @default(autoincrement())
+  name      String
+  gemeinde  String
+  kanton_id String
+  kanton    Kanton  @relation(fields: [kanton_id], references: [id])
+  sprache   String
+  plz       String
+  e         Decimal
+  n         Decimal
+}
+
+model Kanton {
+  id          String      @id
+  name_de     String
+  name_fr     String
+  name_it     String
+  ortschaften Ortschaft[]
+}
+
+model Firma {
+  id       Int    @id @default(autoincrement())
+  name     String
+  strasse  String
+  postfach String
+  plz      String
+  ort      String
+  mail     String
+  webpage  String
+  sprache  String
+}
