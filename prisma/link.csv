@@ -1,0 +1,1870 @@
+id;name;url;gemeinde_id
+1;Gemeindeverwaltung Aeugst am Albis;https://www.aeugst-albis.ch;1
+2;Gemeindeverwaltung Affoltern am Albis;https://www.affoltern-am-albis.ch;2
+3;Gemeindeverwaltung Bonstetten;https://www.bonstetten.ch;3
+4;Gemeindeverwaltung Hausen am Albis;https://www.hausen.ch;4
+5;Gemeindeverwaltung Hedingen;https://www.hedingen.ch;5
+6;Gemeindeverwaltung Kappel am Albis;https://www.kappel-am-albis.ch;6
+7;Gemeindeverwaltung Knonau;https://www.knonau.ch;7
+8;Gemeindeverwaltung Maschwanden;https://www.maschwanden.ch;8
+9;Gemeindeverwaltung Mettmenstetten;https://www.mettmenstetten.ch;9
+10;Gemeindeverwaltung Obfelden;https://www.obfelden.ch;10
+11;Gemeindeverwaltung Ottenbach;https://www.ottenbach.ch;11
+12;Gemeindeverwaltung Rifferswil;https://www.rifferswil.ch;12
+13;Gemeindeverwaltung Stallikon;https://www.stallikon.ch;13
+14;Gemeindeverwaltung Wettswil am Albis;https://www.wettswil.ch;14
+15;Gemeindeverwaltung Benken (ZH);https://www.benken-zh.ch;22
+16;Gemeindeverwaltung Berg am Irchel;https://www.berg-am-irchel.ch;23
+17;Gemeindeverwaltung Buch am Irchel;https://www.buchamirchel.ch;24
+18;Gemeindeverwaltung Dachsen;https://www.dachsen.ch;25
+19;Gemeindeverwaltung Dorf;https://www.dorf.ch;26
+20;Gemeindeverwaltung Feuerthalen;https://www.feuerthalen.ch;27
+21;Gemeindeverwaltung Flaach;https://www.flaach.ch;28
+22;Gemeindeverwaltung Flurlingen;https://www.flurlingen.ch;29
+23;Gemeindeverwaltung Henggart;https://www.henggart.ch;31
+24;Gemeindeverwaltung Kleinandelfingen;https://www.kleinandelfingen.ch;33
+25;Gemeindeverwaltung Laufen-Uhwiesen;https://www.laufen-uhwiesen.ch;34
+26;Gemeindeverwaltung Marthalen;https://www.marthalen.ch;35
+27;Gemeindeverwaltung Ossingen;https://www.ossingen.ch;37
+28;Gemeindeverwaltung Rheinau;https://www.rheinau.ch;38
+29;Gemeindeverwaltung Thalheim an der Thur;https://www.thalheim.ch;39
+30;Gemeindeverwaltung Trüllikon;https://www.truellikon.ch;40
+31;Gemeindeverwaltung Volken;https://www.volken.ch;43
+32;Gemeindeverwaltung Bachenbülach;https://www.bachenbuelach.ch;51
+33;Gemeindeverwaltung Bassersdorf;https://www.bassersdorf.ch;52
+34;Stadtverwaltung Bülach;https://www.buelach.ch;53
+35;Gemeindeverwaltung Dietlikon;https://www.dietlikon.ch;54
+36;Gemeindeverwaltung Eglisau;https://www.eglisau.ch;55
+37;Gemeindeverwaltung Embrach;https://www.embrach.ch;56
+38;Gemeindeverwaltung Freienstein-Teufen;https://www.freienstein-teufen.ch;57
+39;Gemeindeverwaltung Glattfelden;https://www.glattfelden.ch;58
+40;Gemeindeverwaltung Hochfelden;https://www.hochfelden.ch;59
+41;Gemeindeverwaltung Hüntwangen;https://www.huentwangen.ch;61
+42;Stadtverwaltung Kloten;https://www.kloten.ch;62
+43;Gemeindeverwaltung Lufingen;https://www.lufingen.ch;63
+44;Gemeindeverwaltung Nürensdorf;https://www.nuerensdorf.ch;64
+45;Gemeindeverwaltung Oberembrach;https://www.oberembrach.ch;65
+46;Stadtverwaltung Opfikon;https://www.opfikon.ch;66
+47;Gemeindeverwaltung Rafz;https://www.rafz.ch;67
+48;Gemeindeverwaltung Rorbas;https://www.rorbas.ch;68
+49;Stadtverwaltung Wallisellen;https://www.wallisellen.ch;69
+50;Gemeindeverwaltung Wasterkingen;https://www.wasterkingen.ch;70
+51;Stadtverwaltung Wil (ZH);https://www.wil-zh.ch;71
+52;Gemeindeverwaltung Winkel;https://www.winkel.ch;72
+53;Gemeindeverwaltung Bachs;https://www.bachs.ch;81
+54;Gemeindeverwaltung Boppelsen;https://www.boppelsen.ch;82
+55;Gemeindeverwaltung Buchs (ZH);https://www.buchs-zh.ch;83
+56;Gemeindeverwaltung Dällikon;https://www.daellikon.ch;84
+57;Gemeindeverwaltung Dänikon;https://www.daenikon.ch;85
+58;Gemeindeverwaltung Dielsdorf;https://www.dielsdorf.ch;86
+59;Gemeindeverwaltung Hüttikon;https://www.huettikon.ch;87
+60;Gemeindeverwaltung Neerach;https://www.neerach.ch;88
+61;Gemeindeverwaltung Niederglatt;https://www.niederglatt.ch;89
+62;Gemeindeverwaltung Niederhasli;https://www.niederhasli.ch;90
+63;Gemeindeverwaltung Niederweningen;https://www.niederweningen.ch;91
+64;Gemeindeverwaltung Oberglatt;https://www.oberglatt.ch;92
+65;Gemeindeverwaltung Oberweningen;https://www.oberweningen.ch;93
+66;Gemeindeverwaltung Otelfingen;https://www.otelfingen.ch;94
+67;Gemeindeverwaltung Regensberg;https://www.regensberg.ch;95
+68;Stadtverwaltung Regensdorf;https://www.regensdorf.ch;96
+69;Gemeindeverwaltung Rümlang;https://www.ruemlang.ch;97
+70;Gemeindeverwaltung Stadel;https://www.stadel.zh.ch;100
+71;Gemeindeverwaltung Steinmaur;https://www.steinmaur.ch;101
+72;Gemeindeverwaltung Weiach;https://www.weiach.ch;102
+73;Gemeindeverwaltung Bäretswil;https://www.baeretswil.ch;111
+74;Gemeindeverwaltung Bubikon;https://www.bubikon.ch;112
+75;Gemeindeverwaltung Dürnten;https://www.duernten.ch;113
+76;Gemeindeverwaltung Fischenthal;https://www.fischenthal.ch;114
+77;Gemeindeverwaltung Gossau (ZH);https://www.gossau-zh.ch;115
+78;Gemeindeverwaltung Grüningen;https://www.grueningen.ch;116
+79;Gemeindeverwaltung Hinwil;https://www.hinwil.ch;117
+80;Gemeindeverwaltung Rüti (ZH);https://www.rueti.ch;118
+81;Gemeindeverwaltung Seegräben;https://www.seegraeben.ch;119
+82;Gemeindeverwaltung Wald (ZH);https://www.wald-zh.ch;120
+83;Stadtverwaltung Wetzikon (ZH);https://www.wetzikon.ch;121
+84;Stadtverwaltung Adliswil;https://www.adliswil.ch;131
+85;Gemeindeverwaltung Kilchberg (ZH);https://www.kilchberg.ch;135
+86;Gemeindeverwaltung Langnau am Albis;https://www.langnauamalbis.ch;136
+87;Gemeindeverwaltung Oberrieden;https://www.oberrieden.ch;137
+88;Gemeindeverwaltung Richterswil;https://www.richterswil.ch;138
+89;Gemeindeverwaltung Rüschlikon;https://www.rueschlikon.ch;139
+90;Stadtverwaltung Thalwil;https://www.thalwil.ch;141
+91;Gemeindeverwaltung Erlenbach (ZH);https://www.erlenbach.ch;151
+92;Gemeindeverwaltung Herrliberg;https://www.herrliberg.ch;152
+93;Gemeindeverwaltung Hombrechtikon;https://www.hombrechtikon.ch;153
+94;Stadtverwaltung Küsnacht (ZH);https://www.kuesnacht.ch;154
+95;Gemeindeverwaltung Männedorf;https://www.maennedorf.ch;155
+96;Stadtverwaltung Meilen;https://www.meilen.ch;156
+97;Gemeindeverwaltung Oetwil am See;https://www.oetwil.ch;157
+98;Gemeindeverwaltung Stäfa;https://www.staefa.ch;158
+99;Gemeindeverwaltung Uetikon am See;https://www.uetikonamsee.ch;159
+100;Gemeindeverwaltung Zumikon;https://www.zumikon.ch;160
+101;Gemeindeverwaltung Zollikon;https://www.zollikon.ch;161
+102;Gemeindeverwaltung Fehraltorf;https://www.fehraltorf.ch;172
+103;Gemeindeverwaltung Hittnau;https://www.hittnau.ch;173
+104;Gemeindeverwaltung Lindau;https://www.lindau.ch;176
+105;Gemeindeverwaltung Pfäffikon;https://www.pfaeffikon.ch;177
+106;Gemeindeverwaltung Russikon;https://www.russikon.ch;178
+107;Gemeindeverwaltung Weisslingen;https://www.weisslingen.ch;180
+108;Gemeindeverwaltung Wila;https://www.wila.ch;181
+109;Gemeindeverwaltung Wildberg;https://www.wildberg.ch;182
+110;Stadtverwaltung Dübendorf;https://www.duebendorf.ch;191
+111;Gemeindeverwaltung Egg;https://www.egg.ch;192
+112;Gemeindeverwaltung Fällanden;https://www.faellanden.ch;193
+113;Gemeindeverwaltung Greifensee;https://www.greifensee.ch;194
+114;Gemeindeverwaltung Maur;https://www.maur.ch;195
+115;Gemeindeverwaltung Mönchaltorf;https://www.moenchaltorf.ch;196
+116;Gemeindeverwaltung Schwerzenbach;https://www.schwerzenbach.ch;197
+117;Stadtverwaltung Uster;https://www.uster.ch;198
+118;Gemeindeverwaltung Volketswil;https://www.volketswil.ch;199
+119;Gemeindeverwaltung Wangen-Brüttisellen;https://www.wangen.ch;200
+120;Gemeindeverwaltung Altikon;https://www.altikon.ch;211
+121;Gemeindeverwaltung Brütten;https://www.bruetten.ch;213
+122;Gemeindeverwaltung Dägerlen;https://www.daegerlen.ch;214
+123;Gemeindeverwaltung Dättlikon;https://www.daettlikon.ch;215
+124;Gemeindeverwaltung Dinhard;https://www.dinhard.ch;216
+125;Gemeindeverwaltung Elsau;https://www.elsau.ch;219
+126;Gemeindeverwaltung Hagenbuch;https://www.hagenbuch.zh.ch;220
+127;Gemeindeverwaltung Hettlingen;https://www.hettlingen.ch;221
+128;Gemeindeverwaltung Neftenbach;https://www.neftenbach.ch;223
+129;Gemeindeverwaltung Pfungen;https://www.pfungen.ch;224
+130;Gemeindeverwaltung Seuzach;https://www.seuzach.ch;227
+131;Gemeindeverwaltung Turbenthal;https://www.turbenthal.ch;228
+132;Stadtverwaltung Winterthur;https://www.stadt-winterthur.ch;230
+133;Gemeindeverwaltung Zell (ZH);https://www.zell.ch;231
+134;Gemeindeverwaltung Birmensdorf (ZH);https://www.birmensdorf.ch;242
+135;Stadtverwaltung Dietikon;https://www.dietikon.ch;243
+136;Gemeindeverwaltung Geroldswil;https://www.geroldswil.ch;244
+137;Gemeindeverwaltung Oberengstringen;https://www.oberengstringen.ch;245
+138;Gemeindeverwaltung Oetwil an der Limmat;https://www.oetwil-limmat.ch;246
+139;Stadtverwaltung Schlieren;https://www.schlieren.ch;247
+140;Gemeindeverwaltung Uitikon;https://www.uitikon.ch;248
+141;Gemeindeverwaltung Unterengstringen;https://www.unterengstringen.ch;249
+142;Gemeindeverwaltung Urdorf;https://www.urdorf.ch;250
+143;Gemeindeverwaltung Weiningen (ZH);https://www.weiningen.ch;251
+144;Stadtverwaltung Zürich;https://www.stadt-zuerich.ch;261
+145;Gemeindeverwaltung Andelfingen;https://www.andelfingen.ch;291
+146;Gemeindeverwaltung Stammheim;https://www.stammheim.ch;292
+147;Stadtverwaltung Wädenswil;https://www.waedenswil.ch;293
+148;Gemeindeverwaltung Elgg;https://www.elgg.ch;294
+149;Stadtverwaltung Horgen;https://www.horgen.ch;295
+150;Stadtverwaltung Illnau-Effretikon;https://www.ilef.ch;296
+151;Gemeindeverwaltung Bauma;https://www.bauma-zh.ch;297
+152;Gemeindeverwaltung Wiesendangen;https://www.wiesendangen.ch;298
+153;Gemeindeverwaltung Aarberg;https://www.aarberg.ch;301
+154;Gemeindeverwaltung Bargen (BE);https://www.bargen-be.ch;302
+155;Gemeindeverwaltung Grossaffoltern;https://www.grossaffoltern.ch;303
+156;Gemeindeverwaltung Kallnach;https://www.kallnach.ch;304
+157;Gemeindeverwaltung Kappelen;https://www.kappelen.ch;305
+158;Gemeindeverwaltung Lyss;https://www.lyss.ch;306
+159;Gemeindeverwaltung Meikirch;https://www.meikirch.ch;307
+160;Gemeindeverwaltung Radelfingen;https://www.radelfingen.ch;309
+161;Gemeindeverwaltung Rapperswil (BE);https://www.rapperswil-be.ch;310
+162;Gemeindeverwaltung Schüpfen;https://www.schuepfen.ch;311
+163;Gemeindeverwaltung Seedorf (BE);https://www.seedorf.ch;312
+164;Gemeindeverwaltung Aarwangen;https://www.aarwangen.ch;321
+165;Gemeindeverwaltung Auswil;https://www.auswil.ch;322
+166;Gemeindeverwaltung Bannwil;https://www.bannwil.ch;323
+167;Gemeindeverwaltung Bleienbach;https://www.bleienbach.ch;324
+168;Gemeindeverwaltung Gondiswil;https://www.gondiswil.ch;326
+169;Stadtverwaltung Langenthal;https://www.langenthal.ch;329
+170;Gemeindeverwaltung Lotzwil;https://www.lotzwil.ch;331
+171;Gemeindeverwaltung Madiswil;https://www.madiswil.ch;332
+172;Gemeindeverwaltung Melchnau;https://www.melchnau.ch;333
+173;Gemeindeverwaltung Roggwil (BE);https://www.roggwil.ch;337
+174;Gemeindeverwaltung Rohrbach;https://www.rohrbach-be.ch;338
+175;Gemeindeverwaltung Rohrbachgraben;https://www.rohrbachgraben.ch;339
+176;Gemeindeverwaltung Rütschelen;https://www.ruetschelen.ch;340
+177;Gemeindeverwaltung Schwarzhäusern;https://www.schwarzhaeusern.ch;341
+178;Gemeindeverwaltung Thunstetten;https://www.thunstetten.ch;342
+179;Gemeindeverwaltung Ursenbach;https://www.ursenbach.ch;344
+180;Gemeindeverwaltung Wynau;https://www.wynau.ch;345
+181;Stadtverwaltung Bern;https://www.bern.ch;351
+182;Gemeindeverwaltung Bolligen;https://www.bolligen.ch;352
+183;Gemeindeverwaltung Bremgarten bei Bern;https://www.bremgarten-be.ch;353
+184;Gemeindeverwaltung Kirchlindach;https://www.kirchlindach.ch;354
+185;Gemeindeverwaltung Köniz;https://www.koeniz.ch;355
+186;Gemeindeverwaltung Muri bei Bern;https://www.muri-guemligen.ch;356
+187;Gemeindeverwaltung Stettlen;https://www.stettlen.ch;358
+188;Gemeindeverwaltung Vechigen;https://www.vechigen.ch;359
+189;Gemeindeverwaltung Wohlen bei Bern;https://www.wohlen-be.ch;360
+190;Gemeindeverwaltung Zollikofen;https://www.zollikofen.ch;361
+191;Gemeindeverwaltung Ittigen;https://www.ittigen.ch;362
+192;Gemeindeverwaltung Ostermundigen;https://www.ostermundigen.ch;363
+193;Gemeindeverwaltung Evilard;https://www.evilard.ch;372
+194;Gemeindeverwaltung Arch;https://www.arch-be.ch;381
+195;Gemeindeverwaltung Büetigen;https://www.bueetigen.ch;382
+196;Gemeindeverwaltung Büren an der Aare;https://www.bueren.ch;383
+197;Gemeindeverwaltung Diessbach bei Büren;https://www.diessbach.ch;385
+198;Gemeindeverwaltung Dotzigen;https://www.dotzigen.ch;386
+199;Gemeindeverwaltung Lengnau (BE);https://www.lengnau.ch;387
+200;Gemeindeverwaltung Leuzigen;https://www.leuzigen.ch;388
+201;Gemeindeverwaltung Meinisberg;https://www.meinisberg.ch;390
+202;Gemeindeverwaltung Oberwil bei Büren;https://www.oberwil-bueren.ch;391
+203;Gemeindeverwaltung Pieterlen;https://www.pieterlen.ch;392
+204;Gemeindeverwaltung Rüti bei Büren;https://www.ruetibeibueren.ch;393
+205;Gemeindeverwaltung Wengi;https://www.wengi-be.ch;394
+206;Gemeindeverwaltung Aefligen;https://www.aefligen.ch;401
+207;Gemeindeverwaltung Alchenstorf;https://www.alchenstorf.ch;402
+208;Gemeindeverwaltung Bäriswil;https://www.baeriswil.ch;403
+209;Stadtverwaltung Burgdorf;https://www.burgdorf.ch;404
+210;Gemeindeverwaltung Ersigen;https://www.ersigen.ch;405
+211;Gemeindeverwaltung Hasle bei Burgdorf;https://www.hasle.ch;406
+212;Gemeindeverwaltung Heimiswil;https://www.heimiswil.ch;407
+213;Gemeindeverwaltung Hellsau;https://www.hellsau.ch;408
+214;Gemeindeverwaltung Hindelbank;https://www.hindelbank.ch;409
+215;Gemeindeverwaltung Höchstetten;https://www.hoechstetten.ch;410
+216;Gemeindeverwaltung Kirchberg (BE);https://www.kirchberg-be.ch;412
+217;Gemeindeverwaltung Koppigen;https://www.koppigen.ch;413
+218;Gemeindeverwaltung Krauchthal;https://www.krauchthal.ch;414
+219;Gemeindeverwaltung Lyssach;https://www.lyssach.ch;415
+220;Gemeindeverwaltung Oberburg;https://www.oberburg.ch;418
+221;Gemeindeverwaltung Rüdtligen-Alchenflüh;https://www.ruedtligen-alchenflueh.ch;420
+222;Gemeindeverwaltung Wynigen;https://www.wynigen.ch;424
+223;Gemeindeverwaltung Corgémont;https://www.corgemont.ch;431
+224;Gemeindeverwaltung Cortébert;https://www.cortebert.ch;433
+225;Gemeindeverwaltung Courtelary;https://www.courtelary.ch;434
+226;Gemeindeverwaltung Orvin;https://www.orvin.ch;438
+227;Gemeindeverwaltung Renan (BE);https://www.renan.ch;441
+228;Gemeindeverwaltung Romont (BE);https://www.romont.net/;442
+229;Gemeindeverwaltung Sonceboz-Sombeval;https://www.sonceboz.ch;444
+230;Gemeindeverwaltung Sonvilier;https://www.sonvilier.ch;445
+231;Gemeindeverwaltung Tramelan;https://www.tramelan.ch;446
+232;Gemeindeverwaltung Villeret;https://www.villeret.ch;448
+233;Gemeindeverwaltung Sauge;https://www.sauge-jb.ch;449
+234;Gemeindeverwaltung Brüttelen;https://www.bruettelen.ch;491
+235;Gemeindeverwaltung Erlach;https://www.erlach.ch;492
+236;Gemeindeverwaltung Finsterhennen;https://www.finsterhennen.ch;493
+237;Gemeindeverwaltung Gals;https://www.gals.ch;494
+238;Gemeindeverwaltung Gampelen;https://www.gampelen.ch;495
+239;Gemeindeverwaltung Ins;https://www.ins.ch;496
+240;Gemeindeverwaltung Lüscherz;https://www.luescherz.ch;497
+241;Gemeindeverwaltung Müntschemier;https://www.muentschemier.ch;498
+242;Gemeindeverwaltung Siselen;https://www.siselen.ch;499
+243;Gemeindeverwaltung Treiten;https://www.treiten.ch;500
+244;Gemeindeverwaltung Tschugg;https://www.tschugg.ch;501
+245;Gemeindeverwaltung Vinelz;https://www.vinelz.ch;502
+246;Gemeindeverwaltung Bätterkinden;https://www.baetterkinden.ch;533
+247;Gemeindeverwaltung Fraubrunnen;https://www.fraubrunnen.ch;538
+248;Gemeindeverwaltung Jegenstorf;https://www.jegenstorf.ch;540
+249;Gemeindeverwaltung Iffwil;https://www.iffwil.ch;541
+250;Gemeindeverwaltung Mattstetten;https://www.mattstetten.ch;543
+251;Gemeindeverwaltung Moosseedorf;https://www.moosseedorf.ch;544
+252;Gemeindeverwaltung Münchenbuchsee;https://www.muenchenbuchsee.ch;546
+253;Gemeindeverwaltung Utzenstorf;https://www.utzenstorf.ch;552
+254;Gemeindeverwaltung Wiler bei Utzenstorf;https://www.wiler.ch;554
+255;Gemeindeverwaltung Zuzwil (BE);https://www.zuzwil.ch;557
+256;Gemeindeverwaltung Adelboden;https://www.3715.ch;561
+257;Gemeindeverwaltung Aeschi bei Spiez;https://www.aeschi.ch;562
+258;Gemeindeverwaltung Frutigen;https://www.frutigen.ch;563
+259;Gemeindeverwaltung Kandergrund;https://www.kandergrund.ch;564
+260;Gemeindeverwaltung Kandersteg;https://www.kandersteg.ch;565
+261;Gemeindeverwaltung Krattigen;https://www.krattigen.ch;566
+262;Gemeindeverwaltung Reichenbach im Kandertal;https://www.reichenbach.ch;567
+263;Gemeindeverwaltung Beatenberg;https://www.beatenberg.ch;571
+264;Gemeindeverwaltung Bönigen;https://www.boenigen.ch;572
+265;Gemeindeverwaltung Brienz (BE);https://www.brienz.ch;573
+266;Gemeindeverwaltung Brienzwiler;https://www.brienzwiler.ch;574
+267;Gemeindeverwaltung Därligen;https://www.daerligen.ch;575
+268;Gemeindeverwaltung Grindelwald;https://www.grindelwald.ch;576
+269;Gemeindeverwaltung Gsteigwiler;https://www.gsteigwiler.ch;577
+270;Gemeindeverwaltung Habkern;https://www.habkern.ch;579
+271;Gemeindeverwaltung Hofstetten bei Brienz;https://www.hofstetten-ballenberg.ch;580
+272;Gemeindeverwaltung Interlaken;https://www.interlaken.ch;581
+273;Gemeindeverwaltung Iseltwald;https://www.iseltwald.ch;582
+274;Gemeindeverwaltung Lauterbrunnen;https://www.lauterbrunnen.ch;584
+275;Gemeindeverwaltung Leissigen;https://www.leissigen.ch;585
+276;Gemeindeverwaltung Lütschental;https://www.luetschental.ch;586
+277;Gemeindeverwaltung Matten bei Interlaken;https://www.matten.ch;587
+278;Gemeindeverwaltung Niederried bei Interlaken;https://www.niederried-be.ch;588
+279;Gemeindeverwaltung Oberried am Brienzersee;https://www.oberried.ch;589
+280;Gemeindeverwaltung Ringgenberg (BE);https://www.ringgenberg.ch;590
+281;Gemeindeverwaltung Saxeten;https://www.saxeten.ch;591
+282;Gemeindeverwaltung Schwanden bei Brienz;https://www.schwandenbrienz.ch;592
+283;Gemeindeverwaltung Unterseen;https://www.unterseen.ch;593
+284;Gemeindeverwaltung Wilderswil;https://www.wilderswil.ch;594
+285;Gemeindeverwaltung Arni (BE);https://www.arnibe.ch;602
+286;Gemeindeverwaltung Biglen;https://www.biglen.ch;603
+287;Gemeindeverwaltung Bowil;https://www.bowil.ch;605
+288;Gemeindeverwaltung Brenzikofen;https://www.kiesental.chgemeinden/brenzikofen;606
+289;Gemeindeverwaltung Freimettigen;https://www.freimettigen.ch;607
+290;Gemeindeverwaltung Grosshöchstetten;https://www.grosshoechstetten.ch;608
+291;Gemeindeverwaltung Häutligen;https://www.haeutligen.ch;609
+292;Gemeindeverwaltung Herbligen;https://www.herbligen.ch;610
+293;Gemeindeverwaltung Kiesen;https://www.kiesen.ch;611
+294;Gemeindeverwaltung Konolfingen;https://www.konolfingen.ch;612
+295;Gemeindeverwaltung Landiswil;https://www.landiswil.ch;613
+296;Gemeindeverwaltung Linden;https://www.linden.ch;614
+297;Gemeindeverwaltung Mirchel;https://www.mirchel.ch;615
+298;Gemeindeverwaltung Münsingen;https://www.muensingen.ch;616
+299;Gemeindeverwaltung Niederhünigen;https://www.niederhuenigen.ch;617
+300;Gemeindeverwaltung Oberdiessbach;https://www.oberdiessbach.ch;619
+301;Gemeindeverwaltung Oberthal;https://www.oberthal.ch;620
+302;Gemeindeverwaltung Oppligen;https://www.oppligen.ch;622
+303;Gemeindeverwaltung Rubigen;https://www.rubigen.ch;623
+304;Gemeindeverwaltung Walkringen;https://www.walkringen.ch;626
+305;Gemeindeverwaltung Worb;https://www.worb.ch;627
+306;Gemeindeverwaltung Zäziwil;https://www.zaeziwil.ch;628
+307;Gemeindeverwaltung Oberhünigen;https://www.oberhuenigen.ch;629
+308;Gemeindeverwaltung Allmendingen;https://www.allmendingen.ch;630
+309;Gemeindeverwaltung Wichtrach;https://www.wichtrach.ch;632
+310;Gemeindeverwaltung Ferenbalm;https://www.ferenbalm.ch;662
+311;Gemeindeverwaltung Frauenkappelen;https://www.frauenkappelen.ch;663
+312;Gemeindeverwaltung Gurbrü;https://www.gurbrue.ch;665
+313;Gemeindeverwaltung Kriechenwil;https://www.kriechenwil.ch;666
+314;Gemeindeverwaltung Laupen;https://www.laupen.ch;667
+315;Gemeindeverwaltung Münchenwiler;https://www.muenchenwiler.ch;669
+316;Gemeindeverwaltung Neuenegg;https://www.neuenegg.ch;670
+317;Gemeindeverwaltung Wileroltigen;https://www.wileroltigen.ch;671
+318;Gemeindeverwaltung Belprahon;https://www.belprahon.ch;681
+319;Gemeindeverwaltung Court;https://www.court.ch;690
+320;Gemeindeverwaltung Crémines;https://www.cremines.ch;691
+321;Gemeindeverwaltung Eschert;https://www.eschert.ch;692
+322;Gemeindeverwaltung Grandval;https://www.grandval.ch;694
+323;Gemeindeverwaltung Reconvilier;https://www.reconvilier.ch;703
+324;Gemeindeverwaltung Saicourt;https://www.saicourt.ch;706
+325;Gemeindeverwaltung Sorvilier;https://www.sorvilier.ch;711
+326;Gemeindeverwaltung Tavannes;https://www.tavannes.ch;713
+327;Gemeindeverwaltung Nods;https://www.nods.ch;724
+328;Gemeindeverwaltung Plateau de Diesse;https://www.leplateaudediesse.ch;726
+329;Gemeindeverwaltung Aegerten;https://www.aegerten.ch;731
+330;Gemeindeverwaltung Bellmund;https://www.bellmund.ch;732
+331;Gemeindeverwaltung Brügg;https://www.bruegg.ch;733
+332;Gemeindeverwaltung Epsach;https://www.epsach.ch;735
+333;Gemeindeverwaltung Jens;https://www.jens.ch;738
+334;Gemeindeverwaltung Ipsach;https://www.ipsach.ch;739
+335;Gemeindeverwaltung Ligerz;https://www.ligerz.ch;740
+336;Gemeindeverwaltung Merzligen;https://www.merzligen.ch;741
+337;Gemeindeverwaltung Mörigen;https://www.moerigen.ch;742
+338;Gemeindeverwaltung Nidau;https://www.nidau.ch;743
+339;Gemeindeverwaltung Orpund;https://www.orpund.ch;744
+340;Gemeindeverwaltung Port;https://www.port.ch;745
+341;Gemeindeverwaltung Safnern;https://www.safnern.ch;746
+342;Gemeindeverwaltung Scheuren;https://www.scheuren.ch;747
+343;Gemeindeverwaltung Schwadernau;https://www.schwadernau.ch;748
+344;Gemeindeverwaltung Sutz-Lattrigen;https://www.sutz-lattrigen.ch;750
+345;Gemeindeverwaltung Täuffelen;https://www.taeuffelen.ch;751
+346;Gemeindeverwaltung Walperswil;https://www.walperswil.ch;754
+347;Gemeindeverwaltung Worben;https://www.worben.ch;755
+348;Gemeindeverwaltung Diemtigen;https://www.diemtigen.ch;762
+349;Gemeindeverwaltung Erlenbach im Simmental;https://www.erlenbach-be.ch;763
+350;Gemeindeverwaltung Oberwil im Simmental;https://www.oberwil-im-simmental.ch;766
+351;Gemeindeverwaltung Reutigen;https://www.reutigen.ch;767
+352;Gemeindeverwaltung Spiez;https://www.spiez.ch;768
+353;Gemeindeverwaltung Wimmis;https://www.wimmis.ch;769
+354;Gemeindeverwaltung Stocken-Höfen;https://www.stocken-hoefen.ch;770
+355;Gemeindeverwaltung Guttannen;https://www.guttannen.ch;782
+356;Gemeindeverwaltung Hasliberg;https://www.hasliberg.ch;783
+357;Gemeindeverwaltung Innertkirchen;https://www.innertkirchen.ch;784
+358;Gemeindeverwaltung Meiringen;https://www.meiringen.ch;785
+359;Gemeindeverwaltung Schattenhalb;https://www.schattenhalb.ch;786
+360;Gemeindeverwaltung Boltigen;https://www.boltigen.ch;791
+361;Gemeindeverwaltung Lenk;https://www.lenkgemeinde.ch;792
+362;Gemeindeverwaltung St. Stephan;https://www.ststephan.ch;793
+363;Gemeindeverwaltung Zweisimmen;https://www.zweisimmen.ch;794
+364;Gemeindeverwaltung Gsteig;https://www.gsteig.ch;841
+365;Gemeindeverwaltung Lauenen;https://www.lauenen.ch;842
+366;Gemeindeverwaltung Saanen;https://www.saanen.ch;843
+367;Gemeindeverwaltung Guggisberg;https://www.gemeinde-guggisberg.ch;852
+368;Gemeindeverwaltung Rüschegg;https://www.rueschegg.ch;853
+369;Gemeindeverwaltung Schwarzenburg;https://www.schwarzenburg.ch;855
+370;Gemeindeverwaltung Belp;https://www.belp.ch;861
+371;Gemeindeverwaltung Burgistein;https://www.burgistein.ch;863
+372;Gemeindeverwaltung Gerzensee;https://www.gerzensee.ch;866
+373;Gemeindeverwaltung Gurzelen;https://www.gurzelen.ch;867
+374;Gemeindeverwaltung Jaberg;https://www.jaberg-ch.net/;868
+375;Gemeindeverwaltung Kaufdorf;https://www.kaufdorf.ch;869
+376;Gemeindeverwaltung Kehrsatz;https://www.kehrsatz.ch;870
+377;Gemeindeverwaltung Riggisberg;https://www.riggisberg.ch;879
+378;Gemeindeverwaltung Rüeggisberg;https://www.rueggisberg.ch;880
+379;Gemeindeverwaltung Seftigen;https://www.seftigen.ch;883
+380;Gemeindeverwaltung Toffen;https://www.toffen.ch;884
+381;Gemeindeverwaltung Uttigen;https://www.uttigen.ch;885
+382;Gemeindeverwaltung Wattenwil;https://www.wattenwil.ch;886
+383;Gemeindeverwaltung Wald (BE);https://www.wald-be.ch.ch;888
+384;Gemeindeverwaltung Eggiwil;https://www.eggiwil.ch;901
+385;Gemeindeverwaltung Langnau im Emmental;https://www.langnau-ie.ch;902
+386;Gemeindeverwaltung Lauperswil;https://www.lauperswil.ch;903
+387;Gemeindeverwaltung Röthenbach im Emmental;https://www.roethenbach.ch;904
+388;Gemeindeverwaltung Rüderswil;https://www.ruederswil.ch;905
+389;Gemeindeverwaltung Schangnau;https://www.schangnau.ch;906
+390;Gemeindeverwaltung Signau;https://www.signau.ch;907
+391;Gemeindeverwaltung Trub;https://www.trub.ch;908
+392;Gemeindeverwaltung Trubschachen;https://www.trubschachen.ch;909
+393;Gemeindeverwaltung Amsoldingen;https://www.amsoldingen.ch;921
+394;Gemeindeverwaltung Blumenstein;https://www.blumenstein.ch;922
+395;Gemeindeverwaltung Buchholterberg;https://www.buchholterberg.ch;923
+396;Gemeindeverwaltung Eriz;https://www.eriz.ch;924
+397;Gemeindeverwaltung Fahrni;https://www.gemeinde-fahrni.ch;925
+398;Gemeindeverwaltung Heiligenschwendi;https://www.heiligenschwendi.ch;927
+399;Gemeindeverwaltung Heimberg;https://www.heimberg.ch;928
+400;Gemeindeverwaltung Hilterfingen;https://www.hilterfingen.ch;929
+401;Gemeindeverwaltung Homberg;https://www.homberg.ch;931
+402;Gemeindeverwaltung Horrenbach-Buchen;https://www.horrenbach-buchen.ch;932
+403;Gemeindeverwaltung Oberhofen am Thunersee;https://www.oberhofen.ch;934
+404;Gemeindeverwaltung Pohlern;https://www.pohlern.ch;936
+405;Gemeindeverwaltung Sigriswil;https://www.sigriswil.ch;938
+406;Stadtverwaltung Steffisburg;https://www.steffisburg.ch;939
+407;Gemeindeverwaltung Teuffenthal (BE);https://www.teuffenthal.ch;940
+408;Gemeindeverwaltung Thierachern;https://www.thierachern.ch;941
+409;Stadtverwaltung Thun;https://www.thun.ch;942
+410;Gemeindeverwaltung Uetendorf;https://www.uetendorf.ch;944
+411;Gemeindeverwaltung Affoltern im Emmental;https://www.affolternimemmental.ch;951
+412;Gemeindeverwaltung Dürrenroth;https://www.duerrenroth.ch;952
+413;Gemeindeverwaltung Eriswil;https://www.eriswil.ch;953
+414;Gemeindeverwaltung Huttwil;https://www.huttwil.ch;954
+415;Gemeindeverwaltung Lützelflüh;https://www.luetzelflueh.ch;955
+416;Gemeindeverwaltung Rüegsau;https://www.hasle-ruegsau.ch;956
+417;Gemeindeverwaltung Sumiswald;https://www.sumiswald.ch;957
+418;Gemeindeverwaltung Trachselwald;https://www.trachselwald.ch;958
+419;Gemeindeverwaltung Walterswil (BE);https://www.walterswil-be.ch;959
+420;Gemeindeverwaltung Wyssachen;https://www.wyssachen.ch;960
+421;Gemeindeverwaltung Attiswil;https://www.attiswil.ch;971
+422;Gemeindeverwaltung Berken;https://www.berken.ch;972
+423;Gemeindeverwaltung Bettenhausen;https://www.bettenhausen.ch;973
+424;Gemeindeverwaltung Farnern;https://www.farnern.ch;975
+425;Gemeindeverwaltung Heimenhausen;https://www.heimenhausen.ch;977
+426;Gemeindeverwaltung Herzogenbuchsee;https://www.herzogenbuchsee.ch;979
+427;Gemeindeverwaltung Inkwil;https://www.inkwil.ch;980
+428;Gemeindeverwaltung Niederbipp;https://www.niederbipp.ch;981
+429;Gemeindeverwaltung Niederönz;https://www.niederoenz.ch;982
+430;Gemeindeverwaltung Oberbipp;https://www.oberbipp.ch;983
+431;Gemeindeverwaltung Rumisberg;https://www.rumisberg.ch;987
+432;Gemeindeverwaltung Seeberg;https://www.seeberg.ch;988
+433;Gemeindeverwaltung Thörigen;https://www.thoerigen.ch;989
+434;Gemeindeverwaltung Walliswil bei Niederbipp;https://www.walliswil-bipp.ch;990
+435;Gemeindeverwaltung Walliswil bei Wangen;https://www.walliswil.ch;991
+436;Gemeindeverwaltung Wangen an der Aare;https://www.wangen-a-a.ch;992
+437;Gemeindeverwaltung Wiedlisbach;https://www.wiedlisbach.ch;995
+438;Gemeindeverwaltung Doppleschwand;https://www.doppleschwand.ch;1001
+439;Gemeindeverwaltung Entlebuch;https://www.entlebuch.ch;1002
+440;Gemeindeverwaltung Flühli;https://www.fluehli.ch;1004
+441;Gemeindeverwaltung Hasle (LU);https://www.hasle-lu.ch;1005
+442;Gemeindeverwaltung Romoos;https://www.romoos.ch;1007
+443;Gemeindeverwaltung Schüpfheim;https://www.schuepfheim.ch;1008
+444;Gemeindeverwaltung Werthenstein;https://www.werthenstein.ch;1009
+445;Gemeindeverwaltung Escholzmatt-Marbach;https://www.escholzmatt-marbach.ch;1010
+446;Gemeindeverwaltung Aesch (LU);https://www.aesch-lu.ch;1021
+447;Gemeindeverwaltung Ballwil;https://www.ballwil.ch;1023
+448;Stadtverwaltung Emmen;https://www.emmen.ch;1024
+449;Gemeindeverwaltung Ermensee;https://www.ermensee.ch;1025
+450;Gemeindeverwaltung Eschenbach (LU);https://www.eschenbach-luzern.ch;1026
+451;Gemeindeverwaltung Hitzkirch;https://www.hitzkirch.ch;1030
+452;Gemeindeverwaltung Hochdorf;https://www.hochdorf.ch;1031
+453;Gemeindeverwaltung Hohenrain;https://www.hohenrain.ch;1032
+454;Gemeindeverwaltung Inwil;https://www.inwil.ch;1033
+455;Gemeindeverwaltung Rain;https://www.rain.ch;1037
+456;Gemeindeverwaltung Römerswil;https://www.roemerswil.ch;1039
+457;Gemeindeverwaltung Rothenburg;https://www.rothenburg.ch;1040
+458;Gemeindeverwaltung Schongau;https://www.schongau.ch;1041
+459;Gemeindeverwaltung Adligenswil;https://www.adligenswil.ch;1051
+460;Gemeindeverwaltung Buchrain;https://www.buchrain.ch;1052
+461;Gemeindeverwaltung Dierikon;https://www.dierikon.ch;1053
+462;Gemeindeverwaltung Ebikon;https://www.ebikon.ch;1054
+463;Gemeindeverwaltung Gisikon;https://www.gisikon.ch;1055
+464;Gemeindeverwaltung Greppen;https://www.greppen.ch;1056
+465;Stadtverwaltung Horw;https://www.horw.ch;1058
+466;Stadtverwaltung Kriens;https://www.kriens.ch;1059
+467;Stadtverwaltung Luzern;https://www.stadtluzern.ch;1061
+468;Stadtverwaltung Luzern;https://www.stadtluzern.ch;1061
+469;Gemeindeverwaltung Malters;https://www.malters.ch;1062
+470;Gemeindeverwaltung Meggen;https://www.meggen.ch;1063
+471;Gemeindeverwaltung Meierskappel;https://www.meierskappel.ch;1064
+472;Gemeindeverwaltung Root;https://www.gemeinde-root.ch;1065
+473;Gemeindeverwaltung Schwarzenberg;https://www.schwarzenberg.ch;1066
+474;Gemeindeverwaltung Udligenswil;https://www.udligenswil.ch;1067
+475;Gemeindeverwaltung Vitznau;https://www.vitznau.chgemeinde;1068
+476;Gemeindeverwaltung Weggis;https://www.gemeinde-weggis.ch;1069
+477;Gemeindeverwaltung Beromünster;https://www.beromuenster.ch;1081
+478;Gemeindeverwaltung Büron;https://www.bueron.ch;1082
+479;Gemeindeverwaltung Buttisholz;https://www.buttisholz.ch;1083
+480;Gemeindeverwaltung Eich;https://www.eich.ch;1084
+481;Gemeindeverwaltung Geuensee;https://www.geuensee.ch;1085
+482;Gemeindeverwaltung Grosswangen;https://www.grosswangen.ch;1086
+483;Gemeindeverwaltung Hildisrieden;https://www.hildisrieden.ch;1088
+484;Gemeindeverwaltung Knutwil;https://www.knutwil.ch;1089
+485;Gemeindeverwaltung Mauensee;https://www.mauensee.ch;1091
+486;Gemeindeverwaltung Neuenkirch;https://www.neuenkirch.ch;1093
+487;Gemeindeverwaltung Rickenbach (LU);https://www.rickenbach.ch;1097
+488;Gemeindeverwaltung Ruswil;https://www.ruswil.ch;1098
+489;Gemeindeverwaltung Schenkon;https://www.schenkon.ch;1099
+490;Gemeindeverwaltung Schlierbach;https://www.schlierbach.ch;1100
+491;Gemeindeverwaltung Sempach;https://www.sempach.ch;1102
+492;Gemeindeverwaltung Sursee;https://www.sursee.ch;1103
+493;Gemeindeverwaltung Triengen;https://www.triengen.ch;1104
+494;Gemeindeverwaltung Wolhusen;https://www.wolhusen.ch;1107
+495;Gemeindeverwaltung Alberswil;https://www.alberswil.ch;1121
+496;Gemeindeverwaltung Altbüron;https://www.altbueron.ch;1122
+497;Gemeindeverwaltung Altishofen;https://www.altishofen.ch;1123
+498;Gemeindeverwaltung Dagmersellen;https://www.dagmersellen.ch;1125
+499;Gemeindeverwaltung Egolzwil;https://www.egolzwil.ch;1127
+500;Gemeindeverwaltung Ettiswil;https://www.ettiswil.ch;1128
+501;Gemeindeverwaltung Fischbach;https://www.fischbach-lu.ch;1129
+502;Gemeindeverwaltung Grossdietwil;https://www.grossdietwil.ch;1131
+503;Gemeindeverwaltung Hergiswil bei Willisau;https://www.hergiswil-lu.ch;1132
+504;Gemeindeverwaltung Luthern;https://www.luthern.ch;1135
+505;Gemeindeverwaltung Menznau;https://www.menznau.ch;1136
+506;Gemeindeverwaltung Nebikon;https://www.nebikon.ch;1137
+507;Gemeindeverwaltung Pfaffnau;https://www.pfaffnau.ch;1139
+508;Gemeindeverwaltung Reiden;https://www.reiden.ch;1140
+509;Gemeindeverwaltung Roggliswil;https://www.roggliswil.ch;1142
+510;Gemeindeverwaltung Schötz;https://www.schoetz.ch;1143
+511;Gemeindeverwaltung Ufhusen;https://www.ufhusen.ch;1145
+512;Gemeindeverwaltung Wauwil;https://www.wauwil.ch;1146
+513;Gemeindeverwaltung Wikon;https://www.wikon.ch;1147
+514;Gemeindeverwaltung Zell (LU);https://www.zell-lu.ch;1150
+515;Gemeindeverwaltung Willisau;https://www.willisau.ch;1151
+516;Gemeindeverwaltung Altdorf (UR);https://www.altdorf.ch;1201
+517;Gemeindeverwaltung Andermatt;https://www.andermatt.ch;1202
+518;Gemeindeverwaltung Attinghausen;https://www.attinghausen.ch;1203
+519;Gemeindeverwaltung Bürglen (UR);https://www.buerglen.ch;1205
+520;Gemeindeverwaltung Erstfeld;https://www.erstfeld.ch;1206
+521;Gemeindeverwaltung Flüelen;https://www.flueelen.ch;1207
+522;Gemeindeverwaltung Göschenen;https://www.goeschenen.ch;1208
+523;Gemeindeverwaltung Gurtnellen;https://www.gurtnellen.ch;1209
+524;Gemeindeverwaltung Hospental;https://www.hospental.ch;1210
+525;Gemeindeverwaltung Isenthal;https://www.isenthal.ch;1211
+526;Gemeindeverwaltung Realp;https://www.realp.ch;1212
+527;Gemeindeverwaltung Schattdorf;https://www.schattdorf.ch;1213
+528;Gemeindeverwaltung Seedorf (UR);https://www.seedorf-uri.ch;1214
+529;Gemeindeverwaltung Seelisberg;https://www.seelisberg.ch;1215
+530;Gemeindeverwaltung Silenen;https://www.silenen.ch;1216
+531;Gemeindeverwaltung Sisikon;https://www.sisikon.ch;1217
+532;Gemeindeverwaltung Spiringen;https://www.spiringen.ch;1218
+533;Gemeindeverwaltung Unterschächen;https://www.unterschaechen.ch;1219
+534;Gemeindeverwaltung Wassen;https://www.wassen.ch;1220
+535;Stadtverwaltung Einsiedeln;https://www.einsiedeln.ch;1301
+536;Gemeindeverwaltung Gersau;https://www.gersau.ch;1311
+537;Gemeindeverwaltung Feusisberg;https://www.feusisberg.ch;1321
+538;Gemeindeverwaltung Freienbach;https://www.freienbach.ch;1322
+539;Gemeindeverwaltung Wollerau;https://www.wollerau.ch;1323
+540;Gemeindeverwaltung Altendorf;https://www.altendorf.ch;1341
+541;Gemeindeverwaltung Galgenen;https://www.galgenen.ch;1342
+542;Gemeindeverwaltung Innerthal;https://www.innerthal.ch;1343
+543;Gemeindeverwaltung Lachen;https://www.lachen.ch;1344
+544;Gemeindeverwaltung Reichenburg;https://www.reichenburg.ch;1345
+545;Gemeindeverwaltung Schübelbach;https://www.schuebelbach.ch;1346
+546;Gemeindeverwaltung Tuggen;https://www.tuggen.ch;1347
+547;Gemeindeverwaltung Vorderthal;https://www.vorderthal.ch;1348
+548;Gemeindeverwaltung Wangen (SZ);https://www.wangensz.ch;1349
+549;Gemeindeverwaltung Alpthal;https://www.alpthal.ch;1361
+550;Gemeindeverwaltung Arth;https://www.arth.ch;1362
+551;Gemeindeverwaltung Illgau;https://www.illgau.ch;1363
+552;Gemeindeverwaltung Ingenbohl;https://www.ingenbohl.ch;1364
+553;Gemeindeverwaltung Lauerz;https://www.lauerz.ch;1365
+554;Gemeindeverwaltung Morschach;https://www.morschach.ch;1366
+555;Gemeindeverwaltung Muotathal;https://www.muotathal.ch;1367
+556;Gemeindeverwaltung Oberiberg;https://www.oberiberg.ch;1368
+557;Gemeindeverwaltung Riemenstalden;https://www.riemenstalden.ch;1369
+558;Gemeindeverwaltung Rothenthurm;https://www.rothenthurm.ch;1370
+559;Gemeindeverwaltung Sattel;https://www.sattel.ch;1371
+560;Gemeindeverwaltung Schwyz;https://www.gemeindeschwyz.ch;1372
+561;Gemeindeverwaltung Steinen;https://www.steinen.ch;1373
+562;Gemeindeverwaltung Steinerberg;https://www.steinerberg.ch;1374
+563;Gemeindeverwaltung Unteriberg;https://www.unteriberg.ch;1375
+564;Gemeindeverwaltung Alpnach;https://www.alpnach-ow.ch;1401
+565;Gemeindeverwaltung Engelberg;https://www.gde-engelberg.ch;1402
+566;Gemeindeverwaltung Giswil;https://www.giswil.ch;1403
+567;Gemeindeverwaltung Kerns;https://www.kerns.ch;1404
+568;Gemeindeverwaltung Lungern;https://www.lungern.ch;1405
+569;Gemeindeverwaltung Sachseln;https://www.sachseln.ch;1406
+570;Gemeindeverwaltung Sarnen;https://www.sarnen.ch;1407
+571;Gemeindeverwaltung Beckenried;https://www.beckenried.ch;1501
+572;Gemeindeverwaltung Buochs;https://www.buochs.ch;1502
+573;Gemeindeverwaltung Dallenwil;https://www.dallenwil.ch;1503
+574;Gemeindeverwaltung Emmetten;https://www.emmetten.ch;1504
+575;Gemeindeverwaltung Ennetbürgen;https://www.ennetbuergen.ch;1505
+576;Gemeindeverwaltung Ennetmoos;https://www.ennetmoos.ch;1506
+577;Gemeindeverwaltung Hergiswil (NW);https://www.hergiswil.ch;1507
+578;Gemeindeverwaltung Oberdorf (NW);https://www.oberdorf-nw.ch;1508
+579;Gemeindeverwaltung Stans;https://www.stans.ch;1509
+580;Gemeindeverwaltung Stansstad;https://www.stansstad.ch;1510
+581;Gemeindeverwaltung Wolfenschiessen;https://www.wolfenschiessen.ch;1511
+582;Gemeindeverwaltung Glarus Süd;https://www.glarus-sued.ch;1631
+583;Gemeindeverwaltung Glarus;https://www.stadt-glarus.ch;1632
+584;Stadtverwaltung Baar;https://www.baar.ch;1701
+585;Stadtverwaltung Cham;https://www.cham.ch;1702
+586;Gemeindeverwaltung Hünenberg;https://www.huenenberg.ch;1703
+587;Gemeindeverwaltung Menzingen;https://www.menzingen.ch;1704
+588;Gemeindeverwaltung Neuheim;https://www.neuheim.ch;1705
+589;Gemeindeverwaltung Oberägeri;https://www.oberaegeri.ch;1706
+590;Gemeindeverwaltung Risch;https://www.gemeinderisch.ch;1707
+591;Gemeindeverwaltung Steinhausen;https://www.steinhausen.ch;1708
+592;Gemeindeverwaltung Unterägeri;https://www.unteraegeri.ch;1709
+593;Gemeindeverwaltung Walchwil;https://www.walchwil.ch;1710
+594;Stadtverwaltung Zug;https://www.stadtzug.ch;1711
+595;Gemeindeverwaltung Châtillon (FR);https://www.chatillon-broye.ch;2008
+596;Gemeindeverwaltung Cugy (FR);https://www.cugy-fr.ch;2011
+597;Gemeindeverwaltung Fétigny;https://www.fetigny.ch;2016
+598;Gemeindeverwaltung Gletterens;https://www.gletterens.ch;2022
+599;Gemeindeverwaltung Lully (FR);https://www.lully-fr.ch;2025
+600;Gemeindeverwaltung Ménières;https://www.menieres.ch;2027
+601;Gemeindeverwaltung Nuvilly;https://www.nuvilly.ch;2035
+602;Gemeindeverwaltung Saint-Aubin (FR);https://www.st-aubin.ch;2041
+603;Gemeindeverwaltung Sévaz;https://www.sevaz.ch;2043
+604;Gemeindeverwaltung Vallon;https://www.vallon.ch;2045
+605;Gemeindeverwaltung Les Montets;https://www.les-montets.ch;2050
+606;Gemeindeverwaltung Delley-Portalban;https://www.delley-portalban.ch;2051
+607;Gemeindeverwaltung Belmont-Broye;https://www.belmont-broye.ch;2053
+608;Gemeindeverwaltung Billens-Hennens;https://www.billens-hennens.ch;2063
+609;Gemeindeverwaltung Châtonnaye;https://www.chatonnaye.ch;2068
+610;Gemeindeverwaltung Massonnens;https://www.massonnens.ch;2086
+611;Gemeindeverwaltung Romont (FR);https://www.romont.ch;2096
+612;Gemeindeverwaltung Rue;https://www.rue.ch;2097
+613;Gemeindeverwaltung Siviriez;https://www.siviriez.ch;2099
+614;Gemeindeverwaltung Ursy;https://www.ursy.ch;2102
+615;Gemeindeverwaltung Villorsonnens;https://www.villorsonnens.com/;2114
+616;Gemeindeverwaltung Torny;https://www.torny-le-grand.ch;2115
+617;Gemeindeverwaltung Haut-Intyamon;https://www.haut-intyamon.ch;2121
+618;Gemeindeverwaltung Pont-en-Ogoz;https://www.pont-en-ogoz.ch;2122
+619;Gemeindeverwaltung Broc;https://www.broc.ch;2124
+620;Stadtverwaltung Bulle;https://www.bulle.ch;2125
+621;Gemeindeverwaltung Châtel-sur-Montsalvens;https://www.chatel-montsalvens.ch;2128
+622;Gemeindeverwaltung Echarlens;https://www.echarlens.ch;2131
+623;Gemeindeverwaltung Jaun;https://www.jaun.ch;2138
+624;Gemeindeverwaltung Marsens;https://www.marsens.ch;2140
+625;Gemeindeverwaltung Pont-la-Ville;https://www.pont-la-ville.ch;2147
+626;Gemeindeverwaltung Riaz;https://www.riaz.ch;2148
+627;Gemeindeverwaltung La Roche;https://www.la-roche.ch;2149
+628;Gemeindeverwaltung Vaulruz;https://www.vaulruz.ch;2155
+629;Gemeindeverwaltung Vuadens;https://www.vuadens.ch;2160
+630;Gemeindeverwaltung Bas-Intyamon;https://www.enney.ch;2162
+631;Gemeindeverwaltung Val-de-Charmey;https://www.val-de-charmey.ch;2163
+632;Gemeindeverwaltung Autigny;https://www.autigny.ch;2173
+633;Gemeindeverwaltung Avry;https://www.avry.ch;2174
+634;Gemeindeverwaltung Belfaux;https://www.belfaux.ch;2175
+635;Gemeindeverwaltung Chénens;https://www.chenens.ch;2177
+636;Gemeindeverwaltung Corminboeuf;https://www.corminboeuf.ch;2183
+637;Gemeindeverwaltung Cottens (FR);https://www.cottens-fr.ch;2186
+638;Gemeindeverwaltung Givisiez;https://www.givisiez.ch;2197
+639;Gemeindeverwaltung Granges-Paccot;https://www.granges-paccot.ch;2198
+640;Gemeindeverwaltung Marly;https://www.marly.ch;2206
+641;Gemeindeverwaltung Matran;https://www.matran.ch;2208
+642;Gemeindeverwaltung Neyruz (FR);https://www.neyruz.ch;2211
+643;Gemeindeverwaltung Pierrafortscha;https://www.pierrafortscha.ch;2216
+644;Gemeindeverwaltung Le Mouret;https://www.le-mouret.ch;2220
+645;Gemeindeverwaltung Treyvaux;https://www.treyvaux.ch;2226
+646;Gemeindeverwaltung Villars-sur-Glâne;https://www.villars-sur-glane.ch;2228
+647;Gemeindeverwaltung Villarsel-sur-Marly;https://www.villarsel-sur-marly.ch;2230
+648;Gemeindeverwaltung Hauterive (FR);https://www.hauterivefr.ch;2233
+649;Gemeindeverwaltung La Brillaz;https://www.labrillaz.ch;2234
+650;Gemeindeverwaltung La Sonnaz;https://www.lasonnaz.ch;2235
+651;Gemeindeverwaltung Courgevaux;https://www.courgevaux-gurwolf.ch;2250
+652;Gemeindeverwaltung Courtepin;https://www.courtepin.ch;2254
+653;Gemeindeverwaltung Cressier (FR);https://www.cressier.ch;2257
+654;Gemeindeverwaltung Greng;https://www.greng.ch;2261
+655;Gemeindeverwaltung Gurmels;https://www.gurmels.ch;2262
+656;Gemeindeverwaltung Kerzers;https://www.kerzers.ch;2265
+657;Gemeindeverwaltung Kleinbösingen;https://www.kleinboesingen.ch;2266
+658;Gemeindeverwaltung Meyriez;https://www.meyriez.ch;2271
+659;Gemeindeverwaltung Muntelier;https://www.muntelier.ch;2274
+660;Gemeindeverwaltung Murten;https://www.murten.ch;2275
+661;Gemeindeverwaltung Ried bei Kerzers;https://www.ried.ch;2276
+662;Gemeindeverwaltung Ulmiz;https://www.ulmiz.ch;2278
+663;Gemeindeverwaltung Mont-Vully;https://www.mont-vully.ch;2284
+664;Gemeindeverwaltung Düdingen;https://www.duedingen.ch;2293
+665;Gemeindeverwaltung Giffers;https://www.giffers.ch;2294
+666;Gemeindeverwaltung Bösingen;https://www.boesingen.ch;2295
+667;Gemeindeverwaltung Heitenried;https://www.heitenried.ch;2296
+668;Gemeindeverwaltung Plaffeien;https://www.plaffeien.ch;2299
+669;Gemeindeverwaltung Plasselb;https://www.plasselb.ch;2300
+670;Gemeindeverwaltung Rechthalten;https://www.rechthalten.ch;2301
+671;Gemeindeverwaltung St. Silvester;https://www.stsilvester.ch;2303
+672;Gemeindeverwaltung St. Ursen;https://www.stursen.ch;2304
+673;Gemeindeverwaltung Schmitten (FR);https://www.schmitten.ch;2305
+674;Gemeindeverwaltung Tafers;https://www.tafers.ch;2306
+675;Gemeindeverwaltung Tentlingen;https://www.tentlingen.ch;2307
+676;Gemeindeverwaltung Ueberstorf;https://www.ueberstorf.ch;2308
+677;Gemeindeverwaltung Wünnewil-Flamatt;https://www.wuennewil-flamatt.ch;2309
+678;Gemeindeverwaltung Attalens;https://www.attalens.ch;2321
+679;Gemeindeverwaltung Bossonnens;https://www.bossonnens.ch;2323
+680;Gemeindeverwaltung Châtel-Saint-Denis;https://www.chatel-st-denis.ch;2325
+681;Gemeindeverwaltung Granges (Veveyse);https://www.granges-veveyse.ch;2328
+682;Gemeindeverwaltung Remaufens;https://www.remaufens.ch;2333
+683;Gemeindeverwaltung Saint-Martin (FR);https://www.saint-martin-fr.ch;2335
+684;Gemeindeverwaltung Semsales;https://www.semsales.ch;2336
+685;Gemeindeverwaltung Le Flon;https://www.leflon.ch;2337
+686;Gemeindeverwaltung La Verrerie;https://www.laverrerie.ch;2338
+687;Gemeindeverwaltung Egerkingen;https://www.egerkingen.ch;2401
+688;Gemeindeverwaltung Härkingen;https://www.haerkingen.ch;2402
+689;Gemeindeverwaltung Kestenholz;https://www.kestenholz.ch;2403
+690;Gemeindeverwaltung Neuendorf;https://www.neuendorf.ch;2404
+691;Gemeindeverwaltung Niederbuchsiten;https://www.niederbuchsiten.ch;2405
+692;Gemeindeverwaltung Oberbuchsiten;https://www.oberbuchsiten.ch;2406
+693;Gemeindeverwaltung Oensingen;https://www.oensingen.ch;2407
+694;Gemeindeverwaltung Wolfwil;https://www.wolfwil.ch;2408
+695;Gemeindeverwaltung Aedermannsdorf;https://www.aedermannsdorf.ch;2421
+696;Gemeindeverwaltung Balsthal;https://www.balsthal.ch;2422
+697;Gemeindeverwaltung Herbetswil;https://www.herbetswil.ch;2424
+698;Gemeindeverwaltung Holderbank (SO);https://www.holderbank-so.ch;2425
+699;Gemeindeverwaltung Laupersdorf;https://www.laupersdorf.ch;2426
+700;Gemeindeverwaltung Matzendorf;https://www.matzendorf.ch;2427
+701;Gemeindeverwaltung Mümliswil-Ramiswil;https://www.muemliswil.ch;2428
+702;Gemeindeverwaltung Lüterkofen-Ichertswil;https://www.lueterkofen-ichertswil.ch;2455
+703;Gemeindeverwaltung Messen;https://www.messen.ch;2457
+704;Gemeindeverwaltung Schnottwil;https://www.schnottwil.ch;2461
+705;Gemeindeverwaltung Unterramsern;https://www.unterramsern.ch;2463
+706;Gemeindeverwaltung Lüsslingen-Nennigkofen;https://www.luesslingen-nennigkofen.ch;2464
+707;Gemeindeverwaltung Buchegg;https://www.buchegg-so.ch;2465
+708;Gemeindeverwaltung Bättwil;https://www.baettwil.ch;2471
+709;Gemeindeverwaltung Büren (SO);https://www.bueren-so.ch;2472
+710;Gemeindeverwaltung Dornach;https://www.dornach.ch;2473
+711;Gemeindeverwaltung Gempen;https://www.gempen.ch;2474
+712;Gemeindeverwaltung Hochwald;https://www.hochwald.ch;2475
+713;Gemeindeverwaltung Hofstetten-Flüh;https://www.hofstetten-flueh.ch;2476
+714;Gemeindeverwaltung Nuglar-St. Pantaleon;https://www.nuglar.ch;2478
+715;Gemeindeverwaltung Rodersdorf;https://www.rodersdorf.ch;2479
+716;Gemeindeverwaltung Seewen;https://www.seewen.ch;2480
+717;Gemeindeverwaltung Witterswil;https://www.witterswil.ch;2481
+718;Gemeindeverwaltung Hauenstein-Ifenthal;https://www.hauenstein-ifenthal.ch;2491
+719;Gemeindeverwaltung Kienberg;https://www.kienberg.ch;2492
+720;Gemeindeverwaltung Lostorf;https://www.lostorf.ch;2493
+721;Gemeindeverwaltung Niedergösgen;https://www.niedergoesgen.ch;2495
+722;Gemeindeverwaltung Obergösgen;https://www.obergoesgen.ch;2497
+723;Gemeindeverwaltung Stüsslingen;https://www.stuesslingen.ch;2499
+724;Gemeindeverwaltung Trimbach;https://www.trimbach.ch;2500
+725;Gemeindeverwaltung Winznau;https://www.winznau.ch;2501
+726;Gemeindeverwaltung Wisen (SO);https://www.wisen.ch;2502
+727;Gemeindeverwaltung Erlinsbach (SO);https://www.erlinsbach-so.ch;2503
+728;Gemeindeverwaltung Aeschi (SO);https://www.aeschi-so.ch;2511
+729;Gemeindeverwaltung Biberist;https://www.biberist.ch;2513
+730;Gemeindeverwaltung Bolken;https://www.bolken.ch;2514
+731;Gemeindeverwaltung Deitingen;https://www.deitingen.ch;2516
+732;Gemeindeverwaltung Derendingen;https://www.derendingen.ch;2517
+733;Gemeindeverwaltung Gerlafingen;https://www.gerlafingen.ch;2519
+734;Gemeindeverwaltung Halten;https://www.halten.ch;2520
+735;Gemeindeverwaltung Kriegstetten;https://www.kriegstetten.ch;2525
+736;Gemeindeverwaltung Lohn-Ammannsegg;https://www.lohn-ammannsegg.ch;2526
+737;Gemeindeverwaltung Luterbach;https://www.luterbach.ch;2527
+738;Gemeindeverwaltung Obergerlafingen;https://www.obergerlafingen.ch;2528
+739;Gemeindeverwaltung Oekingen;https://www.oekingen.ch;2529
+740;Gemeindeverwaltung Recherswil;https://www.recherswil.ch;2530
+741;Gemeindeverwaltung Subingen;https://www.subingen.ch;2532
+742;Gemeindeverwaltung Zuchwil;https://www.zuchwil.ch;2534
+743;Gemeindeverwaltung Drei Höfe;https://www.dreihoefe.ch;2535
+744;Gemeindeverwaltung Balm bei Günsberg;https://www.balm-balmberg.ch;2541
+745;Gemeindeverwaltung Bellach;https://www.bellach.ch;2542
+746;Gemeindeverwaltung Bettlach;https://www.bettlach.ch;2543
+747;Gemeindeverwaltung Feldbrunnen-St. Niklaus;https://www.feldbrunnen.ch;2544
+748;Gemeindeverwaltung Flumenthal;https://www.flumenthal.ch;2545
+749;Stadtverwaltung Grenchen;https://www.grenchen.ch;2546
+750;Gemeindeverwaltung Günsberg;https://www.guensberg.ch;2547
+751;Gemeindeverwaltung Hubersdorf;https://www.hubersdorf.ch;2548
+752;Gemeindeverwaltung Langendorf;https://www.langendorf-so.ch;2550
+753;Gemeindeverwaltung Lommiswil;https://www.lommiswil.ch;2551
+754;Gemeindeverwaltung Oberdorf (SO);https://www.oberdorf.ch;2553
+755;Gemeindeverwaltung Riedholz;https://www.riedholz.ch;2554
+756;Gemeindeverwaltung Rüttenen;https://www.ruettenen.ch;2555
+757;Gemeindeverwaltung Selzach;https://www.selzach.ch;2556
+758;Gemeindeverwaltung Boningen;https://www.boningen.ch;2571
+759;Gemeindeverwaltung Däniken;https://www.daeniken.ch;2572
+760;Gemeindeverwaltung Dulliken;https://www.dulliken.ch;2573
+761;Gemeindeverwaltung Fulenbach;https://www.fulenbach.ch;2575
+762;Gemeindeverwaltung Gretzenbach;https://www.gretzenbach.ch;2576
+763;Gemeindeverwaltung Gunzgen;https://www.gunzgen.ch;2578
+764;Gemeindeverwaltung Hägendorf;https://www.haegendorf.ch;2579
+765;Gemeindeverwaltung Kappel (SO);https://www.kappel.ch;2580
+766;Stadtverwaltung Olten;https://www.olten.ch;2581
+767;Gemeindeverwaltung Rickenbach (SO);https://www.rickenbachso.ch;2582
+768;Gemeindeverwaltung Schönenwerd;https://www.schoenenwerd.ch;2583
+769;Gemeindeverwaltung Starrkirch-Wil;https://www.starrkirch-wil.ch;2584
+770;Gemeindeverwaltung Walterswil (SO);https://www.walterswil.ch;2585
+771;Gemeindeverwaltung Wangen bei Olten;https://www.wangenbo.ch;2586
+772;Stadtverwaltung Solothurn;https://www.stadt-solothurn.ch;2601
+773;Gemeindeverwaltung Bärschwil;https://www.baerschwil.ch;2611
+774;Gemeindeverwaltung Breitenbach;https://www.breitenbach-so.ch;2613
+775;Gemeindeverwaltung Büsserach;https://www.buesserach.ch;2614
+776;Gemeindeverwaltung Grindel;https://www.grindel.ch;2617
+777;Gemeindeverwaltung Himmelried;https://www.himmelried.ch;2618
+778;Gemeindeverwaltung Kleinlützel;https://www.kleinluetzel.ch;2619
+779;Gemeindeverwaltung Meltingen;https://www.meltingen.ch;2620
+780;Gemeindeverwaltung Nunningen;https://www.nunningen.ch;2621
+781;Gemeindeverwaltung Zullwil;https://www.zullwil.ch;2622
+782;Stadtverwaltung Basel;https://www.bdm.bs.ch;2701
+783;Gemeindeverwaltung Bettingen;https://www.bettingen.ch;2702
+784;Stadtverwaltung Riehen;https://www.riehen.ch;2703
+785;Gemeindeverwaltung Aesch (BL);https://www.aesch.bl.ch;2761
+786;Stadtverwaltung Allschwil;https://www.allschwil.ch;2762
+787;Gemeindeverwaltung Arlesheim;https://www.arlesheim.ch;2763
+788;Gemeindeverwaltung Biel-Benken;https://www.biel-benken.ch;2764
+789;Stadtverwaltung Binningen;https://www.binningen.ch;2765
+790;Gemeindeverwaltung Birsfelden;https://www.birsfelden.ch;2766
+791;Gemeindeverwaltung Bottmingen;https://www.bottmingen.ch;2767
+792;Gemeindeverwaltung Ettingen;https://www.ettingen.ch;2768
+793;Gemeindeverwaltung Münchenstein;https://www.muenchenstein.ch;2769
+794;Stadtverwaltung Muttenz;https://www.muttenz.ch;2770
+795;Gemeindeverwaltung Oberwil (BL);https://www.oberwil.ch;2771
+796;Gemeindeverwaltung Pfeffingen;https://www.pfeffingen.ch;2772
+797;Gemeindeverwaltung Reinach (BL);https://www.reinach-bl.ch;2773
+798;Gemeindeverwaltung Schönenbuch;https://www.schoenenbuch.ch;2774
+799;Gemeindeverwaltung Therwil;https://www.therwil.ch;2775
+800;Gemeindeverwaltung Blauen;https://www.blauen.ch;2781
+801;Gemeindeverwaltung Brislach;https://www.brislach.ch;2782
+802;Gemeindeverwaltung Burg im Leimental;https://www.burg-il.ch;2783
+803;Gemeindeverwaltung Dittingen;https://www.dittingen.ch;2784
+804;Gemeindeverwaltung Duggingen;https://www.duggingen.ch;2785
+805;Gemeindeverwaltung Grellingen;https://www.grellingen.ch;2786
+806;Gemeindeverwaltung Laufen;https://www.laufen-bl.ch;2787
+807;Gemeindeverwaltung Liesberg;https://www.liesberg.ch;2788
+808;Gemeindeverwaltung Nenzlingen;https://www.nenzlingen.ch;2789
+809;Gemeindeverwaltung Roggenburg;https://www.roggenburg.ch;2790
+810;Gemeindeverwaltung Röschenz;https://www.roeschenz.ch;2791
+811;Gemeindeverwaltung Wahlen;https://www.gemeinde-wahlen.ch;2792
+812;Gemeindeverwaltung Zwingen;https://www.zwingen.ch;2793
+813;Gemeindeverwaltung Arisdorf;https://www.arisdorf.ch;2821
+814;Gemeindeverwaltung Augst;https://www.baselland.chdocs/gemeinden/augst/main_augst.htm;2822
+815;Gemeindeverwaltung Bubendorf;https://www.bl.chbubendorf;2823
+816;Gemeindeverwaltung Frenkendorf;https://www.frenkendorf.ch;2824
+817;Gemeindeverwaltung Füllinsdorf;https://www.fuellinsdorf.ch;2825
+818;Gemeindeverwaltung Giebenach;https://www.baselland.chdocs/gemeinden/giebenach/main_gieben.htm;2826
+819;Gemeindeverwaltung Hersberg;https://www.hersberg.ch;2827
+820;Gemeindeverwaltung Lausen;https://www.lausen.ch;2828
+821;Stadtverwaltung Liestal;https://www.liestal.ch;2829
+822;Gemeindeverwaltung Lupsingen;https://www.lupsingen.ch;2830
+823;Gemeindeverwaltung Pratteln;https://www.pratteln.ch;2831
+824;Gemeindeverwaltung Ramlinsburg;https://www.ramlinsburg.ch;2832
+825;Gemeindeverwaltung Seltisberg;https://www.seltisberg.ch;2833
+826;Gemeindeverwaltung Ziefen;https://www.ziefen.ch;2834
+827;Gemeindeverwaltung Böckten;https://www.boeckten.ch;2842
+828;Gemeindeverwaltung Buckten;https://www.bukten.ch;2843
+829;Gemeindeverwaltung Buus;https://www.gemeindebuus.ch;2844
+830;Gemeindeverwaltung Diepflingen;https://www.diepflingen.ch;2845
+831;Gemeindeverwaltung Gelterkinden;https://www.gelterkinden.ch;2846
+832;Gemeindeverwaltung Häfelfingen;https://www.haefelfingen.ch;2847
+833;Gemeindeverwaltung Itingen;https://www.itingen.ch;2849
+834;Gemeindeverwaltung Känerkinden;https://www.kaenerkinden.ch;2850
+835;Gemeindeverwaltung Kilchberg (BL);https://www.baselland.chdocs/gemeinden/kilchberg/main_kilchberg.htm;2851
+836;Gemeindeverwaltung Läufelfingen;https://www.laeufelfingen.ch;2852
+837;Gemeindeverwaltung Maisprach;https://www.maisprach.ch;2853
+838;Gemeindeverwaltung Nusshof;https://www.baselland.chdocs/gemeinden/admin/nusshof.htm;2854
+839;Gemeindeverwaltung Oltingen;https://www.oltingen.ch;2855
+840;Gemeindeverwaltung Ormalingen;https://www.ormalingen.ch;2856
+841;Gemeindeverwaltung Rickenbach (BL);https://www.rickenbach-bl.ch;2857
+842;Gemeindeverwaltung Rothenfluh;https://www.rothenfluh.ch;2858
+843;Gemeindeverwaltung Rümlingen;https://www.ruemlingen.ch;2859
+844;Gemeindeverwaltung Rünenberg;https://www.ruenenberg.ch;2860
+845;Gemeindeverwaltung Sissach;https://www.sissach.ch;2861
+846;Gemeindeverwaltung Tecknau;https://www.tecknau.ch;2862
+847;Gemeindeverwaltung Tenniken;https://www.baselland.chdocs/gemeinden/tenniken/main_tenniken.htm;2863
+848;Gemeindeverwaltung Thürnen;https://www.thuernen.ch;2864
+849;Gemeindeverwaltung Wenslingen;https://www.wenslingen.ch;2865
+850;Gemeindeverwaltung Wintersingen;https://www.wintersingen.ch;2866
+851;Gemeindeverwaltung Wittinsburg;https://www.wittinsburg.ch;2867
+852;Gemeindeverwaltung Zeglingen;https://www.zeglingen.ch;2868
+853;Gemeindeverwaltung Zunzgen;https://www.zunzgen.ch;2869
+854;Gemeindeverwaltung Arboldswil;https://www.arboldswil.ch;2881
+855;Gemeindeverwaltung Bretzwil;https://www.bretzwil.com/;2883
+856;Gemeindeverwaltung Diegten;https://www.diegten.ch;2884
+857;Gemeindeverwaltung Eptingen;https://www.eptingen.ch;2885
+858;Gemeindeverwaltung Hölstein;https://www.hoelstein.ch;2886
+859;Gemeindeverwaltung Lampenberg;https://www.lampenberg.ch;2887
+860;Gemeindeverwaltung Langenbruck;https://www.langenbruck.ch;2888
+861;Gemeindeverwaltung Lauwil;https://www.lauwil.ch;2889
+862;Gemeindeverwaltung Liedertswil;https://www.liedertswil.ch;2890
+863;Gemeindeverwaltung Niederdorf;https://www.niederdorf.ch;2891
+864;Gemeindeverwaltung Oberdorf (BL);https://www.oberdorf-bl.ch;2892
+865;Gemeindeverwaltung Reigoldswil;https://www.reigoldswil.ch;2893
+866;Gemeindeverwaltung Titterten;https://www.titterten.ch;2894
+867;Gemeindeverwaltung Waldenburg;https://www.waldenburg.ch;2895
+868;Gemeindeverwaltung Gächlingen;https://www.gaechlingen.ch;2901
+869;Gemeindeverwaltung Löhningen;https://www.loehningen.ch;2903
+870;Gemeindeverwaltung Neunkirch;https://www.neunkirch.ch;2904
+871;Gemeindeverwaltung Büttenhardt;https://www.buettenhardt.ch;2914
+872;Gemeindeverwaltung Dörflingen;https://www.doerflingen.ch;2915
+873;Gemeindeverwaltung Lohn (SH);https://www.lohn.ch;2917
+874;Gemeindeverwaltung Stetten (SH);https://www.stetten.ch;2919
+875;Gemeindeverwaltung Thayngen;https://www.thayngen.ch;2920
+876;Gemeindeverwaltung Bargen (SH);https://www.bargen.ch;2931
+877;Gemeindeverwaltung Beringen;https://www.beringen.ch;2932
+878;Gemeindeverwaltung Buchberg;https://www.buchberg.ch;2933
+879;Gemeindeverwaltung Merishausen;https://www.merishausen.ch;2936
+880;Gemeindeverwaltung Neuhausen am Rheinfall;https://www.neuhausen.ch;2937
+881;Gemeindeverwaltung Rüdlingen;https://www.ruedlingen.ch;2938
+882;Stadtverwaltung Schaffhausen;https://www.stadt-schaffhausen.ch;2939
+883;Stadtverwaltung Schaffhausen;https://www.stadt-schaffhausen.ch;2939
+884;Gemeindeverwaltung Beggingen;https://www.beggingen.ch;2951
+885;Gemeindeverwaltung Schleitheim;https://www.schleitheim.ch;2952
+886;Gemeindeverwaltung Siblingen;https://www.siblingen.ch;2953
+887;Gemeindeverwaltung Buch (SH);https://www.buch-sh.ch;2961
+888;Gemeindeverwaltung Hemishofen;https://www.hemishofen.ch;2962
+889;Gemeindeverwaltung Ramsen;https://www.ramsen.ch;2963
+890;Gemeindeverwaltung Stein am Rhein;https://www.steinamrhein.ch;2964
+891;Gemeindeverwaltung Hallau;https://www.hallau.ch;2971
+892;Gemeindeverwaltung Oberhallau;https://www.oberhallau.ch;2972
+893;Gemeindeverwaltung Trasadingen;https://www.trasadingen.ch;2973
+894;Gemeindeverwaltung Wilchingen;https://www.wilchingen.ch;2974
+895;Gemeindeverwaltung Hundwil;https://www.hundwil.ch;3002
+896;Gemeindeverwaltung Schönengrund;https://www.schoenengrund.ch;3003
+897;Gemeindeverwaltung Schwellbrunn;https://www.schwellbrunn.ch;3004
+898;Gemeindeverwaltung Stein (AR);https://www.stein-ar.ch;3005
+899;Gemeindeverwaltung Urnäsch;https://www.urnaesch.ch;3006
+900;Gemeindeverwaltung Waldstatt;https://www.waldstatt.ch;3007
+901;Gemeindeverwaltung Bühler;https://www.buehlerar.ch;3021
+902;Gemeindeverwaltung Gais;https://www.gais.ch;3022
+903;Gemeindeverwaltung Speicher;https://www.speicher.ch;3023
+904;Gemeindeverwaltung Teufen (AR);https://www.teufen.ch;3024
+905;Gemeindeverwaltung Trogen;https://www.trogen.ch;3025
+906;Gemeindeverwaltung Grub (AR);https://www.grub.ch;3031
+907;Gemeindeverwaltung Lutzenberg;https://www.lutzenberg.ch;3033
+908;Gemeindeverwaltung Rehetobel;https://www.rehetobel.ch;3034
+909;Gemeindeverwaltung Reute (AR);https://www.reute.ch;3035
+910;Gemeindeverwaltung Wald (AR);https://www.wald-ar.ch;3036
+911;Gemeindeverwaltung Walzenhausen;https://www.walzenhausen.ch;3037
+912;Gemeindeverwaltung Wolfhalden;https://www.wolfhalden.ch;3038
+913;Gemeindeverwaltung Appenzell;https://www.appenzell.org;3101
+914;Gemeindeverwaltung Gonten;https://www.gonten.ch;3102
+915;Gemeindeverwaltung Schlatt-Haslen;https://www.schlatt-haslen.ch;3104
+916;Gemeindeverwaltung Oberegg;https://www.oberegg.ch;3111
+917;Gemeindeverwaltung Häggenschwil;https://www.haeggenschwil.ch;3201
+918;Gemeindeverwaltung Muolen;https://www.muolen.ch;3202
+919;Stadtverwaltung St. Gallen;https://www.stadt.sg.ch;3203
+920;Gemeindeverwaltung Wittenbach;https://www.wittenbach.ch;3204
+921;Gemeindeverwaltung Berg (SG);https://www.bergsg.ch;3211
+922;Gemeindeverwaltung Eggersriet;https://www.eggersriet.ch;3212
+923;Gemeindeverwaltung Goldach;https://www.goldach.ch;3213
+924;Gemeindeverwaltung Mörschwil;https://www.moerschwil.ch;3214
+925;Gemeindeverwaltung Rorschach;https://www.rorschach.ch;3215
+926;Gemeindeverwaltung Rorschacherberg;https://www.rorschacherberg.ch;3216
+927;Gemeindeverwaltung Steinach;https://www.steinach.ch;3217
+928;Gemeindeverwaltung Tübach;https://www.tuebach.ch;3218
+929;Gemeindeverwaltung Untereggen;https://www.untereggen.ch;3219
+930;Gemeindeverwaltung Au (SG);https://www.au-sg.ch;3231
+931;Gemeindeverwaltung Balgach;https://www.balgach.ch;3232
+932;Gemeindeverwaltung Berneck;https://www.berneck.ch;3233
+933;Gemeindeverwaltung Diepoldsau;https://www.diepoldsau.ch;3234
+934;Gemeindeverwaltung Rheineck;https://www.rheineck.ch;3235
+935;Gemeindeverwaltung St. Margrethen;https://www.stmargrethen.ch;3236
+936;Gemeindeverwaltung Thal;https://www.thal.ch;3237
+937;Gemeindeverwaltung Widnau;https://www.widnau.ch;3238
+938;Gemeindeverwaltung Altstätten;https://www.altstaetten.ch;3251
+939;Gemeindeverwaltung Eichberg;https://www.eichberg.ch;3252
+940;Gemeindeverwaltung Marbach (SG);https://www.marbach.ch;3253
+941;Gemeindeverwaltung Oberriet (SG);https://www.oberriet.ch;3254
+942;Gemeindeverwaltung Rebstein;https://www.rebstein.ch;3255
+943;Gemeindeverwaltung Rüthi (SG);https://www.ruethi.ch;3256
+944;Gemeindeverwaltung Buchs (SG);https://www.buchs-sg.ch;3271
+945;Gemeindeverwaltung Gams;https://www.gams.ch;3272
+946;Gemeindeverwaltung Grabs;https://www.grabs.ch;3273
+947;Gemeindeverwaltung Sennwald;https://www.sennwald.ch;3274
+948;Gemeindeverwaltung Sevelen;https://www.sevelen.ch;3275
+949;Gemeindeverwaltung Wartau;https://www.wartau.ch;3276
+950;Gemeindeverwaltung Bad Ragaz;https://www.badragaz.ch;3291
+951;Gemeindeverwaltung Flums;https://www.flums.ch;3292
+952;Gemeindeverwaltung Mels;https://www.mels.ch;3293
+953;Gemeindeverwaltung Pfäfers;https://www.pfaefers.ch;3294
+954;Gemeindeverwaltung Quarten;https://www.quarten.ch;3295
+955;Gemeindeverwaltung Sargans;https://www.sargans.ch;3296
+956;Gemeindeverwaltung Vilters-Wangs;https://www.vilters-wangs.ch;3297
+957;Gemeindeverwaltung Walenstadt;https://www.walenstadt.ch;3298
+958;Gemeindeverwaltung Amden;https://www.amden.ch;3311
+959;Gemeindeverwaltung Benken (SG);https://www.benken.ch;3312
+960;Gemeindeverwaltung Kaltbrunn;https://www.kaltbrunn.ch;3313
+961;Gemeindeverwaltung Schänis;https://www.schaenis.ch;3315
+962;Gemeindeverwaltung Weesen;https://www.weesen.ch;3316
+963;Gemeindeverwaltung Schmerikon;https://www.schmerikon.ch;3338
+964;Gemeindeverwaltung Uznach;https://www.uznach.ch;3339
+965;Stadtverwaltung Rapperswil-Jona;https://www.rapperswil-jona.ch;3340
+966;Gemeindeverwaltung Gommiswald;https://www.gommiswald.ch;3341
+967;Gemeindeverwaltung Eschenbach (SG);https://www.eschenbach.ch;3342
+968;Gemeindeverwaltung Ebnat-Kappel;https://www.ebnat-kappel.ch;3352
+969;Gemeindeverwaltung Wildhaus-Alt St. Johann;https://www.wildhaus-altstjohann.ch;3359
+970;Gemeindeverwaltung Nesslau;https://www.nesslau.ch;3360
+971;Gemeindeverwaltung Lichtensteig;https://www.lichtensteig.ch;3374
+972;Gemeindeverwaltung Wattwil;https://www.wattwil.ch;3379
+973;Gemeindeverwaltung Kirchberg (SG);https://www.kirchberg.ch;3392
+974;Gemeindeverwaltung Lütisburg;https://www.luetisburg.ch;3393
+975;Gemeindeverwaltung Mosnang;https://www.mosnang.ch;3394
+976;Gemeindeverwaltung Bütschwil-Ganterschwil;https://www.buetschwil-ganterschwil.ch;3395
+977;Gemeindeverwaltung Neckertal;https://www.neckertal.ch;3396
+978;Gemeindeverwaltung Degersheim;https://www.degersheim.ch;3401
+979;Gemeindeverwaltung Flawil;https://www.flawil.ch;3402
+980;Gemeindeverwaltung Jonschwil;https://www.jonschwil.ch;3405
+981;Gemeindeverwaltung Oberuzwil;https://www.oberuzwil.ch;3407
+982;Gemeindeverwaltung Uzwil;https://www.uzwil.ch;3408
+983;Gemeindeverwaltung Niederbüren;https://www.niederbueren.ch;3422
+984;Gemeindeverwaltung Niederhelfenschwil;https://www.niederhelfenschwil.ch;3423
+985;Gemeindeverwaltung Oberbüren;https://www.oberbueren.ch;3424
+986;Gemeindeverwaltung Zuzwil (SG);https://www.zuzwil.ch;3426
+987;Gemeindeverwaltung Wil (SG);https://www.stadtwil.ch;3427
+988;Gemeindeverwaltung Andwil (SG);https://www.andwil.ch;3441
+989;Gemeindeverwaltung Gaiserwald;https://www.gaiserwald.ch;3442
+990;Stadtverwaltung Gossau (SG);https://www.stadtgossau.ch;3443
+991;Gemeindeverwaltung Waldkirch;https://www.waldkirch.ch;3444
+992;Gemeindeverwaltung Vaz/Obervaz;https://www.vazobervaz.ch;3506
+993;Gemeindeverwaltung Lantsch/Lenz;https://www.lantsch-lenz.ch;3513
+994;Gemeindeverwaltung Schmitten (GR);https://www.schmitten.ch;3514
+995;Gemeindeverwaltung Albula/Alvra;https://www.albula-alvra.ch;3542
+996;Gemeindeverwaltung Surses;https://www.surses.ch;3543
+997;Gemeindeverwaltung Brusio;https://www.brusio.ch;3551
+998;Gemeindeverwaltung Poschiavo;https://www.poschiavo.ch;3561
+999;Gemeindeverwaltung Falera;https://www.falera.net/;3572
+1000;Gemeindeverwaltung Laax;https://www.laax-gr.ch;3575
+1001;Gemeindeverwaltung Sagogn;https://www.sagogn.ch;3581
+1002;Gemeindeverwaltung Schluein;https://www.schluein.ch;3582
+1003;Gemeindeverwaltung Vals;https://www.vals.ch;3603
+1004;Gemeindeverwaltung Lumnezia;https://www.lumnezia.ch;3618
+1005;Gemeindeverwaltung Ilanz/Glion;https://www.ilanz-glion.ch;3619
+1006;Gemeindeverwaltung Rothenbrunnen;https://www.rothenbrunnen.ch;3637
+1007;Gemeindeverwaltung Scharans;https://www.scharans.ch;3638
+1008;Gemeindeverwaltung Sils im Domleschg;https://www.sils-i-d.ch;3640
+1009;Gemeindeverwaltung Cazis;https://www.cazis.ch;3661
+1010;Gemeindeverwaltung Masein;https://www.masein.ch;3663
+1011;Gemeindeverwaltung Thusis;https://www.thusis.ch;3668
+1012;Gemeindeverwaltung Tschappina;https://www.heinzenberg.chtschappina.html;3669
+1013;Gemeindeverwaltung Safiental;https://www.safiental.chGemeinde/;3672
+1014;Gemeindeverwaltung Domleschg;https://www.domleschg.ch;3673
+1015;Gemeindeverwaltung Avers;https://www.gemeindeavers.ch;3681
+1016;Gemeindeverwaltung Sufers;https://www.rheinwald.chsufers;3695
+1017;Gemeindeverwaltung Andeer;https://www.andeer.ch;3701
+1018;Gemeindeverwaltung Zillis-Reischen;https://www.zillis-reischen.ch;3712
+1019;Gemeindeverwaltung Ferrera;https://www.ferrera.ch;3713
+1020;Gemeindeverwaltung Rheinwald;https://www.rheinwald.ch;3714
+1021;Gemeindeverwaltung Muntogna da Schons;https://www.mdschons.ch;3715
+1022;Gemeindeverwaltung Bonaduz;https://www.bonaduz.ch;3721
+1023;Gemeindeverwaltung Domat/Ems;https://www.domat-ems.ch;3722
+1024;Gemeindeverwaltung Rhäzüns;https://www.rhaezuens.ch;3723
+1025;Gemeindeverwaltung Felsberg;https://www.felsberg.ch;3731
+1026;Gemeindeverwaltung Flims;https://www.gemeindeflims.ch;3732
+1027;Gemeindeverwaltung Tamins;https://www.tamins.ch;3733
+1028;Gemeindeverwaltung Trin;https://www.trin.ch;3734
+1029;Gemeindeverwaltung Zernez;https://www.zernez.ch;3746
+1030;Gemeindeverwaltung Samnaun;https://www.gemeindesamnaun.ch;3752
+1031;Gemeindeverwaltung Scuol;https://www.scuol.net;3762
+1032;Gemeindeverwaltung Valsot;https://www.valsot.ch;3764
+1033;Gemeindeverwaltung Bever;https://www.bever.ch;3781
+1034;Gemeindeverwaltung Celerina/Schlarigna;https://www.gemeinde-celerina.ch;3782
+1035;Gemeindeverwaltung Madulain;https://www.madulain.ch;3783
+1036;Gemeindeverwaltung Pontresina;https://www.pontresina.ch;3784
+1037;Gemeindeverwaltung Samedan;https://www.samedan.ch;3786
+1038;Gemeindeverwaltung St. Moritz;https://www.gde-stmoritz.ch;3787
+1039;Gemeindeverwaltung S-chanf;https://www.s-chanf.ch;3788
+1040;Gemeindeverwaltung Silvaplana;https://www.gemeinde-silvaplana.ch;3790
+1041;Gemeindeverwaltung Zuoz;https://www.zuoz.ch;3791
+1042;Gemeindeverwaltung Bregaglia;https://www.bregaglia.ch;3792
+1043;Gemeindeverwaltung Soazza;https://www.soazza.ch;3823
+1044;Gemeindeverwaltung Calanca;https://wwww.comunedicalanca.ch;3837
+1045;Gemeindeverwaltung Val Müstair;https://www.cdvm.ch;3847
+1046;Gemeindeverwaltung Davos;https://www.gemeinde-davos.ch;3851
+1047;Gemeindeverwaltung Fideris;https://www.fideris.ch;3861
+1048;Gemeindeverwaltung Furna;https://www.furna.ch;3862
+1049;Gemeindeverwaltung Jenaz;https://www.jenaz.ch;3863
+1050;Gemeindeverwaltung Conters im Prättigau;https://www.conters.ch;3881
+1051;Gemeindeverwaltung Küblis;https://www.kueblis.ch;3882
+1052;Gemeindeverwaltung Luzein;https://www.luzein.ch;3891
+1053;Stadtverwaltung Chur;https://www.chur.ch;3901
+1054;Gemeindeverwaltung Churwalden;https://www.churwalden.ch;3911
+1055;Gemeindeverwaltung Arosa;https://www.arosaonline.ch;3921
+1056;Gemeindeverwaltung Trimmis;https://www.trimmis.ch;3945
+1057;Gemeindeverwaltung Untervaz;https://www.untervaz.ch;3946
+1058;Gemeindeverwaltung Zizers;https://www.zizers.ch;3947
+1059;Gemeindeverwaltung Fläsch;https://www.flaesch.ch;3951
+1060;Gemeindeverwaltung Jenins;https://www.jenins.ch;3952
+1061;Gemeindeverwaltung Maienfeld;https://www.maienfeld.ch;3953
+1062;Gemeindeverwaltung Malans;https://www.malans.ch;3954
+1063;Gemeindeverwaltung Landquart;https://www.landquart.ch;3955
+1064;Gemeindeverwaltung Grüsch;https://www.gruesch.ch;3961
+1065;Gemeindeverwaltung Schiers;https://www.schiers.ch;3962
+1066;Gemeindeverwaltung Seewis im Prättigau;https://www.seewis.ch;3972
+1067;Gemeindeverwaltung Breil/Brigels;https://www.breil.ch;3981
+1068;Gemeindeverwaltung Disentis/Mustér;https://www.disentis.ch;3982
+1069;Gemeindeverwaltung Medel (Lucmagn);https://www.medel.ch;3983
+1070;Gemeindeverwaltung Sumvitg;https://www.sumvitg.ch;3985
+1071;Gemeindeverwaltung Tujetsch;https://www.tujetsch.ch;3986
+1072;Gemeindeverwaltung Trun;https://www.trun.ch;3987
+1073;Stadtverwaltung Aarau;https://www.aarau.ch;4001
+1074;Gemeindeverwaltung Biberstein;https://www.biberstein-ag.ch;4002
+1075;Gemeindeverwaltung Buchs (AG);https://www.buchs-aargau.ch;4003
+1076;Gemeindeverwaltung Densbüren;https://www.densbueren.ch;4004
+1077;Gemeindeverwaltung Gränichen;https://www.graenichen.ch;4006
+1078;Gemeindeverwaltung Hirschthal;https://www.hirschthal.ch;4007
+1079;Gemeindeverwaltung Küttigen;https://www.kuettigen.ch;4008
+1080;Gemeindeverwaltung Muhen;https://www.muhen.ch;4009
+1081;Gemeindeverwaltung Unterentfelden;https://www.unterentfelden.ch;4013
+1082;Stadtverwaltung Baden;https://www.baden.ch;4021
+1083;Gemeindeverwaltung Bellikon;https://www.bellikon.ch;4022
+1084;Gemeindeverwaltung Bergdietikon;https://www.bergdietikon.ch;4023
+1085;Gemeindeverwaltung Birmenstorf (AG);https://www.birmenstorf.ch;4024
+1086;Gemeindeverwaltung Ennetbaden;https://www.ennetbaden.ch;4026
+1087;Gemeindeverwaltung Freienwil;https://www.freienwil.ch;4028
+1088;Gemeindeverwaltung Gebenstorf;https://www.gebenstorf.ch;4029
+1089;Gemeindeverwaltung Killwangen;https://www.killwangen.ch;4030
+1090;Gemeindeverwaltung Künten;https://www.kuenten.ch;4031
+1091;Gemeindeverwaltung Mägenwil;https://www.maegenwil.ch;4032
+1092;Gemeindeverwaltung Mellingen;https://www.mellingen.ch;4033
+1093;Gemeindeverwaltung Neuenhof;https://www.neuenhof.ch;4034
+1094;Gemeindeverwaltung Niederrohrdorf;https://www.niederrohrdorf.ch;4035
+1095;Gemeindeverwaltung Oberrohrdorf;https://www.oberrohrdorf.ch;4037
+1096;Gemeindeverwaltung Obersiggenthal;https://www.nussbaumen.ch;4038
+1097;Gemeindeverwaltung Remetschwil;https://www.remetschwil.ch;4039
+1098;Gemeindeverwaltung Spreitenbach;https://www.spreitenbach.ch;4040
+1099;Gemeindeverwaltung Stetten (AG);https://www.stetten-ag.ch;4041
+1100;Gemeindeverwaltung Untersiggenthal;https://www.untersiggenthal.ch;4044
+1101;Stadtverwaltung Wettingen;https://www.wettingen.ch;4045
+1102;Gemeindeverwaltung Wohlenschwil;https://www.wohlenschwil.ch;4046
+1103;Gemeindeverwaltung Würenlingen;https://www.wuerenlingen.ch;4047
+1104;Gemeindeverwaltung Würenlos;https://www.wuerenlos.ch;4048
+1105;Gemeindeverwaltung Ehrendingen;https://www.ehrendingen.ch;4049
+1106;Gemeindeverwaltung Arni (AG);https://www.arni-ag.ch;4061
+1107;Gemeindeverwaltung Berikon;https://www.berikon.ch;4062
+1108;Gemeindeverwaltung Bremgarten (AG);https://www.bremgarten.ch;4063
+1109;Gemeindeverwaltung Büttikon;https://www.buettikon.ch;4064
+1110;Gemeindeverwaltung Dottikon;https://www.dottikon.ch;4065
+1111;Gemeindeverwaltung Eggenwil;https://www.eggenwil.ch;4066
+1112;Gemeindeverwaltung Fischbach-Göslikon;https://www.fischbach-goeslikon.ch;4067
+1113;Gemeindeverwaltung Hägglingen;https://www.haegglingen.ch;4068
+1114;Gemeindeverwaltung Jonen;https://www.jonen.ch;4071
+1115;Gemeindeverwaltung Niederwil (AG);https://www.niederwil.ch;4072
+1116;Gemeindeverwaltung Oberlunkhofen;https://www.oberlunkhofen.ch;4073
+1117;Gemeindeverwaltung Oberwil-Lieli;https://www.oberwil-lieli.ch;4074
+1118;Gemeindeverwaltung Rudolfstetten-Friedlisberg;https://www.rudolfstetten.ch;4075
+1119;Gemeindeverwaltung Sarmenstorf;https://www.sarmenstorf.ch;4076
+1120;Gemeindeverwaltung Tägerig;https://www.taegerig.ch;4077
+1121;Gemeindeverwaltung Uezwil;https://www.uezwil.ch;4078
+1122;Gemeindeverwaltung Unterlunkhofen;https://www.unterlunkhofen.ch;4079
+1123;Gemeindeverwaltung Villmergen;https://www.villmergen.ch;4080
+1124;Gemeindeverwaltung Widen;https://www.widen.ch;4081
+1125;Gemeindeverwaltung Wohlen (AG);https://www.wohlen.ch;4082
+1126;Gemeindeverwaltung Zufikon;https://www.zufikon.ch;4083
+1127;Gemeindeverwaltung Islisberg;https://www.islisberg.ch;4084
+1128;Gemeindeverwaltung Auenstein;https://www.auenstein.ch;4091
+1129;Gemeindeverwaltung Birr;https://www.birr.ch;4092
+1130;Gemeindeverwaltung Birrhard;https://www.birrhard.ch;4093
+1131;Gemeindeverwaltung Brugg;https://www.brugg.ch;4095
+1132;Gemeindeverwaltung Habsburg;https://www.habsburg.ch;4099
+1133;Gemeindeverwaltung Lupfig;https://www.lupfig.ch;4104
+1134;Gemeindeverwaltung Mandach;https://www.mandach.ch;4105
+1135;Gemeindeverwaltung Mönthal;https://www.moenthal.ch;4106
+1136;Gemeindeverwaltung Mülligen;https://www.muelligen.ch;4107
+1137;Gemeindeverwaltung Remigen;https://www.remigen.ch;4110
+1138;Gemeindeverwaltung Riniken;https://www.riniken.ch;4111
+1139;Gemeindeverwaltung Rüfenach;https://www.ruefenach.ch;4112
+1140;Gemeindeverwaltung Thalheim (AG);https://www.gemeinde-thalheim.ch;4117
+1141;Gemeindeverwaltung Veltheim (AG);https://www.veltheim.ch;4120
+1142;Gemeindeverwaltung Villigen;https://www.villigen.ch;4121
+1143;Gemeindeverwaltung Villnachern;https://www.villnachern.ch;4122
+1144;Gemeindeverwaltung Bözberg;https://www.boezberg.ch;4124
+1145;Gemeindeverwaltung Schinznach;https://www.schinznach.ch;4125
+1146;Gemeindeverwaltung Beinwil am See;https://www.beinwilamsee.ch;4131
+1147;Gemeindeverwaltung Birrwil;https://www.birrwil.ch;4132
+1148;Gemeindeverwaltung Dürrenäsch;https://www.duerrenaesch.ch;4134
+1149;Gemeindeverwaltung Gontenschwil;https://www.gontenschwil.ch;4135
+1150;Gemeindeverwaltung Holziken;https://www.holziken.ch;4136
+1151;Gemeindeverwaltung Leimbach (AG);https://www.leimbach-ag.ch;4137
+1152;Gemeindeverwaltung Leutwil;https://www.leutwil.ch;4138
+1153;Gemeindeverwaltung Menziken;https://www.menziken.ch;4139
+1154;Gemeindeverwaltung Oberkulm;https://www.oberkulm.ch;4140
+1155;Stadtverwaltung Reinach (AG);https://www.reinach.ch;4141
+1156;Gemeindeverwaltung Schlossrued;https://www.schlossrued.ch;4142
+1157;Gemeindeverwaltung Schmiedrued;https://www.schmiedrued-walde.ch;4143
+1158;Gemeindeverwaltung Schöftland;https://www.schoeftland.ch;4144
+1159;Gemeindeverwaltung Teufenthal (AG);https://www.teufenthal.ch;4145
+1160;Gemeindeverwaltung Unterkulm;https://www.unterkulm.ch;4146
+1161;Gemeindeverwaltung Zetzwil;https://www.zetzwil.ch;4147
+1162;Gemeindeverwaltung Eiken;https://www.eiken.ch;4161
+1163;Gemeindeverwaltung Frick;https://www.frick.ch;4163
+1164;Gemeindeverwaltung Gansingen;https://www.gansingen.ch;4164
+1165;Gemeindeverwaltung Gipf-Oberfrick;https://www.gipf-oberfrick.ch;4165
+1166;Gemeindeverwaltung Kaisten;https://www.kaisten.ch;4169
+1167;Gemeindeverwaltung Laufenburg;https://www.laufenburg.ch;4170
+1168;Gemeindeverwaltung Münchwilen (AG);https://www.muenchwilen-ag.ch;4172
+1169;Gemeindeverwaltung Oberhof;https://www.oberhof.ch;4173
+1170;Gemeindeverwaltung Oeschgen;https://www.oeschgen.ch;4175
+1171;Gemeindeverwaltung Schwaderloch;https://www.schwaderloch.ch;4176
+1172;Gemeindeverwaltung Sisseln;https://www.sisseln.ch;4177
+1173;Gemeindeverwaltung Wittnau;https://www.wittnau.ch;4181
+1174;Gemeindeverwaltung Wölflinswil;https://www.woelflinswil.ch;4182
+1175;Gemeindeverwaltung Zeihen;https://www.zeihen.ch;4183
+1176;Gemeindeverwaltung Mettauertal;https://www.mettauertal.ch;4184
+1177;Gemeindeverwaltung Ammerswil;https://www.ammerswil.ch;4191
+1178;Gemeindeverwaltung Boniswil;https://www.boniswil.ch;4192
+1179;Gemeindeverwaltung Brunegg;https://www.brunegg.ch;4193
+1180;Gemeindeverwaltung Dintikon;https://www.dintikon.ch;4194
+1181;Gemeindeverwaltung Egliswil;https://www.egliswil.ch;4195
+1182;Gemeindeverwaltung Fahrwangen;https://www.fahrwangen.ch;4196
+1183;Gemeindeverwaltung Hendschiken;https://www.hendschiken.ch;4198
+1184;Gemeindeverwaltung Holderbank (AG);https://www.holderbankag.ch;4199
+1185;Gemeindeverwaltung Hunzenschwil;https://www.hunzenschwil.ch;4200
+1186;Gemeindeverwaltung Lenzburg;https://www.lenzburg.ch;4201
+1187;Gemeindeverwaltung Meisterschwanden;https://www.meisterschwanden.ch;4202
+1188;Gemeindeverwaltung Möriken-Wildegg;https://www.moeriken-wildegg.ch;4203
+1189;Gemeindeverwaltung Niederlenz;https://www.niederlenz.ch;4204
+1190;Gemeindeverwaltung Othmarsingen;https://www.othmarsingen.ch;4205
+1191;Gemeindeverwaltung Rupperswil;https://www.rupperswil.ch;4206
+1192;Gemeindeverwaltung Schafisheim;https://www.schafisheim.ch;4207
+1193;Gemeindeverwaltung Seengen;https://www.seengen.ch;4208
+1194;Gemeindeverwaltung Seon;https://www.seon.ch;4209
+1195;Gemeindeverwaltung Staufen;https://www.staufen.ch;4210
+1196;Gemeindeverwaltung Abtwil;https://www.abtwilag.ch;4221
+1197;Gemeindeverwaltung Aristau;https://www.aristau.ch;4222
+1198;Gemeindeverwaltung Auw;https://www.auw.ch;4223
+1199;Gemeindeverwaltung Beinwil (Freiamt);https://www.beinwil.ch;4224
+1200;Gemeindeverwaltung Besenbüren;https://www.besenbueren.ch;4226
+1201;Gemeindeverwaltung Bettwil;https://www.bettwil.ch;4227
+1202;Gemeindeverwaltung Boswil;https://www.boswil.ch;4228
+1203;Gemeindeverwaltung Bünzen;https://www.buenzen.ch;4229
+1204;Gemeindeverwaltung Buttwil;https://www.buttwil.ch;4230
+1205;Gemeindeverwaltung Dietwil;https://www.dietwil.ch;4231
+1206;Gemeindeverwaltung Geltwil;https://www.geltwil.ch;4232
+1207;Gemeindeverwaltung Kallern;https://www.kallern.ch;4233
+1208;Gemeindeverwaltung Merenschwand;https://www.merenschwand.ch;4234
+1209;Gemeindeverwaltung Mühlau;https://www.muehlau.ch;4235
+1210;Gemeindeverwaltung Muri (AG);https://www.muri.ch;4236
+1211;Gemeindeverwaltung Oberrüti;https://www.oberrueti.ch;4237
+1212;Gemeindeverwaltung Rottenschwil;https://www.rottenschwil.ch;4238
+1213;Gemeindeverwaltung Sins;https://www.sins.ch;4239
+1214;Gemeindeverwaltung Waltenschwil;https://www.waltenschwil.ch;4240
+1215;Gemeindeverwaltung Hellikon;https://www.hellikon.ch;4251
+1216;Gemeindeverwaltung Kaiseraugst;https://www.kaiseraugst.ch;4252
+1217;Gemeindeverwaltung Magden;https://www.magden.ch;4253
+1218;Gemeindeverwaltung Möhlin;https://www.moehlin.ch;4254
+1219;Gemeindeverwaltung Mumpf;https://www.mumpf.ch;4255
+1220;Gemeindeverwaltung Olsberg;https://www.olsberg.ch;4257
+1221;Stadtverwaltung Rheinfelden;https://www.rheinfelden.ch;4258
+1222;Gemeindeverwaltung Schupfart;https://www.schupfart.ch;4259
+1223;Gemeindeverwaltung Stein (AG);https://www.gemeinde-stein.ch;4260
+1224;Gemeindeverwaltung Wallbach;https://www.wallbach.ch;4261
+1225;Gemeindeverwaltung Wegenstetten;https://www.wegenstetten.ch;4262
+1226;Gemeindeverwaltung Zeiningen;https://www.zeiningen.ch;4263
+1227;Gemeindeverwaltung Zuzgen;https://www.zuzgen.ch;4264
+1228;Gemeindeverwaltung Aarburg;https://www.aarburg.ch;4271
+1229;Gemeindeverwaltung Bottenwil;https://www.bottenwil.ch;4273
+1230;Gemeindeverwaltung Brittnau;https://www.brittnau.ch;4274
+1231;Gemeindeverwaltung Kirchleerau;https://www.kirchleerau.ch;4275
+1232;Gemeindeverwaltung Kölliken;https://www.koelliken.ch;4276
+1233;Gemeindeverwaltung Moosleerau;https://www.moosleerau.ch;4277
+1234;Gemeindeverwaltung Murgenthal;https://www.murgenthal.ch;4279
+1235;Gemeindeverwaltung Oftringen;https://www.oftringen.ch;4280
+1236;Gemeindeverwaltung Reitnau;https://www.reitnau.ch;4281
+1237;Gemeindeverwaltung Rothrist;https://www.rothrist.ch;4282
+1238;Gemeindeverwaltung Safenwil;https://www.safenwil.ch;4283
+1239;Gemeindeverwaltung Staffelbach;https://www.staffelbach-ag.ch;4284
+1240;Gemeindeverwaltung Strengelbach;https://www.strengelbach.ch;4285
+1241;Gemeindeverwaltung Uerkheim;https://www.uerkheim.ch;4286
+1242;Gemeindeverwaltung Vordemwald;https://www.vordemwald.ch;4287
+1243;Gemeindeverwaltung Wiliberg;https://www.wiliberg.ch;4288
+1244;Gemeindeverwaltung Zofingen;https://www.zofingen.ch;4289
+1245;Gemeindeverwaltung Böttstein;https://www.boettstein.ch;4303
+1246;Gemeindeverwaltung Döttingen;https://www.doettingen.ch;4304
+1247;Gemeindeverwaltung Endingen;https://www.endingen.ch;4305
+1248;Gemeindeverwaltung Full-Reuenthal;https://www.full-reuenthal.ch;4307
+1249;Gemeindeverwaltung Leibstadt;https://www.leibstadt.ch;4311
+1250;Gemeindeverwaltung Lengnau (AG);https://www.lengnau-ag.ch;4312
+1251;Gemeindeverwaltung Leuggern;https://www.leuggern.ch;4313
+1252;Gemeindeverwaltung Mellikon;https://www.mellikon.ch;4314
+1253;Gemeindeverwaltung Schneisingen;https://www.schneisingen.ch;4318
+1254;Gemeindeverwaltung Siglistorf;https://www.siglistorf.ch;4319
+1255;Gemeindeverwaltung Tegerfelden;https://www.tegerfelden.ch;4320
+1256;Stadtverwaltung Arbon;https://www.arbon.ch;4401
+1257;Gemeindeverwaltung Dozwil;https://www.dozwil.ch;4406
+1258;Gemeindeverwaltung Egnach;https://www.egnach.ch;4411
+1259;Gemeindeverwaltung Hefenhofen;https://www.hefenhofen.ch;4416
+1260;Gemeindeverwaltung Horn;https://www.horn.ch;4421
+1261;Gemeindeverwaltung Kesswil;https://www.kesswil.ch;4426
+1262;Gemeindeverwaltung Roggwil (TG);https://www.roggwil-tg.ch;4431
+1263;Gemeindeverwaltung Romanshorn;https://www.romanshorn.ch;4436
+1264;Gemeindeverwaltung Salmsach;https://www.salmsach.ch;4441
+1265;Gemeindeverwaltung Sommeri;https://www.sommeri.ch;4446
+1266;Gemeindeverwaltung Uttwil;https://www.uttwil.ch;4451
+1267;Gemeindeverwaltung Amriswil;https://www.amriswil.ch;4461
+1268;Gemeindeverwaltung Bischofszell;https://www.bischofszell.ch;4471
+1269;Gemeindeverwaltung Erlen;https://www.erlen.ch;4476
+1270;Gemeindeverwaltung Hauptwil-Gottshaus;https://www.hauptwil-gottshaus.ch;4486
+1271;Gemeindeverwaltung Hohentannen;https://www.hohentannen.ch;4495
+1272;Gemeindeverwaltung Kradolf-Schönenberg;https://www.kradolf-schoenenberg.ch;4501
+1273;Gemeindeverwaltung Sulgen;https://www.sulgen.ch;4506
+1274;Gemeindeverwaltung Zihlschlacht-Sitterdorf;https://www.zihlschlacht-sitterdorf.ch;4511
+1275;Gemeindeverwaltung Basadingen-Schlattingen;https://www.basadingen.ch;4536
+1276;Gemeindeverwaltung Diessenhofen;https://www.diessenhofen.ch;4545
+1277;Gemeindeverwaltung Schlatt (TG);https://www.schlatt.ch;4546
+1278;Gemeindeverwaltung Aadorf;https://www.aadorf.ch;4551
+1279;Gemeindeverwaltung Felben-Wellhausen;https://www.felben-wellhausen.ch;4561
+1280;Stadtverwaltung Frauenfeld;https://www.frauenfeld.ch;4566
+1281;Gemeindeverwaltung Gachnang;https://www.gachnang.ch;4571
+1282;Gemeindeverwaltung Hüttlingen;https://www.huettlingen.ch;4590
+1283;Gemeindeverwaltung Matzingen;https://www.matzingen.ch;4591
+1284;Gemeindeverwaltung Neunforn;https://www.neunforn.ch;4601
+1285;Gemeindeverwaltung Stettfurt;https://www.stettfurt.ch;4606
+1286;Gemeindeverwaltung Thundorf;https://www.thundorf.ch;4611
+1287;Gemeindeverwaltung Uesslingen-Buch;https://www.uesslingen-buch.ch;4616
+1288;Gemeindeverwaltung Warth-Weiningen;https://www.warth-weiningen.ch;4621
+1289;Gemeindeverwaltung Altnau;https://www.altnau.ch;4641
+1290;Gemeindeverwaltung Bottighofen;https://www.bottighofen.ch;4643
+1291;Gemeindeverwaltung Ermatingen;https://www.ermatingen.ch;4646
+1292;Gemeindeverwaltung Gottlieben;https://www.gottlieben.ch;4651
+1293;Gemeindeverwaltung Güttingen;https://www.guettingen.ch;4656
+1294;Gemeindeverwaltung Kemmental;https://www.kemmental.ch;4666
+1295;Stadtverwaltung Kreuzlingen;https://www.kreuzlingen.ch;4671
+1296;Gemeindeverwaltung Langrickenbach;https://www.langrickenbach.ch;4681
+1297;Gemeindeverwaltung Lengwil;https://www.lengwil.ch;4683
+1298;Gemeindeverwaltung Münsterlingen;https://www.muensterlingen.ch;4691
+1299;Gemeindeverwaltung Tägerwilen;https://www.taegerwilen.ch;4696
+1300;Gemeindeverwaltung Wäldi;https://www.waeldi.ch;4701
+1301;Gemeindeverwaltung Affeltrangen;https://www.affeltrangen.ch;4711
+1302;Gemeindeverwaltung Bettwiesen;https://www.bettwiesen.ch;4716
+1303;Gemeindeverwaltung Bichelsee-Balterswil;https://www.bichelsee-balterswil.ch;4721
+1304;Gemeindeverwaltung Braunau;https://www.braunau.ch;4723
+1305;Gemeindeverwaltung Eschlikon;https://www.eschlikon.ch;4724
+1306;Gemeindeverwaltung Fischingen;https://www.fischingen.ch;4726
+1307;Gemeindeverwaltung Lommis;https://www.lommis.ch;4741
+1308;Gemeindeverwaltung Münchwilen (TG);https://www.muenchwilen.ch;4746
+1309;Gemeindeverwaltung Rickenbach (TG);https://www.rickenbach-tg.ch;4751
+1310;Gemeindeverwaltung Schönholzerswilen;https://www.schoenholzerswilen.ch;4756
+1311;Gemeindeverwaltung Sirnach;https://www.sirnach.ch;4761
+1312;Gemeindeverwaltung Tobel-Tägerschen;https://www.tobel-taegerschen.ch;4776
+1313;Gemeindeverwaltung Wängi;https://www.waengi.ch;4781
+1314;Gemeindeverwaltung Wilen (TG);https://www.wilen.ch;4786
+1315;Gemeindeverwaltung Wuppenau;https://www.wuppenau.ch;4791
+1316;Gemeindeverwaltung Berlingen;https://www.berlingen.ch;4801
+1317;Gemeindeverwaltung Eschenz;https://www.eschenz.ch;4806
+1318;Gemeindeverwaltung Herdern;https://www.herdern.ch;4811
+1319;Gemeindeverwaltung Homburg;https://www.homburg.ch;4816
+1320;Gemeindeverwaltung Hüttwilen;https://www.huettwilen.ch;4821
+1321;Gemeindeverwaltung Mammern;https://www.mammern.ch;4826
+1322;Gemeindeverwaltung Müllheim;https://www.muellheim.ch;4831
+1323;Gemeindeverwaltung Pfyn;https://www.pfyn.ch;4841
+1324;Gemeindeverwaltung Raperswilen;https://www.raperswilen.ch;4846
+1325;Gemeindeverwaltung Salenstein;https://www.salenstein.ch;4851
+1326;Gemeindeverwaltung Steckborn;https://www.steckborn.ch;4864
+1327;Gemeindeverwaltung Wagenhausen;https://www.wagenhausen.ch;4871
+1328;Gemeindeverwaltung Amlikon-Bissegg;https://www.amlikon-bissegg.ch;4881
+1329;Gemeindeverwaltung Berg (TG);https://www.berg-tg.ch;4891
+1330;Gemeindeverwaltung Birwinken;https://www.birwinken.ch;4901
+1331;Gemeindeverwaltung Bürglen (TG);https://www.buerglen-tg.ch;4911
+1332;Gemeindeverwaltung Bussnang;https://www.bussnang.ch;4921
+1333;Gemeindeverwaltung Märstetten;https://www.maerstetten.ch;4941
+1334;Stadtverwaltung Weinfelden;https://www.weinfelden.ch;4946
+1335;Gemeindeverwaltung Wigoltingen;https://www.wigoltingen.ch;4951
+1336;Gemeindeverwaltung Arbedo-Castione;https://www.arbedocastione.ch;5001
+1337;Stadtverwaltung Bellinzona;https://www.bellinzona.ch;5002
+1338;Gemeindeverwaltung Cadenazzo;https://www.cadenazzo.ch;5003
+1339;Gemeindeverwaltung Lumino;https://www.lumino.ch;5010
+1340;Gemeindeverwaltung Blenio;https://www.comuneblenio.ch;5049
+1341;Gemeindeverwaltung Serravalle;https://www.serravalle.ch;5050
+1342;Gemeindeverwaltung Airolo;https://www.airolo.ch;5061
+1343;Gemeindeverwaltung Bedretto;https://www.bedretto.ch;5063
+1344;Gemeindeverwaltung Dalpe;https://www.ti.chdalpe;5071
+1345;Gemeindeverwaltung Faido;https://www.ti.chfaido;5072
+1346;Gemeindeverwaltung Giornico;https://www.ti.chgiornico;5073
+1347;Gemeindeverwaltung Personico;https://www.ti.chpersonico;5076
+1348;Gemeindeverwaltung Pollegio;https://www.pollegio.ch;5077
+1349;Gemeindeverwaltung Quinto;https://www.ti.chquinto;5079
+1350;Gemeindeverwaltung Ascona;https://www.ascona.ch;5091
+1351;Gemeindeverwaltung Brione sopra Minusio;https://www.brione.ch;5096
+1352;Gemeindeverwaltung Brissago;https://www.brissago.ch;5097
+1353;Gemeindeverwaltung Gordola;https://www.gordola.ch;5108
+1354;Gemeindeverwaltung Lavertezzo;https://www.lavertezzo.ch;5112
+1355;Stadtverwaltung Locarno;https://www.locarno.ch;5113
+1356;Gemeindeverwaltung Losone;https://www.losone.ch;5115
+1357;Gemeindeverwaltung Minusio;https://www.minusio.ch;5118
+1358;Gemeindeverwaltung Muralto;https://www.muralto.ch;5120
+1359;Gemeindeverwaltung Orselina;https://www.orselina.ch;5121
+1360;Gemeindeverwaltung Tenero-Contra;https://www.tenero-contra.ch;5131
+1361;Gemeindeverwaltung Onsernone;https://www.ti.chonsernone;5136
+1362;Gemeindeverwaltung Cugnasco-Gerra;https://www.cugnasco-gerra.ch;5138
+1363;Gemeindeverwaltung Agno;https://www.agno.ch;5141
+1364;Gemeindeverwaltung Aranno;https://www.ti.charanno;5143
+1365;Gemeindeverwaltung Arogno;https://www.arogno.ch;5144
+1366;Gemeindeverwaltung Bedano;https://www.ti.chbedano;5148
+1367;Gemeindeverwaltung Bioggio;https://www.ti.chbioggio;5151
+1368;Gemeindeverwaltung Bissone;https://www.bissone.ch;5154
+1369;Gemeindeverwaltung Brusino Arsizio;https://www.brusinoarsizio.ch;5160
+1370;Gemeindeverwaltung Cademario;https://www.cademario.ch;5161
+1371;Gemeindeverwaltung Cadempino;https://www.cadempino.ch;5162
+1372;Gemeindeverwaltung Canobbio;https://www.canobbio.ch;5167
+1373;Gemeindeverwaltung Caslano;https://www.caslano.ch;5171
+1374;Gemeindeverwaltung Comano;https://www.comano.ch;5176
+1375;Gemeindeverwaltung Cureglia;https://www.cureglia.ch;5180
+1376;Gemeindeverwaltung Gravesano;https://www.gravesano.ch;5187
+1377;Stadtverwaltung Lugano;https://www.lugano.ch;5192
+1378;Gemeindeverwaltung Manno;https://www.manno.ch;5194
+1379;Gemeindeverwaltung Massagno;https://www.massagno.ch;5196
+1380;Gemeindeverwaltung Melide;https://www.melide.ch;5198
+1381;Gemeindeverwaltung Morcote;https://www.morcote.ch;5203
+1382;Gemeindeverwaltung Neggio;https://www.neggio.ch;5206
+1383;Gemeindeverwaltung Paradiso;https://www.comune-paradiso.ch;5210
+1384;Gemeindeverwaltung Ponte Capriasca;https://www.ti.chponte%20capriasca;5212
+1385;Gemeindeverwaltung Porza;https://www.ti.chporza;5214
+1386;Gemeindeverwaltung Pura;https://www.pura.ch;5216
+1387;Gemeindeverwaltung Savosa;https://www.savosa.ch;5221
+1388;Gemeindeverwaltung Sorengo;https://www.sorengo.ch;5225
+1389;Gemeindeverwaltung Capriasca;https://www.capriasca.ch;5226
+1390;Gemeindeverwaltung Torricella-Taverne;https://www.ti.chtorricella-taverne;5227
+1391;Gemeindeverwaltung Vernate;https://www.ti.chvernate;5230
+1392;Gemeindeverwaltung Vezia;https://www.vezia.ch;5231
+1393;Gemeindeverwaltung Vico Morcote;https://www.ti.chvico%20morcote;5233
+1394;Gemeindeverwaltung Alto Malcantone;https://www.altomalcantone.ch;5237
+1395;Gemeindeverwaltung Monteceneri;https://www.monteceneri.ch;5238
+1396;Gemeindeverwaltung Balerna;https://www.balerna.ch;5242
+1397;Gemeindeverwaltung Chiasso;https://www.chiasso.ch;5250
+1398;Gemeindeverwaltung Coldrerio;https://www.coldrerio.ch;5251
+1399;Gemeindeverwaltung Mendrisio;https://www.mendrisio.ch;5254
+1400;Gemeindeverwaltung Morbio Inferiore;https://www.morbioinf.ch;5257
+1401;Gemeindeverwaltung Novazzano;https://www.novazzano.ch;5260
+1402;Gemeindeverwaltung Stabio;https://www.stabio.ch;5266
+1403;Gemeindeverwaltung Vacallo;https://www.vacallo.ch;5268
+1404;Gemeindeverwaltung Breggia;https://www.comunebreggia.ch;5269
+1405;Gemeindeverwaltung Biasca;https://www.biasca.ch;5281
+1406;Gemeindeverwaltung Bosco/Gurin;https://www.bosco-gurin.ch;5304
+1407;Gemeindeverwaltung Cerentino;https://www.cerentino.ch;5309
+1408;Gemeindeverwaltung Cevio;https://www.cevio.ch;5310
+1409;Gemeindeverwaltung Maggia;https://www.maggia.ch;5317
+1410;Gemeindeverwaltung Lavizzara;https://www.lavizzara.ch;5323
+1411;Gemeindeverwaltung Terre di Pedemonte;https://www.pedemonte.ch;5396
+1412;Gemeindeverwaltung Centovalli;https://www.intragna.ch;5397
+1413;Gemeindeverwaltung Gambarogno;https://www.gambarogno.ch;5398
+1414;Gemeindeverwaltung Aigle;https://www.aigle.ch;5401
+1415;Gemeindeverwaltung Bex;https://www.bex.ch;5402
+1416;Gemeindeverwaltung Chessel;https://www.chessel.ch;5403
+1417;Gemeindeverwaltung Corbeyrier;https://www.corbeyrier.ch;5404
+1418;Gemeindeverwaltung Gryon;https://www.gryon.ch;5405
+1419;Gemeindeverwaltung Lavey-Morcles;https://www.lavey.ch;5406
+1420;Gemeindeverwaltung Leysin;https://www.leysin-commune.ch;5407
+1421;Gemeindeverwaltung Noville;https://www.noville.ch;5408
+1422;Gemeindeverwaltung Ollon;https://www.ollon.ch;5409
+1423;Gemeindeverwaltung Ormont-Dessous;https://www.ormont-dessous.ch;5410
+1424;Gemeindeverwaltung Ormont-Dessus;https://www.ormont-dessus.ch;5411
+1425;Gemeindeverwaltung Rennaz;https://www.rennaz.ch;5412
+1426;Gemeindeverwaltung Yvorne;https://www.yvorne.ch;5415
+1427;Gemeindeverwaltung Aubonne;https://www.aubonne.ch;5422
+1428;Gemeindeverwaltung Ballens;https://www.ballens.ch;5423
+1429;Gemeindeverwaltung Berolle;https://www.berolle.ch;5424
+1430;Gemeindeverwaltung Bière;https://www.biere-vd.ch;5425
+1431;Gemeindeverwaltung Bougy-Villars;https://www.bougy-villars.ch;5426
+1432;Gemeindeverwaltung Féchy;https://www.fechy.ch;5427
+1433;Gemeindeverwaltung Gimel;https://www.gimel.ch;5428
+1434;Gemeindeverwaltung Longirod;https://www.longirod.ch;5429
+1435;Gemeindeverwaltung Marchissy;https://www.marchissy.ch;5430
+1436;Gemeindeverwaltung Saint-George;https://www.saint-george.ch;5434
+1437;Gemeindeverwaltung Saint-Livres;https://www.st-livres.ch;5435
+1438;Gemeindeverwaltung Saint-Oyens;https://www.saint-oyens.ch;5436
+1439;Gemeindeverwaltung Saubraz;https://www.saubraz.ch;5437
+1440;Gemeindeverwaltung Avenches;https://www.commune-avenches.ch;5451
+1441;Gemeindeverwaltung Cudrefin;https://www.cudrefin.ch;5456
+1442;Gemeindeverwaltung Faoug;https://www.faoug.ch;5458
+1443;Gemeindeverwaltung Bettens;https://www.commune-bettens.ch;5471
+1444;Gemeindeverwaltung Bournens;https://www.bournens.ch;5472
+1445;Gemeindeverwaltung Boussens;https://www.boussens.ch;5473
+1446;Gemeindeverwaltung La Chaux (Cossonay);https://www.lachaux.ch;5474
+1447;Gemeindeverwaltung Chavannes-le-Veyron;https://www.chavannes-le-veyron.ch;5475
+1448;Gemeindeverwaltung Chevilly;https://www.chevilly.ch;5476
+1449;Gemeindeverwaltung Cossonay;https://www.cossonay.ch;5477
+1450;Gemeindeverwaltung Cuarnens;https://www.cuarnens.ch;5479
+1451;Gemeindeverwaltung Daillens;https://www.daillens.ch;5480
+1452;Gemeindeverwaltung Dizy;https://www.dizy.ch;5481
+1453;Gemeindeverwaltung Eclépens;https://www.eclepens.ch;5482
+1454;Gemeindeverwaltung Ferreyres;https://www.ferreyres.ch;5483
+1455;Gemeindeverwaltung Gollion;https://www.gollion.ch;5484
+1456;Gemeindeverwaltung Grancy;https://www.grancy.ch;5485
+1457;Gemeindeverwaltung Lussery-Villars;https://www.lussery-villars.ch;5487
+1458;Gemeindeverwaltung Mauraz;https://www.mauraz.ch;5488
+1459;Gemeindeverwaltung Moiry;https://www.moiry.ch;5490
+1460;Gemeindeverwaltung Mont-la-Ville;https://www.mont-la-ville.ch;5491
+1461;Gemeindeverwaltung Montricher;https://www.montricher.ch;5492
+1462;Gemeindeverwaltung Orny;https://www.orny.ch;5493
+1463;Gemeindeverwaltung Penthalaz;https://www.penthalaz.ch;5495
+1464;Gemeindeverwaltung Penthaz;https://www.penthaz.ch;5496
+1465;Gemeindeverwaltung Pompaples;https://www.pompaples.ch;5497
+1466;Gemeindeverwaltung La Sarraz;https://www.lasarraz.ch;5498
+1467;Gemeindeverwaltung Senarclens;https://www.senarclens.ch;5499
+1468;Gemeindeverwaltung Sullens;https://www.sullens.ch;5501
+1469;Gemeindeverwaltung Vufflens-la-Ville;https://www.vufflens-la-ville.ch;5503
+1470;Gemeindeverwaltung Assens;https://www.assens.ch;5511
+1471;Gemeindeverwaltung Bercher;https://www.bercher-vd.ch;5512
+1472;Gemeindeverwaltung Bottens;https://www.bottens.ch;5514
+1473;Gemeindeverwaltung Bretigny-sur-Morrens;https://www.bretigny.ch;5515
+1474;Gemeindeverwaltung Echallens;https://www.echallens.ch;5518
+1475;Gemeindeverwaltung Essertines-sur-Yverdon;https://www.essertines-sur-yverdon.ch;5520
+1476;Gemeindeverwaltung Etagnières;https://www.etagnieres.ch;5521
+1477;Gemeindeverwaltung Fey;https://www.fey-vd.ch;5522
+1478;Gemeindeverwaltung Froideville;https://www.froideville.ch;5523
+1479;Gemeindeverwaltung Pailly;https://www.pailly.ch;5530
+1480;Gemeindeverwaltung Penthéréaz;https://www.penthereaz.ch;5531
+1481;Gemeindeverwaltung Poliez-Pittet;https://www.poliez-pittet.ch;5533
+1482;Gemeindeverwaltung Rueyres;https://www.rueyres.ch;5534
+1483;Gemeindeverwaltung Villars-le-Terroir;https://www.villars-le-terroir.ch;5537
+1484;Gemeindeverwaltung Vuarrens;https://www.vuarrens.ch;5539
+1485;Gemeindeverwaltung Bonvillars;https://www.bonvillars.ch;5551
+1486;Gemeindeverwaltung Bullet;https://www.bullet.ch;5552
+1487;Gemeindeverwaltung Champagne;https://www.champagne.ch;5553
+1488;Gemeindeverwaltung Concise;https://www.concise.ch;5554
+1489;Gemeindeverwaltung Corcelles-près-Concise;https://www.corcelles-concise.ch;5555
+1490;Gemeindeverwaltung Fiez;https://www.fiez.ch;5556
+1491;Gemeindeverwaltung Fontaines-sur-Grandson;https://www.fontaines-sur-grandson.ch;5557
+1492;Gemeindeverwaltung Giez;https://www.giez.ch;5559
+1493;Gemeindeverwaltung Grandson;https://www.grandson.ch;5561
+1494;Gemeindeverwaltung Mauborget;https://www.mauborget.ch;5562
+1495;Gemeindeverwaltung Sainte-Croix;https://www.sainte-croix.ch;5568
+1496;Gemeindeverwaltung Belmont-sur-Lausanne;https://www.belmont.ch;5581
+1497;Gemeindeverwaltung Cheseaux-sur-Lausanne;https://www.cheseaux.ch;5582
+1498;Gemeindeverwaltung Crissier;https://www.crissier.ch;5583
+1499;Gemeindeverwaltung Epalinges;https://www.epalinges.ch;5584
+1500;Gemeindeverwaltung Jouxtens-Mézery;https://www.jouxtens-mezery.ch;5585
+1501;Stadtverwaltung Lausanne;https://www.lausanne.ch;5586
+1502;Gemeindeverwaltung Le Mont-sur-Lausanne;https://www.lemontsurlausanne.ch;5587
+1503;Gemeindeverwaltung Paudex;https://www.paudex.ch;5588
+1504;Stadtverwaltung Pully;https://www.pully.ch;5590
+1505;Gemeindeverwaltung Romanel-sur-Lausanne;https://www.romanel-sur-lausanne.ch;5592
+1506;Gemeindeverwaltung Chexbres;https://www.chexbres.ch;5601
+1507;Gemeindeverwaltung Forel (Lavaux);https://www.forel.ch;5604
+1508;Gemeindeverwaltung Lutry;https://www.lutry.ch;5606
+1509;Gemeindeverwaltung Puidoux;https://www.puidoux.ch;5607
+1510;Gemeindeverwaltung Rivaz;https://www.rivaz.ch;5609
+1511;Gemeindeverwaltung Saint-Saphorin (Lavaux);https://www.saint-saphorin.ch;5610
+1512;Gemeindeverwaltung Savigny;https://www.savigny.ch;5611
+1513;Gemeindeverwaltung Aclens;https://www.aclens.ch;5621
+1514;Gemeindeverwaltung Bremblens;https://www.bremblens.ch;5622
+1515;Gemeindeverwaltung Buchillon;https://www.buchillon.ch;5623
+1516;Gemeindeverwaltung Chavannes-près-Renens;https://www.chavannes.ch;5627
+1517;Gemeindeverwaltung Chigny;https://www.chigny.ch;5628
+1518;Gemeindeverwaltung Clarmont;https://www.clarmont.ch;5629
+1519;Gemeindeverwaltung Denens;https://www.denens.ch;5631
+1520;Gemeindeverwaltung Denges;https://www.denges.ch;5632
+1521;Gemeindeverwaltung Echandens;https://www.echandens.ch;5633
+1522;Gemeindeverwaltung Echichens;https://www.echichens.ch;5634
+1523;Gemeindeverwaltung Etoy;https://www.etoy.ch;5636
+1524;Gemeindeverwaltung Lavigny;https://www.lavigny.ch;5637
+1525;Gemeindeverwaltung Lonay;https://www.lonay.ch;5638
+1526;Gemeindeverwaltung Lussy-sur-Morges;https://www.lussy-sur-morges.ch;5640
+1527;Stadtverwaltung Morges;https://www.morges.ch;5642
+1528;Gemeindeverwaltung Préverenges;https://www.preverenges.ch;5643
+1529;Gemeindeverwaltung Romanel-sur-Morges;https://www.romanel-sur-morges.ch;5645
+1530;Gemeindeverwaltung Saint-Prex;https://www.saint-prex.ch;5646
+1531;Gemeindeverwaltung Tolochenaz;https://www.tolochenaz.ch;5649
+1532;Gemeindeverwaltung Vaux-sur-Morges;https://www.vaux-sur-morges.ch;5650
+1533;Gemeindeverwaltung Villars-Sainte-Croix;https://www.villars-sainte-croix.ch;5651
+1534;Gemeindeverwaltung Villars-sous-Yens;https://www.villars-sous-yens.ch;5652
+1535;Gemeindeverwaltung Vufflens-le-Château;https://www.vufflens-le-chateau.ch;5653
+1536;Gemeindeverwaltung Vullierens;https://www.vullierens.ch;5654
+1537;Gemeindeverwaltung Yens;https://www.yens.ch;5655
+1538;Gemeindeverwaltung Boulens;https://www.boulens.ch;5661
+1539;Gemeindeverwaltung Chavannes-sur-Moudon;https://www.chavannes-sur-moudon.ch;5665
+1540;Gemeindeverwaltung Curtilles;https://www.curtilles.ch;5669
+1541;Gemeindeverwaltung Hermenches;https://www.hermenches.ch;5673
+1542;Gemeindeverwaltung Lovatens;https://www.lovatens.ch;5674
+1543;Gemeindeverwaltung Lucens;https://www.lucens.ch;5675
+1544;Gemeindeverwaltung Moudon;https://www.moudon.ch;5678
+1545;Gemeindeverwaltung Ogens;https://www.ogens.ch;5680
+1546;Gemeindeverwaltung Syens;https://www.syens.ch;5688
+1547;Gemeindeverwaltung Villars-le-Comte;https://www.villars-le-comte.ch;5690
+1548;Gemeindeverwaltung Vucherens;https://www.vucherens.ch;5692
+1549;Gemeindeverwaltung Montanaire;https://www.montanaire.ch;5693
+1550;Gemeindeverwaltung Arnex-sur-Nyon;https://www.arnex-sur-nyon.ch;5701
+1551;Gemeindeverwaltung Bassins;https://www.bassins.ch;5703
+1552;Gemeindeverwaltung Begnins;https://www.begnins.ch;5704
+1553;Gemeindeverwaltung Bogis-Bossey;https://www.bogis-bossey.ch;5705
+1554;Gemeindeverwaltung Borex;https://www.borex.ch;5706
+1555;Gemeindeverwaltung Chavannes-de-Bogis;https://www.chavannes-de-bogis.ch;5707
+1556;Gemeindeverwaltung Chavannes-des-Bois;https://www.chavannes-des-bois.ch;5708
+1557;Gemeindeverwaltung Chéserex;https://www.cheserex.ch;5709
+1558;Gemeindeverwaltung Coinsins;https://www.coinsins.ch;5710
+1559;Gemeindeverwaltung Commugny;https://www.commugny.ch;5711
+1560;Gemeindeverwaltung Coppet;https://www.coppet.ch;5712
+1561;Gemeindeverwaltung Crassier;https://www.crassier.ch;5714
+1562;Gemeindeverwaltung Duillier;https://www.duillier.ch;5715
+1563;Gemeindeverwaltung Eysins;https://www.eysins.ch;5716
+1564;Gemeindeverwaltung Founex;https://www.founex.ch;5717
+1565;Gemeindeverwaltung Genolier;https://www.genolier.ch;5718
+1566;Gemeindeverwaltung Gingins;https://www.gingins.ch;5719
+1567;Gemeindeverwaltung Givrins;https://www.givrins.ch;5720
+1568;Stadtverwaltung Gland;https://www.gland.ch;5721
+1569;Gemeindeverwaltung Grens;https://www.grens.ch;5722
+1570;Gemeindeverwaltung Mies;https://www.mies.ch;5723
+1571;Stadtverwaltung Nyon;https://www.nyon.ch;5724
+1572;Gemeindeverwaltung Prangins;https://www.prangins.ch;5725
+1573;Gemeindeverwaltung La Rippe;https://www.larippe.ch;5726
+1574;Gemeindeverwaltung Saint-Cergue;https://www.st-cergue.ch;5727
+1575;Gemeindeverwaltung Signy-Avenex;https://www.signy-avenex.ch;5728
+1576;Gemeindeverwaltung Tannay;https://www.tannay.ch;5729
+1577;Gemeindeverwaltung Trélex;https://www.trelex.ch;5730
+1578;Gemeindeverwaltung Le Vaud;https://www.levaud.ch;5731
+1579;Gemeindeverwaltung Vich;https://www.vich.ch;5732
+1580;Gemeindeverwaltung Agiez;https://www.agiez.ch;5742
+1581;Gemeindeverwaltung Arnex-sur-Orbe;https://www.arnex-sur-orbe.ch;5743
+1582;Gemeindeverwaltung Ballaigues;https://www.ballaigues.ch;5744
+1583;Gemeindeverwaltung Baulmes;https://www.baulmes.ch;5745
+1584;Gemeindeverwaltung Bavois;https://www.bavois.ch;5746
+1585;Gemeindeverwaltung Bofflens;https://www.bofflens.ch;5747
+1586;Gemeindeverwaltung Bretonnières;https://www.bretonnieres.ch;5748
+1587;Gemeindeverwaltung Chavornay;https://www.chavornay.ch;5749
+1588;Gemeindeverwaltung Les Clées;https://www.lesclees.ch;5750
+1589;Gemeindeverwaltung Croy;https://www.croy.ch;5752
+1590;Gemeindeverwaltung Juriens;https://www.juriens.ch;5754
+1591;Gemeindeverwaltung Montcherand;https://www.montcherand.ch;5756
+1592;Gemeindeverwaltung Orbe;https://www.orbe.ch;5757
+1593;Gemeindeverwaltung Premier;https://www.premier.ch;5759
+1594;Gemeindeverwaltung Rances;https://www.rances.ch;5760
+1595;Gemeindeverwaltung Romainmôtier-Envy;https://www.romainmotier.ch;5761
+1596;Gemeindeverwaltung Sergey;https://www.sergey.ch;5762
+1597;Gemeindeverwaltung Valeyres-sous-Rances;https://www.valeyres-sous-rances.ch;5763
+1598;Gemeindeverwaltung Vallorbe;https://www.vallorbe.ch;5764
+1599;Gemeindeverwaltung Vaulion;https://www.vaulion.ch;5765
+1600;Gemeindeverwaltung Vuiteboeuf;https://www.vuiteboeuf.ch;5766
+1601;Gemeindeverwaltung Corcelles-le-Jorat;https://www.corcelles-le-jorat.ch;5785
+1602;Gemeindeverwaltung Maracon;https://www.maracon.ch;5790
+1603;Gemeindeverwaltung Montpreveyres;https://www.montpreveyres.ch;5792
+1604;Gemeindeverwaltung Ropraz;https://www.ropraz.ch;5798
+1605;Gemeindeverwaltung Servion;https://www.servion.ch;5799
+1606;Gemeindeverwaltung Vulliens;https://www.vulliens.ch;5803
+1607;Gemeindeverwaltung Oron;https://www.oron.ch;5805
+1608;Gemeindeverwaltung Chevroux;https://www.chevroux.ch;5813
+1609;Gemeindeverwaltung Corcelles-près-Payerne;https://www.corcelles.ch;5816
+1610;Gemeindeverwaltung Grandcour;https://www.grandcour.ch;5817
+1611;Gemeindeverwaltung Missy;https://www.missy.ch;5821
+1612;Gemeindeverwaltung Payerne;https://www.payerne.ch;5822
+1613;Gemeindeverwaltung Trey;https://www.trey.ch;5827
+1614;Gemeindeverwaltung Villarzel;https://www.villarzel.ch;5830
+1615;Gemeindeverwaltung Valbroye;https://www.valbroye.ch;5831
+1616;Gemeindeverwaltung Rossinière;https://www.rossiniere.ch;5842
+1617;Gemeindeverwaltung Rougemont;https://www.rougemont.ch;5843
+1618;Gemeindeverwaltung Allaman;https://www.allaman.ch;5851
+1619;Gemeindeverwaltung Bursinel;https://www.bursinel.ch;5852
+1620;Gemeindeverwaltung Bursins;https://www.bursins.ch;5853
+1621;Gemeindeverwaltung Burtigny;https://www.burtigny.ch;5854
+1622;Gemeindeverwaltung Dully;https://www.dully.ch;5855
+1623;Gemeindeverwaltung Essertines-sur-Rolle;https://www.essertines-sur-rolle.ch;5856
+1624;Gemeindeverwaltung Gilly;https://www.gilly.ch;5857
+1625;Gemeindeverwaltung Luins;https://www.luins.ch;5858
+1626;Gemeindeverwaltung Mont-sur-Rolle;https://www.mont-sur-rolle.ch;5859
+1627;Gemeindeverwaltung Perroy;https://www.perroy.ch;5860
+1628;Gemeindeverwaltung Rolle;https://www.rolle.ch;5861
+1629;Gemeindeverwaltung Tartegnin;https://www.tartegnin.ch;5862
+1630;Gemeindeverwaltung Vinzel;https://www.vinzel.ch;5863
+1631;Gemeindeverwaltung Le Chenit;https://www.communeduchenit.ch;5872
+1632;Gemeindeverwaltung Le Lieu;https://www.lelieu.ch;5873
+1633;Gemeindeverwaltung Chardonne;https://www.chardonne.ch;5882
+1634;Gemeindeverwaltung Corseaux;https://www.corseaux.ch;5883
+1635;Gemeindeverwaltung Corsier-sur-Vevey;https://www.corsier-sur-vevey.ch;5884
+1636;Gemeindeverwaltung Jongny;https://www.jongny.ch;5885
+1637;Stadtverwaltung Montreux;https://www.commune-de-montreux.ch;5886
+1638;Gemeindeverwaltung La Tour-de-Peilz;https://www.la-tour-de-peilz.ch;5889
+1639;Stadtverwaltung Vevey;https://www.vevey.ch;5890
+1640;Gemeindeverwaltung Veytaux;https://www.veytaux.ch;5891
+1641;Gemeindeverwaltung Belmont-sur-Yverdon;https://www.belmont-sur-yverdon.ch;5902
+1642;Gemeindeverwaltung Bioley-Magnoux;https://www.bioley-magnoux.ch;5903
+1643;Gemeindeverwaltung Chamblon;https://www.chamblon.ch;5904
+1644;Gemeindeverwaltung Champvent;https://www.champvent.ch;5905
+1645;Gemeindeverwaltung Chavannes-le-Chêne;https://www.chavannes-le-chene.ch;5907
+1646;Gemeindeverwaltung Chêne-Pâquier;https://www.chene-paquier.ch;5908
+1647;Gemeindeverwaltung Cheseaux-Noréaz;https://www.cheseaux-noreaz.ch;5909
+1648;Gemeindeverwaltung Cronay;https://www.cronay.ch;5910
+1649;Gemeindeverwaltung Cuarny;https://www.cuarny.ch;5911
+1650;Gemeindeverwaltung Démoret;https://www.demoret.ch;5912
+1651;Gemeindeverwaltung Donneloye;https://www.donneloye.ch;5913
+1652;Gemeindeverwaltung Mathod;https://www.mathod.ch;5919
+1653;Gemeindeverwaltung Montagny-près-Yverdon;https://www.montagny.ch;5922
+1654;Gemeindeverwaltung Oppens;https://www.oppens.ch;5923
+1655;Gemeindeverwaltung Orges;https://www.orges.ch;5924
+1656;Gemeindeverwaltung Orzens;https://www.orzens.ch;5925
+1657;Gemeindeverwaltung Pomy;https://www.pomy.ch;5926
+1658;Gemeindeverwaltung Rovray;https://www.rovray.ch;5928
+1659;Gemeindeverwaltung Suchy;https://www.suchy.ch;5929
+1660;Gemeindeverwaltung Suscévaz;https://www.suscevaz.ch;5930
+1661;Gemeindeverwaltung Ursins;https://www.ursins.ch;5932
+1662;Gemeindeverwaltung Valeyres-sous-Montagny;https://www.valeyres-sous-montagny.ch;5933
+1663;Gemeindeverwaltung Villars-Epeney;https://www.villars-epeney.ch;5935
+1664;Gemeindeverwaltung Vugelles-La Mothe;https://www.vugelleslamothe.ch;5937
+1665;Stadtverwaltung Yverdon-les-Bains;https://www.yverdon-les-bains.ch;5938
+1666;Gemeindeverwaltung Yvonand;https://www.yvonand.ch;5939
+1667;Gemeindeverwaltung Brig-Glis;https://www.brig-glis.ch;6002
+1668;Gemeindeverwaltung Eggerberg;https://www.eggerberg.ch;6004
+1669;Gemeindeverwaltung Naters;https://www.naters.ch;6007
+1670;Gemeindeverwaltung Ried-Brig;https://www.ried-brig.ch;6008
+1671;Gemeindeverwaltung Simplon;https://www.gemeinde-simplon.ch;6009
+1672;Gemeindeverwaltung Termen;https://www.termen.ch;6010
+1673;Gemeindeverwaltung Ardon;https://www.ardon.ch;6021
+1674;Gemeindeverwaltung Chamoson;https://www.chamoson.ch;6022
+1675;Gemeindeverwaltung Conthey;https://www.conthey.ch;6023
+1676;Gemeindeverwaltung Nendaz;https://www.nendaz.ch;6024
+1677;Gemeindeverwaltung Vétroz;https://www.vetroz.ch;6025
+1678;Gemeindeverwaltung Liddes;https://www.liddes.ch;6033
+1679;Gemeindeverwaltung Orsières;https://www.orsieres.ch;6034
+1680;Gemeindeverwaltung Sembrancher;https://www.sembrancher.ch;6035
+1681;Gemeindeverwaltung Binn;https://www.binn.ch;6054
+1682;Gemeindeverwaltung Ernen;https://www.ernen.ch;6056
+1683;Gemeindeverwaltung Fiesch;https://www.fiesch.ch;6057
+1684;Gemeindeverwaltung Fieschertal;https://www.fieschertal.ch;6058
+1685;Gemeindeverwaltung Lax;https://www.lax.ch;6061
+1686;Gemeindeverwaltung Obergoms;https://www.obergoms.ch;6076
+1687;Gemeindeverwaltung Ayent;https://www.ayent.ch;6082
+1688;Gemeindeverwaltung Evolène;https://www.evolene-region.ch;6083
+1689;Gemeindeverwaltung Hérémence;https://www.heremence.ch;6084
+1690;Gemeindeverwaltung Vex;https://www.vex.ch;6089
+1691;Gemeindeverwaltung Mont-Noble;https://www.mont-noble.ch;6090
+1692;Gemeindeverwaltung Agarn;https://www.agarn.ch;6101
+1693;Gemeindeverwaltung Albinen;https://www.albinen.ch;6102
+1694;Gemeindeverwaltung Inden;https://www.inden.ch;6109
+1695;Gemeindeverwaltung Leuk;https://www.gemeinde.leuk.ch;6110
+1696;Gemeindeverwaltung Leukerbad;https://www.leukerbad.org/;6111
+1697;Gemeindeverwaltung Oberems;https://www.oberems.ch;6112
+1698;Gemeindeverwaltung Salgesch;https://www.salgesch.ch;6113
+1699;Gemeindeverwaltung Varen;https://www.varen.ch;6116
+1700;Gemeindeverwaltung Guttet-Feschel;https://www.guttet-feschel.ch;6117
+1701;Gemeindeverwaltung Gampel-Bratsch;https://www.gampel-bratsch.ch;6118
+1702;Gemeindeverwaltung Turtmann-Unterems;https://www.turtmann-unterems.ch;6119
+1703;Gemeindeverwaltung Bovernier;https://www.bovernier.ch;6131
+1704;Gemeindeverwaltung Fully;https://www.fully.ch;6133
+1705;Gemeindeverwaltung Isérables;https://www.iserables.ch;6134
+1706;Gemeindeverwaltung Leytron;https://www.leytron.ch;6135
+1707;Stadtverwaltung Martigny;https://www.martigny.ch;6136
+1708;Gemeindeverwaltung Martigny-Combe;https://www.martigny-combe.ch;6137
+1709;Gemeindeverwaltung Riddes;https://www.riddes.ch;6139
+1710;Gemeindeverwaltung Saillon;https://www.saillon.ch;6140
+1711;Gemeindeverwaltung Saxon;https://www.saxon.ch;6141
+1712;Gemeindeverwaltung Trient;https://www.trient.ch;6142
+1713;Gemeindeverwaltung Champéry;https://www.admin-champery.ch;6151
+1714;Gemeindeverwaltung Collombey-Muraz;https://www.collombey-muraz.ch;6152
+1715;Stadtverwaltung Monthey;https://www.monthey.ch;6153
+1716;Gemeindeverwaltung Port-Valais;https://www.port-valais.ch;6154
+1717;Gemeindeverwaltung Saint-Gingolph;https://www.st-gingolph.ch;6155
+1718;Gemeindeverwaltung Troistorrents;https://www.troistorrents.ch;6156
+1719;Gemeindeverwaltung Vionnaz;https://www.vionnaz.ch;6158
+1720;Gemeindeverwaltung Vouvry;https://www.vouvry.ch;6159
+1721;Gemeindeverwaltung Bitsch;https://www.bitsch.ch;6173
+1722;Gemeindeverwaltung Grengiols;https://www.grengiols.ch;6177
+1723;Gemeindeverwaltung Riederalp;https://www.gemeinde-riederalp.ch;6181
+1724;Gemeindeverwaltung Ausserberg;https://www.ausserberg.ch;6191
+1725;Gemeindeverwaltung Bürchen;https://www.buerchen.ch;6193
+1726;Gemeindeverwaltung Eischoll;https://www.eischoll.ch;6194
+1727;Gemeindeverwaltung Kippel;https://www.kippel.ch;6197
+1728;Gemeindeverwaltung Niedergesteln;https://www.niedergesteln.ch;6198
+1729;Gemeindeverwaltung Raron;https://www.raron.ch;6199
+1730;Gemeindeverwaltung Unterbäch;https://www.unterbaech.ch;6201
+1731;Gemeindeverwaltung Wiler (Lötschen);https://www.wilervs.ch;6202
+1732;Gemeindeverwaltung Mörel-Filet;https://www.moerel-filet.ch;6203
+1733;Gemeindeverwaltung Steg-Hohtenn;https://www.steg-hohtenn.ch;6204
+1734;Gemeindeverwaltung Collonges;https://www.collonges.ch;6211
+1735;Gemeindeverwaltung Dorénaz;https://www.dorenaz.ch;6212
+1736;Gemeindeverwaltung Evionnaz;https://www.evionnaz.ch;6213
+1737;Gemeindeverwaltung Finhaut;https://www.finhaut.ch;6214
+1738;Gemeindeverwaltung Massongex;https://www.massongex.ch;6215
+1739;Gemeindeverwaltung Saint-Maurice;https://www.st-maurice.ch;6217
+1740;Gemeindeverwaltung Salvan;https://www.salvan.ch;6218
+1741;Gemeindeverwaltung Vernayaz;https://www.vernayaz.ch;6219
+1742;Gemeindeverwaltung Vérossaz;https://www.verossaz.ch;6220
+1743;Gemeindeverwaltung Chalais;https://www.chalais.ch;6232
+1744;Gemeindeverwaltung Chippis;https://www.chippis.ch;6235
+1745;Gemeindeverwaltung Grône;https://www.grone.ch;6238
+1746;Gemeindeverwaltung Icogne;https://www.icogne.ch;6239
+1747;Gemeindeverwaltung Lens;https://www.lens.ch;6240
+1748;Gemeindeverwaltung Saint-Léonard;https://www.st-leonard.ch;6246
+1749;Gemeindeverwaltung Anniviers;https://www.anniviers.org;6252
+1750;Gemeindeverwaltung Anniviers;https://www.anniviers.org/;6252
+1751;Gemeindeverwaltung Arbaz;https://www.arbaz.ch;6261
+1752;Gemeindeverwaltung Grimisuat;https://www.grimisuat.ch;6263
+1753;Gemeindeverwaltung Savièse;https://www.saviese.ch;6265
+1754;Gemeindeverwaltung Veysonnaz;https://www.veysonnaz.ch;6267
+1755;Gemeindeverwaltung Baltschieder;https://www.baltschieder.ch;6281
+1756;Gemeindeverwaltung Eisten;https://www.eisten.ch;6282
+1757;Gemeindeverwaltung Embd;https://www.embd.ch;6283
+1758;Gemeindeverwaltung Grächen;https://www.gemeinde-graechen.ch;6285
+1759;Gemeindeverwaltung Lalden;https://www.lalden.ch;6286
+1760;Gemeindeverwaltung Randa;https://www.randa.ch;6287
+1761;Gemeindeverwaltung Saas Fee;https://www.3906.ch;6290
+1762;Gemeindeverwaltung Stalden (VS);https://www.stalden.ch;6293
+1763;Gemeindeverwaltung Staldenried;https://www.staldenried.ch;6294
+1764;Gemeindeverwaltung Täsch;https://www.gemeinde.taesch.ch;6295
+1765;Gemeindeverwaltung Törbel;https://www.toerbel.ch;6296
+1766;Gemeindeverwaltung Visp;https://www.visp.ch;6297
+1767;Gemeindeverwaltung Visperterminen;https://www.visperterminen.ch;6298
+1768;Gemeindeverwaltung Zeneggen;https://www.zeneggen.ch;6299
+1769;Gemeindeverwaltung Zermatt;https://www.gemeindezermatt.ch;6300
+1770;Gemeindeverwaltung Boudry;https://www.boudry.ch;6404
+1771;Gemeindeverwaltung Cortaillod;https://www.cortaillod.ch;6408
+1772;Gemeindeverwaltung Milvignes;https://www.milvignes.ch;6416
+1773;Gemeindeverwaltung La Chaux-de-Fonds;https://www.chaux-de-fonds.ch;6421
+1774;Gemeindeverwaltung Les Planchettes;https://www.ne.chlesplanchettes;6422
+1775;Gemeindeverwaltung La Sagne;https://www.ne.chlasagne;6423
+1776;Gemeindeverwaltung Brot-Plamboz;https://www.ne.chbrot-plamboz;6433
+1777;Gemeindeverwaltung La Chaux-du-Milieu;https://www.chaux-du-milieu.ch;6435
+1778;Gemeindeverwaltung Le Locle;https://www.lelocle.ch;6436
+1779;Gemeindeverwaltung Cornaux;https://www.cornaux.ch;6451
+1780;Gemeindeverwaltung Cressier (NE);https://www.ne.chcressier;6452
+1781;Gemeindeverwaltung Le Landeron;https://www.landeron.ch;6455
+1782;Gemeindeverwaltung Lignières;https://www.lignieres.ch;6456
+1783;Gemeindeverwaltung Neuchâtel;https://www.neuchatel.ch;6458
+1784;Gemeindeverwaltung Val-de-Ruz;https://www.val-de-ruz.ch;6487
+1785;Gemeindeverwaltung La Côte-aux-Fées;https://www.ne.chlacote-aux-fees;6504
+1786;Gemeindeverwaltung Les Verrières;https://www.ne.chlesverrieres;6511
+1787;Gemeindeverwaltung Val-de-Travers;https://www.val-de-travers.ch;6512
+1788;Gemeindeverwaltung Anières;https://www.anieres.ch;6602
+1789;Gemeindeverwaltung Avully;https://www.avully.ch;6603
+1790;Gemeindeverwaltung Avusy;https://www.avusy.ch;6604
+1791;Gemeindeverwaltung Bardonnex;https://www.bardonnex.ch;6605
+1792;Gemeindeverwaltung Bellevue;https://www.mairie-bellevue.ch;6606
+1793;Gemeindeverwaltung Bernex;https://www.bernex.ch;6607
+1794;Stadtverwaltung Carouge (GE);https://www.carouge.ch;6608
+1795;Gemeindeverwaltung Cartigny;https://www.cartigny.ch;6609
+1796;Gemeindeverwaltung Céligny;https://www.celigny.ch;6610
+1797;Gemeindeverwaltung Chancy;https://www.chancy.ch;6611
+1798;Gemeindeverwaltung Chêne-Bougeries;https://www.chene-bougeries.ch;6612
+1799;Gemeindeverwaltung Chêne-Bourg;https://www.chene-bourg.ch;6613
+1800;Gemeindeverwaltung Choulex;https://www.choulex.ch;6614
+1801;Gemeindeverwaltung Collex-Bossy;https://www.collex-bossy.ch;6615
+1802;Gemeindeverwaltung Collonge-Bellerive;https://www.collonge-bellerive.ch;6616
+1803;Gemeindeverwaltung Cologny;https://www.cologny.ch;6617
+1804;Gemeindeverwaltung Confignon;https://www.confignon.ch;6618
+1805;Gemeindeverwaltung Corsier (GE);https://www.corsier.ch;6619
+1806;Gemeindeverwaltung Dardagny;https://www.dardagny.ch;6620
+1807;Gemeindeverwaltung Genthod;https://www.genthod.ch;6622
+1808;Gemeindeverwaltung Le Grand-Saconnex;https://www.grand-saconnex.ch;6623
+1809;Gemeindeverwaltung Gy;https://www.mairie-gy.ch;6624
+1810;Gemeindeverwaltung Hermance;https://www.hermance.ch;6625
+1811;Gemeindeverwaltung Jussy;https://www.jussy.ch;6626
+1812;Gemeindeverwaltung Laconnex;https://www.laconnex.ch;6627
+1813;Stadtverwaltung Lancy;https://www.lancy.ch;6628
+1814;Gemeindeverwaltung Meinier;https://www.meinier.ch;6629
+1815;Stadtverwaltung Meyrin;https://www.meyrin.ch;6630
+1816;Stadtverwaltung Onex;https://www.onex.ch;6631
+1817;Gemeindeverwaltung Perly-Certoux;https://www.perly-certoux.ch;6632
+1818;Gemeindeverwaltung Plan-les-Ouates;https://www.plan-les-ouates.ch;6633
+1819;Gemeindeverwaltung Pregny-Chambésy;https://www.pregny-chambesy.ch;6634
+1820;Gemeindeverwaltung Presinge;https://www.presinge.ch;6635
+1821;Gemeindeverwaltung Puplinge;https://www.puplinge.ch;6636
+1822;Gemeindeverwaltung Russin;https://www.russin.ch;6637
+1823;Gemeindeverwaltung Satigny;https://www.satigny.ch;6638
+1824;Gemeindeverwaltung Soral;https://www.soral.ch;6639
+1825;Stadtverwaltung Thônex;https://www.thonex.ch;6640
+1826;Gemeindeverwaltung Troinex;https://www.troinex.ch;6641
+1827;Gemeindeverwaltung Vandoeuvres;https://www.vandoeuvres.ch;6642
+1828;Stadtverwaltung Vernier;https://www.vernier.ch;6643
+1829;Stadtverwaltung Versoix;https://www.versoix.ch;6644
+1830;Gemeindeverwaltung Veyrier;https://www.veyrier.ch;6645
+1831;Gemeindeverwaltung Boécourt;https://www.jura.chboecourt;6702
+1832;Gemeindeverwaltung Bourrignon;https://www.bourrignon.ch;6703
+1833;Gemeindeverwaltung Châtillon (JU);https://www.chatillon.ch;6704
+1834;Gemeindeverwaltung Courchapoix;https://www.courchapoix.ch;6706
+1835;Gemeindeverwaltung Courrendlin;https://www.courrendlin.ch;6708
+1836;Gemeindeverwaltung Courroux;https://www.courroux.ch;6709
+1837;Gemeindeverwaltung Courtételle;https://www.courtetelle.ch;6710
+1838;Gemeindeverwaltung Develier;https://www.develier.ch;6712
+1839;Gemeindeverwaltung Mervelier;https://www.mervelier.ch;6715
+1840;Gemeindeverwaltung Movelier;https://www.movelier.ch;6718
+1841;Gemeindeverwaltung Pleigne;https://www.pleigne.ch;6719
+1842;Gemeindeverwaltung Rossemaison;https://www.rossemaison.ch;6721
+1843;Gemeindeverwaltung Saulcy;https://www.saulcy.ch;6722
+1844;Gemeindeverwaltung Soyhières;https://www.soyhieres.ch;6724
+1845;Gemeindeverwaltung Haute-Sorne;https://www.haute-sorne.ch;6729
+1846;Gemeindeverwaltung Val Terbi;https://www.val-terbi.ch;6730
+1847;Gemeindeverwaltung Les Bois;https://www.lesbois.ch;6742
+1848;Gemeindeverwaltung Les Breuleux;https://www.breuleux.ch;6743
+1849;Gemeindeverwaltung Les Genevez (JU);https://www.lesgenevez.ch;6748
+1850;Gemeindeverwaltung Lajoux (JU);https://www.lajoux.ch;6750
+1851;Gemeindeverwaltung Montfaucon;https://www.montfaucon.ch;6751
+1852;Gemeindeverwaltung Muriaux;https://www.muriaux.chhome/home.htm;6753
+1853;Gemeindeverwaltung Le Noirmont;https://www.noirmont.ch;6754
+1854;Gemeindeverwaltung Saignelégier;https://www.saignelegier.ch;6757
+1855;Gemeindeverwaltung Soubey;https://www.soubey.ch;6759
+1856;Gemeindeverwaltung Alle;https://www.alle.ch;6771
+1857;Gemeindeverwaltung Boncourt;https://www.boncourt.ch;6774
+1858;Gemeindeverwaltung Bure;https://www.bure.ch;6778
+1859;Gemeindeverwaltung Coeuve;https://www.coeuve.ch;6781
+1860;Gemeindeverwaltung Cornol;https://www.cornol.ch;6782
+1861;Gemeindeverwaltung Courgenay;https://www.courgenay.ch;6784
+1862;Gemeindeverwaltung Courtedoux;https://www.courtedoux.ch;6785
+1863;Gemeindeverwaltung Fontenais;https://www.fontenais.ch;6790
+1864;Gemeindeverwaltung Grandfontaine;https://www.grandfontaine.ch;6792
+1865;Gemeindeverwaltung Vendlincourt;https://www.vendlincourt.ch;6806
+1866;Gemeindeverwaltung Basse-Allaine;https://www.basse-allaine.ch;6807
+1867;Gemeindeverwaltung Clos du Doubs;https://www.closdudoubs.ch;6808
+1868;Gemeindeverwaltung Haute-Ajoie;https://www.hauteajoie.ch;6809
+1869;Gemeindeverwaltung La Baroche;https://www.baroche.ch;6810

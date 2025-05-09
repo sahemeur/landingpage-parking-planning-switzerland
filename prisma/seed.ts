@@ -6,19 +6,20 @@ import { parse } from "csv-parse/sync";
 const prisma = new PrismaClient();
 
 async function seed() {
-  const kantonCsvPath = path.join(__dirname, "kanton.csv");
-  const kantonCsv = fs.readFileSync(kantonCsvPath, "utf-8");
-  const kantonRecords = parse(kantonCsv, {
-    columns: true,
-    delimiter: ";",
-    skip_empty_lines: true,
-  });
+  function csvRecords(fileName: string) {
+    const file = fs.readFileSync(path.join(__dirname, fileName), "utf-8");
+    return parse(file, {
+      columns: true,
+      delimiter: ";",
+      quote: '"',
+      skip_empty_lines: true,
+    });
+  }
 
+  const kantonRecords = csvRecords("kanton.csv");
   for (const record of kantonRecords) {
-    await prisma.kanton.upsert({
-      where: { id: record.id },
-      update: {},
-      create: {
+    await prisma.kanton.create({
+      data: {
         id: record.id,
         name_de: record.name_de,
         name_fr: record.name_fr,
@@ -27,41 +28,49 @@ async function seed() {
     });
   }
 
-  const ortschaftCsvPath = path.join(__dirname, "ortschaft.csv");
-  const ortschaftCSV = fs.readFileSync(ortschaftCsvPath, "utf-8");
-  const ortschaftRecords = parse(ortschaftCSV, {
-    columns: true,
-    delimiter: ";",
-    skip_empty_lines: true,
-  });
-
-  for (const record of ortschaftRecords) {
-    await prisma.ortschaft.create({
+  const gemeindeRecords = csvRecords("gemeinde.csv");
+  for (const record of gemeindeRecords) {
+    await prisma.gemeinde.create({
       data: {
+        id: +record.id,
         name: record.name,
-        plz: record.plz,
-        gemeinde: record.gemeinde,
         kanton_id: record.kanton_id,
-        e: new Prisma.Decimal(record.e),
-        n: new Prisma.Decimal(record.n),
-        sprache: record.sprache,
       },
     });
   }
 
-  // Seed Firmen
-  const firmenCsvPath = path.join(__dirname, "firmen.csv");
-  const firmenCsv = fs.readFileSync(firmenCsvPath, "utf-8");
-  const firmenRecords = parse(firmenCsv, {
-    columns: true,
-    delimiter: ",",
-    skip_empty_lines: true,
-  });
+  const ortschaftRecords = csvRecords("ortschaft.csv");
+  for (const record of ortschaftRecords) {
+    await prisma.ortschaft.create({
+      data: {
+        id: +record.id,
+        name: record.name,
+        plz: record.plz,
+        gemeinde_id: +record.gemeinde_id,
+        sprache: record.sprache,
+        e: new Prisma.Decimal(record.e),
+        n: new Prisma.Decimal(record.n),
+      },
+    });
+  }
 
+  const linkRecords = csvRecords("link.csv");
+  for (const record of linkRecords) {
+    await prisma.link.create({
+      data: {
+        id: +record.id,
+        name: record.name,
+        gemeinde_id: +record.gemeinde_id,
+        url: record.url,
+      },
+    });
+  }
+
+  const firmenRecords = csvRecords("firma.csv");
   for (const record of firmenRecords) {
     await prisma.firma.create({
       data: {
-        id: parseInt(record.id), // Ensure the ID is an integer
+        id: +record.id,
         name: record.name,
         strasse: record.strasse,
         postfach: record.postfach,

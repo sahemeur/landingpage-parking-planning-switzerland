@@ -5,10 +5,14 @@ const prisma = new PrismaClient();
 
 export default async function Home() {
   const kantone = await prisma.kanton.findMany({
-    include: { ortschaften: true },
+    include: {
+      gemeinden: {
+        include: {
+          ortschaften: true,
+        },
+      },
+    },
   });
-
-  console.log(kantone[0].ortschaften[0]);
 
   return (
     <main>
@@ -17,13 +21,15 @@ export default async function Home() {
         <div key={k.id}>
           <h2 className="text-2xl mb-1">{k.name_de}</h2>
           <ul>
-            {k.ortschaften.map((o) => (
-              <li key={o.id}>
-                <Link href={`${o.plz}_${sanitizeForUrl(o.name)}_${o.id}`}>
-                  {o.plz} {o.name}
-                </Link>
-              </li>
-            ))}
+            {k.gemeinden.map((g) =>
+              g.ortschaften.map((o) => (
+                <li key={o.id}>
+                  <Link href={`${o.plz}_${sanitizeForUrl(o.name)}_${o.id}`}>
+                    {o.plz} {o.name}
+                  </Link>
+                </li>
+              ))
+            )}
           </ul>
         </div>
       ))}
@@ -31,7 +37,7 @@ export default async function Home() {
   );
 }
 
-function sanitizeForUrl(input: string): string {
+export function sanitizeForUrl(input: string): string {
   // Replace German umlauts and ß
   const umlautMap: { [key: string]: string } = {
     ä: "ae",

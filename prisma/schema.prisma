@@ -14,23 +14,39 @@ datasource db {
 }
 
 model Ortschaft {
-  id        Int     @id @default(autoincrement())
-  name      String
-  gemeinde  String
-  kanton_id String
-  kanton    Kanton  @relation(fields: [kanton_id], references: [id])
-  sprache   String
-  plz       String
-  e         Decimal
-  n         Decimal
+  id          Int      @id @default(autoincrement())
+  name        String
+  gemeinde_id Int
+  gemeinde    Gemeinde @relation(fields: [gemeinde_id], references: [id])
+  plz         String
+  e           Decimal
+  n           Decimal
+  sprache     String
+}
+
+model Gemeinde {
+  id          Int         @id @default(autoincrement())
+  name        String
+  kanton_id   String
+  kanton      Kanton      @relation(fields: [kanton_id], references: [id])
+  ortschaften Ortschaft[]
+  links       Link[]
+}
+
+model Link {
+  id          Int      @id @default(autoincrement())
+  name        String
+  url         String
+  gemeinde_id Int
+  gemeinde    Gemeinde @relation(fields: [gemeinde_id], references: [id])
 }
 
 model Kanton {
-  id          String      @id
-  name_de     String
-  name_fr     String
-  name_it     String
-  ortschaften Ortschaft[]
+  id        String     @id
+  name_de   String
+  name_fr   String
+  name_it   String
+  gemeinden Gemeinde[]
 }
 
 model Firma {
