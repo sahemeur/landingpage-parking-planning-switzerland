@@ -2,6 +2,18 @@ import { Firma, Ortschaft, PrismaClient } from "@prisma/client";
 import { getData } from "./data";
 import Link from "next/link";
 import { sanitizeForUrl } from "../page";
+import Head from "next/head";
+import { Metadata } from "next";
+
+export async function generateMetadata(props: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const slug = (await props.params).slug;
+  const ortschaftId = +slug.substring(slug.lastIndexOf("_") + 1);
+  const { ortschaft } = await getData(ortschaftId);
+  return {
+    title: `Parkplatz bauen in ${ortschaft.plz} ${ortschaft.name}`,
+    description: `Parkplatz bauen in ${ortschaft.plz} ${ortschaft.name}. Angaben zu Kosten, Kostenschätzung, Plannung, Baufirmen, Gemeinde, Bauordnung, Baurecht`,
+  };
+}
 
 export default async function Gemeinde(props: { params: Promise<{ slug: string }> }) {
   const slug = (await props.params).slug;
@@ -49,28 +61,43 @@ export default async function Gemeinde(props: { params: Promise<{ slug: string }
                 Planung inkl. Kostenschätzung erlaubt ein kostenloses Online-Planungstool.
               </p>
 
-              <div>
-                <a
-                  href="https://demo.heimstein.cloud/xknaj9?zugang=freiflaechenplaner.ch"
-                  target="_blank"
-                  className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  Zum Planungstool
-                </a>
-              </div>
+              {!firmen.some((f) => f.plannerlink) && (
+                <div>
+                  <a
+                    href="https://demo.heimstein.cloud/xknaj9?zugang=freiflaechenplaner.ch"
+                    target="_blank"
+                    className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  >
+                    Zum Planungstool
+                  </a>
+                </div>
+              )}
 
               {firmen.length > 0 && (
                 <>
                   <h2 className="text-lg font-semibold">Regionale Anbieter</h2>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                     {firmen.map((f) => (
-                      <a key={f.id} href={f.webpage} className="p-3 shadow-md block" target="_blank">
-                        {f.name}
-                        <br />
-                        {f.strasse}
-                        <br />
-                        {f.plz} {f.ort}
-                      </a>
+                      <div className="shadow-md rounded" key={f.id}>
+                        <a key={f.id} href={f.webpage} className="p-3 block" target="_blank">
+                          {f.name}
+                          <br />
+                          {f.strasse}
+                          <br />
+                          {f.plz} {f.ort}
+                        </a>
+                        {f.plannerlink && (
+                          <div className="flex align-middle justify-center p-2">
+                            <a
+                              href={f.plannerlink}
+                              target="_blank"
+                              className="flex-1 text-center rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                            >
+                              Zum Planungstool
+                            </a>
+                          </div>
+                        )}
+                      </div>
                     ))}
                   </div>
                 </>
@@ -82,7 +109,10 @@ export default async function Gemeinde(props: { params: Promise<{ slug: string }
 
       <footer className="bg-emerald-200">
         <div className="max-w-7xl mx-auto px-4 py-6 space-y-2 ">
-          <h1 className="text-xl font-semibold">Weitere Parkplätze in {ortschaft.gemeinde.kanton.name_de}</h1>
+          <Link href=".." className="underline mr-1 text-xs">
+            Zurück
+          </Link>
+          <h1 className="text-xl font-semibold">Weitere Gemeinden im Kanton {ortschaft.gemeinde.kanton.name_de}</h1>
           <div className="">
             {kanton!.gemeinden.map((g) =>
               g.ortschaften.map((o) => (

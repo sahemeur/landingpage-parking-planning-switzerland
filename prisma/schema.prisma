@@ -50,13 +50,14 @@ model Kanton {
 }
 
 model Firma {
-  id       Int    @id @default(autoincrement())
-  name     String
-  strasse  String
-  postfach String
-  plz      String
-  ort      String
-  mail     String
-  webpage  String
-  sprache  String
+  id          Int     @id @default(autoincrement())
+  name        String
+  strasse     String
+  postfach    String
+  plz         String
+  ort         String
+  mail        String
+  webpage     String
+  plannerlink String?
+  sprache     String
 }

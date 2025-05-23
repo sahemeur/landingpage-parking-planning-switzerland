@@ -40,7 +40,14 @@ async function closeFirmen(maxDistance: number, plz: string): Promise<FirmaWithD
       }
     })
     .filter((f) => f.distance <= maxDistance);
-  firmenWithDistance.sort((a, b) => a.distance - b.distance);
+
+  firmenWithDistance
+    .sort((a, b) => {
+      return a.distance - b.distance;
+    })
+    .sort((a, b) => {
+      return (a.plannerlink ? 0 : 1) - (b.plannerlink ? 0 : 1);
+    });
   return firmenWithDistance.slice(0, 5);
 }
 

@@ -45,5 +45,6 @@ CREATE TABLE "Firma" (
     "ort" TEXT NOT NULL,
     "mail" TEXT NOT NULL,
     "webpage" TEXT NOT NULL,
+    "plannerlink" TEXT,
     "sprache" TEXT NOT NULL
 );

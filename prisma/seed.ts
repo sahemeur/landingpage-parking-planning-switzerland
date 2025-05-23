@@ -79,6 +79,7 @@ async function seed() {
         mail: record.mail,
         sprache: record.sprache,
         webpage: record.webpage,
+        plannerlink: record.plannerlink,
       },
     });
   }
