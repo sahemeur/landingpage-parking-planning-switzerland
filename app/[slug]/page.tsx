@@ -1,9 +1,7 @@
-import { Firma, Ortschaft, PrismaClient } from "@prisma/client";
-import { getData } from "./data";
-import Link from "next/link";
-import { sanitizeForUrl } from "../page";
-import Head from "next/head";
 import { Metadata } from "next";
+import Link from "next/link";
+import { getData } from "./data";
+import { sanitizeForUrl } from "../_util";
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const slug = (await props.params).slug;
