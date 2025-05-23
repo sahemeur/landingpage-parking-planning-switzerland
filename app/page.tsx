@@ -18,19 +18,17 @@ export default async function Home() {
     <main>
       <h1 className="text-5xl font-extrabold mb-2">Parkplätze bauen in der Schweiz</h1>
       {kantone.map((k) => (
-        <div key={k.id}>
+        <div key={k.id} className="mb-4">
           <h2 className="text-2xl mb-1">{k.name_de}</h2>
-          <ul>
+          <div>
             {k.gemeinden.map((g) =>
               g.ortschaften.map((o) => (
-                <li key={o.id}>
-                  <Link href={`${o.plz}_${sanitizeForUrl(o.name)}_${o.id}`}>
-                    {o.plz} {o.name}
-                  </Link>
-                </li>
+                <Link key={o.id} href={`${o.plz}_${sanitizeForUrl(o.name)}_${o.id}`} className="text-xs mr-1 underline">
+                  {o.plz} {o.name}
+                </Link>
               ))
             )}
-          </ul>
+          </div>
         </div>
       ))}
     </main>
