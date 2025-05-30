@@ -18,6 +18,8 @@ export default async function Gemeinde(props: { params: Promise<{ slug: string }
   const ortschaftId = +slug.substring(slug.lastIndexOf("_") + 1);
   const { ortschaft, firmen, kanton } = await getData(ortschaftId);
 
+  const hasPannerLink = firmen.some((f) => f.plannerlink);
+
   return (
     <>
       <header className="bg-emerald-800 shadow-md">
@@ -59,7 +61,7 @@ export default async function Gemeinde(props: { params: Promise<{ slug: string }
                 Planung inkl. Kostenschätzung erlaubt ein kostenloses Online-Planungstool.
               </p>
 
-              {!firmen.some((f) => f.plannerlink) && (
+              {!hasPannerLink && (
                 <div>
                   <a
                     href="https://demo.heimstein.cloud/xknaj9?zugang=freiflaechenplaner.ch"
@@ -84,7 +86,7 @@ export default async function Gemeinde(props: { params: Promise<{ slug: string }
                           <br />
                           {f.plz} {f.ort}
                         </a>
-                        {f.plannerlink && (
+                        {f.plannerlink ? (
                           <div className="flex align-middle justify-center p-2">
                             <a
                               href={f.plannerlink}
@@ -92,6 +94,16 @@ export default async function Gemeinde(props: { params: Promise<{ slug: string }
                               className="flex-1 text-center rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                             >
                               Zum Planungstool
+                            </a>
+                          </div>
+                        ) : (
+                          <div className="flex align-middle justify-center p-2">
+                            <a
+                              href={`mailto:${f.mail}`}
+                              target="_blank"
+                              className="flex-1 text-center rounded-md bg-gray-300 px-3.5 py-2.5 text-sm font-semibold text-gray-600 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                            >
+                              E-Mail
                             </a>
                           </div>
                         )}
