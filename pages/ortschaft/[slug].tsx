@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getData, getKantone } from "../../lib/data";
 import { UiFirma, UiGemeinde, UiKanton, UiOrtschaft } from "../../lib/model";
 import { sanitizeForUrl } from "../../lib/util";
+import Head from "next/head";
 
 export async function getStaticPaths() {
   const kantone = await getKantone();
@@ -33,6 +34,16 @@ export default function Gemeinde(props: GemeindeProps) {
   return (
     <div className="bg-emerald-200 min-h-screen">
       <header className="bg-emerald-800 shadow-md">
+        <Head>
+          <title>
+            Parkplatz bauen in {ortschaft.plz} {ortschaft.name}
+          </title>
+          <meta
+            name="description"
+            content={`Parkplatz bauen in ${ortschaft.plz} ${ortschaft.name}. Informationen zu Kostenschätzung, Planung und Umsetzung sowie Baufirmen in der Region.`}
+          />
+        </Head>
+
         <div className="max-w-7xl mx-auto px-4 py-6">
           <h1 className="text-3xl font-semibold text-center text-white">
             Parkplatz bauen in {ortschaft.plz} {ortschaft.name}

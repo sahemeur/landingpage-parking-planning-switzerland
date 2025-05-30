@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getKantone } from "../lib/data";
 import { UiOrtschaft } from "../lib/model";
 import { sanitizeForUrl } from "../lib/util";
+import Head from "next/head";
 
 export async function getStaticProps(): Promise<{ props: { kantone: IndexKanton[] } }> {
   const kantone = await getKantone();
@@ -47,6 +48,13 @@ export default function Home(props: { kantone: IndexKanton[] }) {
   return (
     <div className="">
       <header className="bg-emerald-800 shadow-md">
+        <Head>
+          <title>Parkplatz bauen in der Schweiz</title>
+          <meta
+            name="description"
+            content={`Parkplatz bauen in der Schweiz. Informationen zu Kostenschätzung, Planung und Umsetzung sowie Baufirmen in der Region.`}
+          />
+        </Head>
         <div className="max-w-7xl mx-auto px-4 py-6">
           <h1 className="text-3xl font-semibold text-center text-white">Parkplatz bauen in der Schweiz</h1>
         </div>
