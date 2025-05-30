@@ -7,6 +7,7 @@ CREATE TABLE "Ortschaft" (
     "e" DECIMAL NOT NULL,
     "n" DECIMAL NOT NULL,
     "sprache" TEXT NOT NULL,
+    "favorite" BOOLEAN NOT NULL,
     CONSTRAINT "Ortschaft_gemeinde_id_fkey" FOREIGN KEY ("gemeinde_id") REFERENCES "Gemeinde" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
 );
 

@@ -24,6 +24,12 @@ export default async function Home() {
     },
   });
 
+  kantone.sort(
+    (a, b) =>
+      b.gemeinden.flatMap((g) => g.ortschaften).filter((o) => o.favorite).length -
+      a.gemeinden.flatMap((g) => g.ortschaften).filter((o) => o.favorite).length
+  );
+
   const ortschaften = await prisma.ortschaft.findMany({
     select: {
       id: true,
@@ -33,14 +39,14 @@ export default async function Home() {
   });
 
   return (
-    <div className="flex flex-col h-screen">
+    <div className="">
       <header className="bg-emerald-800 shadow-md">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <h1 className="text-3xl font-semibold text-center text-white">Parkplatz bauen in der Schweiz</h1>
         </div>
       </header>
 
-      <main className="py-12 flex-1">
+      <main className="py-12 min-h-[40rem]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <section className="space-y-6 flex-1 mb-4">
             <h1 className="text-2xl font-semibold text-emerald-700">So bauen Sie Ihren Parkplatz richtig</h1>
@@ -56,7 +62,26 @@ export default async function Home() {
 
       <footer className="bg-emerald-200">
         <div className="max-w-7xl mx-auto px-4 py-6 space-y-2 ">
-          <h1 className="text-xl mt-5 font-semibold">Kantone</h1>
+          <h1 className="text-xl mt-5 font-semibold">Parkplatz bauen in anderen Gemeinden</h1>
+          {kantone.map((k) => (
+            <div key={k.id}>
+              <h1 className="text-md mt-5 font-semibold">{k.name_de}</h1>
+              <div>
+                {k.gemeinden
+                  .flatMap((g) => g.ortschaften)
+                  .filter((o) => o.favorite)
+                  .map((o) => (
+                    <Link
+                      key={o.id}
+                      href={`ortschaft/${o.plz}_${sanitizeForUrl(o.name)}_${o.id}`}
+                      className="underline mr-1 text-xs"
+                    >
+                      {o.plz} {o.name}
+                    </Link>
+                  ))}
+              </div>
+            </div>
+          ))}
         </div>
       </footer>
     </div>

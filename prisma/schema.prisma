@@ -22,6 +22,7 @@ model Ortschaft {
   e           Decimal
   n           Decimal
   sprache     String
+  favorite    Boolean
 }
 
 model Gemeinde {

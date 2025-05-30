@@ -48,6 +48,7 @@ async function seed() {
         plz: record.plz,
         gemeinde_id: +record.gemeinde_id,
         sprache: record.sprache,
+        favorite: record.favorite == "true",
         e: new Prisma.Decimal(record.e),
         n: new Prisma.Decimal(record.n),
       },
