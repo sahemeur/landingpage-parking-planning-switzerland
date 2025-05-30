@@ -1,23 +1,33 @@
-import { Metadata } from "next";
 import Link from "next/link";
-import { getData } from "./data";
-import { sanitizeForUrl } from "../../_util";
+import { getData, getKantone } from "../../lib/data";
+import { UiFirma, UiGemeinde, UiKanton, UiOrtschaft } from "../../lib/model";
+import { sanitizeForUrl } from "../../lib/util";
 
-export async function generateMetadata(props: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  const slug = (await props.params).slug;
-  const ortschaftId = +slug.substring(slug.lastIndexOf("_") + 1);
-  const { ortschaft } = await getData(ortschaftId);
-  return {
-    title: `Parkplatz bauen in ${ortschaft.plz} ${ortschaft.name}`,
-    description: `Parkplatz bauen in ${ortschaft.plz} ${ortschaft.name}. Angaben zu Kosten, Kostenschätzung, Plannung, Baufirmen, Gemeinde, Bauordnung, Baurecht`,
-  };
+export async function getStaticPaths() {
+  const kantone = await getKantone();
+  const ortschaften = kantone.flatMap((k) => k.gemeinden.flatMap((g) => g.ortschaften));
+  const paths = ortschaften.map((o) => ({
+    params: { slug: `${o.plz}_${sanitizeForUrl(o.name)}_${o.id}` },
+  }));
+
+  return { paths, fallback: false }; // fallback: false means only pre-rendered paths are available
 }
 
-export default async function Gemeinde(props: { params: Promise<{ slug: string }> }) {
-  const slug = (await props.params).slug;
+export async function getStaticProps(context: { params: { slug: string } }): Promise<{ props: GemeindeProps }> {
+  const { slug } = context.params; // Extract slug from the URL
   const ortschaftId = +slug.substring(slug.lastIndexOf("_") + 1);
-  const { ortschaft, firmen, kanton } = await getData(ortschaftId);
+  const data = await getData(ortschaftId, 30);
+  return { props: data };
+}
 
+interface GemeindeProps {
+  ortschaft: UiOrtschaft;
+  gemeinde: UiGemeinde;
+  firmen: UiFirma[];
+  kanton: UiKanton;
+}
+export default function Gemeinde(props: GemeindeProps) {
+  const { ortschaft, gemeinde, firmen, kanton } = props;
   const hasPannerLink = firmen.some((f) => f.plannerlink);
 
   return (
@@ -35,15 +45,15 @@ export default async function Gemeinde(props: { params: Promise<{ slug: string }
           <section className="space-y-6 flex-1 mb-4">
             <h1 className="text-2xl font-semibold text-emerald-700">Überblick & Infos</h1>
             <p className="text-md">
-              Ein Parkplatz auf dem eigenen Grundstück erfordert Planung: In {ortschaft.gemeinde.name} ist meist eine
-              Baubewilligung nötig. Wichtig sind zudem geeignete Materialien (z. B. Rasengittersteine zur Versickerung) sowie
-              sichere Zufahrten gemäss Sichtzonen-Vorgaben.
+              Ein Parkplatz auf dem eigenen Grundstück erfordert Planung: In {gemeinde.name} ist meist eine Baubewilligung nötig.
+              Wichtig sind zudem geeignete Materialien (z. B. Rasengittersteine zur Versickerung) sowie sichere Zufahrten gemäss
+              Sichtzonen-Vorgaben.
             </p>
-            {ortschaft.gemeinde.links.length > 0 && (
+            {gemeinde.links.length > 0 && (
               <>
                 <h2 className="text-lg font-semibold ">Weiterführende Links</h2>
                 <ul>
-                  {ortschaft.gemeinde.links.map((l) => (
+                  {gemeinde.links.map((l) => (
                     <li key={l.id}>
                       <a href={l.url} className="underline" target="_blank">
                         {l.name}
@@ -141,7 +151,7 @@ export default async function Gemeinde(props: { params: Promise<{ slug: string }
           <Link href=".." className="underline mr-1text-xs">
             Zurück
           </Link>
-          <h1 className="text-xl mt-5 font-semibold">Weitere Gemeinden im Kanton {ortschaft.gemeinde.kanton.name_de}</h1>
+          <h1 className="text-xl mt-5 font-semibold">Weitere Gemeinden im Kanton {kanton.name_de}</h1>
           <div className="">
             {kanton!.gemeinden
               .flatMap((g) => g.ortschaften)

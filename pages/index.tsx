@@ -1,43 +1,49 @@
-import { PrismaClient } from "@prisma/client";
-import { Metadata } from "next";
+import OrtschaftenSearch from "@/lib/ortschaft-search";
 import Link from "next/link";
-import { sanitizeForUrl } from "./_util";
-import OrtschaftenSearch from "./ortschaft-search";
+import { getKantone } from "../lib/data";
+import { UiOrtschaft } from "../lib/model";
+import { sanitizeForUrl } from "../lib/util";
 
-const prisma = new PrismaClient();
-
-export async function generateMetadata(props: { params: Promise<{ slug: string }> }): Promise<Metadata> {
-  return {
-    title: `Parkplatz bauen in der Schweiz`,
-    description: `Parkplatz bauen in der Schweiz. Angaben zu Kosten, Kostenschätzung, Plannung, Baufirmen, Gemeinde, Bauordnung, Baurecht`,
-  };
-}
-
-export default async function Home() {
-  const kantone = await prisma.kanton.findMany({
-    include: {
-      gemeinden: {
-        include: {
-          ortschaften: true,
-        },
-      },
-    },
-  });
-
+export async function getStaticProps(): Promise<{ props: { kantone: IndexKanton[] } }> {
+  const kantone = await getKantone();
   kantone.sort(
     (a, b) =>
       b.gemeinden.flatMap((g) => g.ortschaften).filter((o) => o.favorite).length -
       a.gemeinden.flatMap((g) => g.ortschaften).filter((o) => o.favorite).length
   );
 
-  const ortschaften = await prisma.ortschaft.findMany({
-    select: {
-      id: true,
-      name: true,
-      plz: true,
-    },
-  });
+  const indexKantone: IndexKanton[] = kantone.map((k) => ({
+    id: k.id,
+    name: k.name_de,
+    ortschaften: k.gemeinden.flatMap((g) =>
+      g.ortschaften.map((o) => ({
+        id: o.id,
+        name: o.name,
+        plz: o.plz,
+        favorite: o.favorite || false,
+      }))
+    ),
+  }));
 
+  return {
+    props: { kantone: indexKantone },
+  };
+}
+
+interface IndexKanton {
+  id: string;
+  name: string;
+  ortschaften: {
+    id: number;
+    name: string;
+    plz: string;
+    favorite: boolean;
+  }[];
+}
+
+export default function Home(props: { kantone: IndexKanton[] }) {
+  const { kantone } = props;
+  const ortschaften: UiOrtschaft[] = kantone.flatMap((k) => k.ortschaften);
   return (
     <div className="">
       <header className="bg-emerald-800 shadow-md">
@@ -65,10 +71,9 @@ export default async function Home() {
           <h1 className="text-xl mt-5 font-semibold">Parkplatz bauen in anderen Gemeinden</h1>
           {kantone.map((k) => (
             <div key={k.id}>
-              <h1 className="text-md mt-5 font-semibold">{k.name_de}</h1>
+              <h1 className="text-md mt-5 font-semibold">{k.name}</h1>
               <div>
-                {k.gemeinden
-                  .flatMap((g) => g.ortschaften)
+                {k.ortschaften
                   .filter((o) => o.favorite)
                   .map((o) => (
                     <Link

@@ -1,8 +1,6 @@
-"use client";
-
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { sanitizeForUrl } from "./_util";
+import { sanitizeForUrl } from "./util";
 
 export default function OrtschaftenSearch(props: { ortschaften: { id: number; name: string; plz: string }[] }) {
   const [input, setInput] = useState("");
