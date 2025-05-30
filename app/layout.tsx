@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Parkplatz bauen",
+  title: "Parkplatz bauen in der Schweiz",
 };
 
 export default function RootLayout({

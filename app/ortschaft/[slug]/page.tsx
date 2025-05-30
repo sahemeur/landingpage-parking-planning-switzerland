@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { getData } from "./data";
-import { sanitizeForUrl } from "../_util";
+import { sanitizeForUrl } from "../../_util";
 
 export async function generateMetadata(props: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const slug = (await props.params).slug;
@@ -107,10 +107,10 @@ export default async function Gemeinde(props: { params: Promise<{ slug: string }
 
       <footer className="bg-emerald-200">
         <div className="max-w-7xl mx-auto px-4 py-6 space-y-2 ">
-          <Link href=".." className="underline mr-1 text-xs">
+          <Link href=".." className="underline mr-1text-xs">
             Zurück
           </Link>
-          <h1 className="text-xl font-semibold">Weitere Gemeinden im Kanton {ortschaft.gemeinde.kanton.name_de}</h1>
+          <h1 className="text-xl mt-5 font-semibold">Weitere Gemeinden im Kanton {ortschaft.gemeinde.kanton.name_de}</h1>
           <div className="">
             {kanton!.gemeinden.map((g) =>
               g.ortschaften.map((o) => (
