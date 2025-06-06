@@ -1,9 +1,9 @@
 import OrtschaftenSearch from "@/lib/ortschaft-search";
+import Head from "next/head";
 import Link from "next/link";
 import { getKantone } from "../lib/data";
 import { UiOrtschaft } from "../lib/model";
 import { sanitizeForUrl } from "../lib/util";
-import Head from "next/head";
 
 export async function getStaticProps(): Promise<{ props: { kantone: IndexKanton[] } }> {
   const kantone = await getKantone();
@@ -42,8 +42,49 @@ interface IndexKanton {
   }[];
 }
 
+function generateJsonLd(kantone: IndexKanton[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: "Parkplatz bauen in der Schweiz",
+    description: "Informationen zu Kostenschätzung, Planung und Umsetzung sowie Baufirmen in der Region.",
+    provider: {
+      "@type": "LocalBusiness",
+      name: "Parkplatz bauen in der Schweiz",
+      areaServed: {
+        "@type": "Country",
+        name: "Switzerland",
+      },
+    },
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Gemeinden und Ortschaften",
+      itemListElement: kantone.map((k) => ({
+        "@type": "OfferCatalog",
+        name: `Kanton ${k.name}`,
+        itemListElement: k.ortschaften
+          .filter((o) => o.favorite)
+          .map((o) => ({
+            "@type": "Place",
+            name: o.name,
+            address: {
+              "@type": "PostalAddress",
+              postalCode: o.plz,
+              addressLocality: o.name,
+              addressRegion: k.name,
+              addressCountry: "CH",
+            },
+            identifier: o.id.toString(),
+          })),
+      })),
+    },
+  };
+}
+
 export default function Home(props: { kantone: IndexKanton[] }) {
   const { kantone } = props;
+  const jsonLd = generateJsonLd(kantone);
+
   const ortschaften: UiOrtschaft[] = kantone.flatMap((k) => k.ortschaften);
   return (
     <div className="">
@@ -54,6 +95,7 @@ export default function Home(props: { kantone: IndexKanton[] }) {
             name="description"
             content={`Parkplatz bauen in der Schweiz. Informationen zu Kostenschätzung, Planung und Umsetzung sowie Baufirmen in der Region.`}
           />
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         </Head>
         <div className="max-w-7xl mx-auto px-4 py-6">
           <h1 className="text-3xl font-semibold text-center text-white">Parkplatz bauen in der Schweiz</h1>

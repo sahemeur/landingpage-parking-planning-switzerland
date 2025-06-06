@@ -29,6 +29,43 @@ interface GemeindeProps {
 }
 export default function Gemeinde(props: GemeindeProps) {
   const { ortschaft, gemeinde, firmen, kanton } = props;
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Place",
+    name: `Parkplatz bauen in ${ortschaft.plz} ${ortschaft.name}`,
+    address: {
+      "@type": "PostalAddress",
+      postalCode: ortschaft.plz,
+      addressLocality: ortschaft.name,
+      addressRegion: kanton.name_de,
+      addressCountry: "CH",
+    },
+    containedInPlace: {
+      "@type": "AdministrativeArea",
+      name: gemeinde.name,
+      url: gemeinde.links.length > 0 ? gemeinde.links[0].url : undefined,
+    },
+    description: `Informationen zu Kostenschätzung, Planung und Umsetzung sowie Baufirmen in der Region ${gemeinde.name}.`,
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Regionale Anbieter",
+      itemListElement: firmen.map((f) => ({
+        "@type": "LocalBusiness",
+        name: f.name,
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: f.strasse,
+          postalCode: f.plz,
+          addressLocality: f.ort,
+          addressCountry: "CH",
+        },
+        url: f.webpage,
+        email: f.mail || undefined,
+      })),
+    },
+  };
+
   const hasPannerLink = firmen.some((f) => f.plannerlink);
 
   return (
@@ -42,6 +79,7 @@ export default function Gemeinde(props: GemeindeProps) {
             name="description"
             content={`Parkplatz bauen in ${ortschaft.plz} ${ortschaft.name}. Informationen zu Kostenschätzung, Planung und Umsetzung sowie Baufirmen in der Region.`}
           />
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         </Head>
 
         <div className="max-w-7xl mx-auto px-4 py-6">
@@ -98,8 +136,8 @@ export default function Gemeinde(props: GemeindeProps) {
                 <h2 className="text-lg font-semibold">Regionale Anbieter</h2>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   {firmen.map((f) => (
-                    <div className="shadow-md rounded" key={f.id}>
-                      <a key={f.id} href={f.webpage} className=" flex gap-3 p-3" target="_blank">
+                    <div className="shadow-md rounded flex flex-col" key={f.id}>
+                      <a key={f.id} href={f.webpage} className="flex gap-3 p-3 text-sm" target="_blank">
                         <div className="flex-1">
                           {f.name}
                           <br />
@@ -108,9 +146,9 @@ export default function Gemeinde(props: GemeindeProps) {
                           {f.plz} {f.ort}
                         </div>
 
-                        <div className="flex flex-col justify-center">
+                        <div className="flex flex-col">
                           <svg
-                            className="w-6 h-6 text-gray-800 dark:text-white"
+                            className="w-6 h-6 text-gray-800"
                             aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -127,6 +165,7 @@ export default function Gemeinde(props: GemeindeProps) {
                           </svg>
                         </div>
                       </a>
+                      <div className="flex-1"></div>
                       {f.plannerlink ? (
                         <div className="flex align-middle justify-center p-2">
                           <a
@@ -166,6 +205,7 @@ export default function Gemeinde(props: GemeindeProps) {
           <div className="">
             {kanton!.gemeinden
               .flatMap((g) => g.ortschaften)
+              .filter((o) => o.favorite)
               .map((o) => (
                 <Link
                   key={o.id}
