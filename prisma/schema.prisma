@@ -61,4 +61,5 @@ model Firma {
   webpage     String
   plannerlink String?
   sprache     String
+  logo        String?
 }

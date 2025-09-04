@@ -22,6 +22,7 @@ export interface UiFirma {
   mail: string;
   webpage: string;
   plannerlink?: string;
+  logo?: string;
   sprache: string;
 }
 

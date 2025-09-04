@@ -101,6 +101,7 @@ async function closeFirmen(maxDistance: number, plz: string): Promise<UiFirma[]>
     mail: f.mail,
     webpage: f.webpage,
     plannerlink: f.plannerlink ?? undefined,
+    logo: f.logo ?? "",
     sprache: f.sprache,
   }));
 }

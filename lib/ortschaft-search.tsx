@@ -2,68 +2,80 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { sanitizeForUrl } from "./util";
 
-export default function OrtschaftenSearch(props: { ortschaften: { id: number; name: string; plz: string }[] }) {
-  const [input, setInput] = useState("");
-  const filteredOrtschaften = useMemo(() => {
-    const inputTrimmed = input.trim();
-    if (inputTrimmed.length < 3) {
-      return [];
-    }
-    const tokens = inputTrimmed.toLowerCase().split(/\s+/).filter(Boolean);
-    if (tokens.length === 0) return [];
+type Ortschaft = { id: number; name: string; plz: string };
 
+export default function OrtschaftenSearch(props: { ortschaften: Ortschaft[] }) {
+  const [input, setInput] = useState("");
+  const [focused, setFocused] = useState(false);
+
+  const filteredOrtschaften = useMemo(() => {
+    const q = input.trim();
+    if (q.length < 3) return [];
+    const tokens = q.toLowerCase().split(/\s+/).filter(Boolean);
+    if (!tokens.length) return [];
     return props.ortschaften
       .filter(({ name, plz }) => {
         const searchable = `${name} ${plz}`.toLowerCase();
-        return tokens.every((token) => searchable.includes(token));
+        return tokens.every((t) => searchable.includes(t));
       })
-      .slice(0, 5);
+      .slice(0, 12);
   }, [input, props.ortschaften]);
 
+  const open = focused && filteredOrtschaften.length > 0;
+
   return (
-    <div className="flex flex-col">
-      <div className="relative">
-        <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-          <svg
-            className="w-4 h-4 text-gray-500"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 20 20"
-          >
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-            />
-          </svg>
-        </div>
-        <input
-          type="search"
-          id="default-search"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          className="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
-          placeholder="PLZ oder Gemeinde"
-          required
-        />
+    <div className="relative w-full">
+
+      <div className="pointer-events-none absolute inset-y-0 left-4 flex items-center">
+        <svg
+          className="h-5 w-5 text-gray-600"
+          aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 20 20"
+        >
+          <path
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+          />
+        </svg>
       </div>
-      {filteredOrtschaften.length > 0 && (
-        <div className="mt-5">
-          <h2 className="text-xl mb-4 font-semibold text-gray-900">Gefunde Gemeinden</h2>
-          <div className="">
-            {filteredOrtschaften.map((o, i) => (
-              <Link
-                key={i}
-                href={`ortschaft/${o.plz}_${sanitizeForUrl(o.name)}_${o.id}`}
-                className="h-10 flex flex-col font-semibold underline align-middle justify-center"
-              >
-                {o.plz} {o.name}
-              </Link>
+
+      <input
+        type="search"
+        value={input}
+        onChange={(e) => setInput(e.target.value)}
+        onFocus={() => setFocused(true)}
+        onBlur={() => setTimeout(() => setFocused(false), 120)} // let clicks in the panel register
+        placeholder="PLZ oder Gemeinde"
+        className="w-full rounded-full bg-white px-5 py-3 pl-10 text-sm text-slate-900 shadow-md
+                   placeholder:text-gray-500 focus:outline-none focus:ring-2 focus:ring-[#0F3C5C]"
+      />
+
+      {open && (
+        <div
+          className="absolute left-0 right-0 top-full z-50 mt-2 max-h-80 overflow-auto
+                     rounded-xl border border-slate-200 bg-white shadow-xl"
+          onMouseDown={(e) => e.preventDefault()} 
+        >
+          <h2 className="px-4 pt-3 pb-2 text-sm font-semibold text-slate-700">
+            Gefundene Gemeinden
+          </h2>
+          <ul className="divide-y divide-slate-100">
+            {filteredOrtschaften.map((o) => (
+              <li key={o.id}>
+                <Link
+                  href={`/ortschaft/${o.plz}_${sanitizeForUrl(o.name)}_${o.id}`}
+                  className="block px-4 py-2 text-slate-800 hover:bg-slate-50"
+                >
+                  {o.plz} {o.name}
+                </Link>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       )}
     </div>

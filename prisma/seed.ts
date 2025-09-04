@@ -81,6 +81,7 @@ async function seed() {
         sprache: record.sprache,
         webpage: record.webpage,
         plannerlink: record.plannerlink,
+        logo: record.logo,
       },
     });
   }
