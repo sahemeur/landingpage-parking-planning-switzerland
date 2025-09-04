@@ -33,14 +33,14 @@ export default function LandingSections({ videoSrc, posterSrc, ctaHref }: Props)
       <section className="bg-slate-50 text-slate-900">
         <div className="mx-auto max-w-7xl px-6 py-10 md:py-14">
           <h2 className="text-2xl md:text-3xl font-semibold">So funktioniert es</h2>
-          <ol className="mt-6 grid gap-6 md:grid-cols-3">
+          <div className="mt-6 grid gap-6 md:grid-cols-3">
             {steps.map((s) => (
-              <li key={s.label} className="rounded-lg border border-slate-200 bg-white p-5">
-                <div className="text-sm font-semibold text-slate-600">{s.label}</div>
+              <div key={s.label} className="rounded-lg border border-slate-200 bg-white p-5">
+                <h3 className="font-semibold">{s.label}</h3>
                 <p className="mt-2 text-slate-700 text-sm md:text-base">{s.text}</p>
-              </li>
+              </div>
             ))}
-          </ol>
+          </div>
         </div>
       </section>
 
