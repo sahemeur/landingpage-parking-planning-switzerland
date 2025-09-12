@@ -2,16 +2,10 @@ Parkplatz Landingpage
 
 ## DB Setup
 
-Initial setup
+Run
 
 ```bash
-npx prisma migrate dev
-```
-
-Reset DB
-
-```bash
-npx prisma migrate reset
+npm run dbreset
 ```
 
 ## Dev Mode
