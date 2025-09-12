@@ -64,10 +64,7 @@ export default function OrtschaftenSearch(props: { ortschaften: Ortschaft[] }) {
           <ul className="divide-y divide-slate-100">
             {filteredOrtschaften.map((o) => (
               <li key={o.id}>
-                <Link
-                  href={`/${o.plz}_${sanitizeForUrl(o.name)}_${o.id}`}
-                  className="block px-4 py-2 text-slate-800 hover:bg-slate-50"
-                >
+                <Link href={`/${o.plz}_${sanitizeForUrl(o.name)}`} className="block px-4 py-2 text-slate-800 hover:bg-slate-50">
                   {o.plz} {o.name}
                 </Link>
               </li>

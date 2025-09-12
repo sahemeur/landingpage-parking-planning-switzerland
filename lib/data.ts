@@ -1,6 +1,7 @@
 import { Ortschaft, PrismaClient } from "@prisma/client";
 import { getDistance } from "geolib";
 import { UiFirma, UiGemeinde, UiKanton, UiOrtschaft } from "./model";
+import { sanitizeForUrl } from "./util";
 
 const prisma = new PrismaClient();
 
@@ -57,6 +58,33 @@ export async function getData(
   const ortschaft = gemeinde.ortschaften.find((o) => o.id === ortschaftId)!;
   const firmen = await closeFirmen(firmaRadiusKm * 1000, ortschaft.plz);
   return { ortschaft, gemeinde, firmen, kanton };
+}
+
+export async function getDataByPlzAndName(
+  plz: string,
+  name: string,
+  firmaRadiusKm: number
+): Promise<{
+  ortschaft: UiOrtschaft;
+  gemeinde: UiGemeinde;
+  firmen: UiFirma[];
+  kanton: UiKanton;
+} | null> {
+  const kantone = await getKantone();
+
+  for (const kanton of kantone) {
+    for (const gemeinde of kanton.gemeinden) {
+      for (const ortschaft of gemeinde.ortschaften) {
+        // Try exact match first, then try sanitized match
+        if (ortschaft.plz === plz && (ortschaft.name === name || sanitizeForUrl(ortschaft.name) === name)) {
+          const firmen = await closeFirmen(firmaRadiusKm * 1000, ortschaft.plz);
+          return { ortschaft, gemeinde, firmen, kanton };
+        }
+      }
+    }
+  }
+
+  return null;
 }
 
 async function closeFirmen(maxDistance: number, plz: string): Promise<UiFirma[]> {

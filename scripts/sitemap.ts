@@ -15,7 +15,7 @@ function generateSiteMap(ortschaften: UiOrtschaft[]): string {
 
   const staticUrls = [`${SITE_URL}/`];
 
-  const ortUrls = ortschaften.map((o) => `${SITE_URL}/${o.plz}_${sanitizeForUrl(o.name)}_${o.id}`);
+  const ortUrls = ortschaften.map((o) => `${SITE_URL}/${o.plz}_${sanitizeForUrl(o.name)}`);
 
   const all = [...new Set([...staticUrls, ...ortUrls])];
 

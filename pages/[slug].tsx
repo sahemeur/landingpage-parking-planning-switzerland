@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-import { getData, getKantone } from "@/lib/data";
+import { getData, getDataByPlzAndName, getKantone } from "@/lib/data";
 import { UiFirma, UiGemeinde, UiKanton, UiOrtschaft } from "@/lib/model";
 import { sanitizeForUrl } from "@/lib/util";
 import { tool } from "@/content/home";
@@ -12,15 +12,28 @@ export async function getStaticPaths() {
   const kantone = await getKantone();
   const ortschaften = kantone.flatMap((k) => k.gemeinden.flatMap((g) => g.ortschaften));
   const paths = ortschaften.map((o) => ({
-    params: { slug: `${o.plz}_${sanitizeForUrl(o.name)}_${o.id}` },
+    params: { slug: `${o.plz}_${sanitizeForUrl(o.name)}` },
   }));
   return { paths, fallback: false };
 }
 
 export async function getStaticProps(context: { params: { slug: string } }): Promise<{ props: GemeindeProps }> {
   const { slug } = context.params;
-  const ortschaftId = +slug.substring(slug.lastIndexOf("_") + 1);
-  const data = await getData(ortschaftId, 30);
+
+  // Parse PLZ and name from slug (format: "8052_Zuerich")
+  const parts = slug.split("_");
+  if (parts.length < 2) {
+    throw new Error(`Invalid slug format: ${slug}`);
+  }
+
+  const plz = parts[0];
+  const name = parts.slice(1).join("_"); // Handle names with underscores
+
+  const data = await getDataByPlzAndName(plz, name, 30);
+  if (!data) {
+    throw new Error(`No ortschaft found for PLZ: ${plz}, Name: ${name}`);
+  }
+
   return { props: data };
 }
 
@@ -409,7 +422,7 @@ export default function Gemeinde(props: GemeindeProps) {
               {cantonFavorites.map((o) => (
                 <Link
                   key={o.id}
-                  href={`/${o.plz}_${sanitizeForUrl(o.name)}_${o.id}`}
+                  href={`/${o.plz}_${sanitizeForUrl(o.name)}`}
                   className="inline-flex items-center rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm hover:border-slate-400 hover:shadow-sm"
                 >
                   {o.plz} {o.name}
