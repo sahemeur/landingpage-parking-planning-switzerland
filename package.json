@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build && tsx scripts/sitemap.ts",
+    "build": "npm run dbreset && next build && tsx scripts/sitemap.ts",
+    "dbreset": "rm -f db/dev.db && prisma db push && prisma db seed",
     "start": "next start",
     "lint": "next lint"
   },

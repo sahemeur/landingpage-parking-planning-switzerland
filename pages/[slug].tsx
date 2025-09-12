@@ -2,10 +2,10 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-import { getData, getDataByPlzAndName, getKantone } from "@/lib/data";
+import { tool } from "@/content/home";
+import { getDataByPlzAndName, getKantone } from "@/lib/data";
 import { UiFirma, UiGemeinde, UiKanton, UiOrtschaft } from "@/lib/model";
 import { sanitizeForUrl } from "@/lib/util";
-import { tool } from "@/content/home";
 
 // --- Static paths / props ---
 export async function getStaticPaths() {

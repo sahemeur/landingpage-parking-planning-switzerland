@@ -42,5 +42,8 @@ next-env.d.ts
 
 /db
 
+# Prisma migrations (generated on the fly)
+/prisma/migrations
+
 # Local Netlify folder
 .netlify
