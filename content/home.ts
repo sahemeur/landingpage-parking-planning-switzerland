@@ -7,7 +7,7 @@ export const palette = {
 export const tool = {
   title: "Interaktives Tool zur Parkplatzplanung",
   blurb: "Prüfen Sie Gestaltungsmöglichkeiten und erhalten Sie eine erste Kostenschätzung für Ihr Projekt.",
-  videoSrc: "/videos/tool-preview.h264.mp4#t=1",
+  videoSrc: "/videos/tool-preview.h264.mp4#t=7,48",
   posterSrc: "/images/TBA.jpg",
   ctaLabel: "Planung starten",
   ctaHref: "https://heimstein.heimstein.cloud/", // wire this later
