@@ -72,7 +72,12 @@ export default function Gemeinde(props: GemeindeProps) {
       return (
         <div
           className="relative h-full rounded-2xl border px-6 py-5 shadow-sm overflow-visible border-[--partner-border] bg-[--partner-bg]"
-          style={{ ["--partner-border" as any]: NAVY, ["--partner-bg" as any]: `${NAVY}0D` }}
+          style={
+            {
+              "--partner-border": NAVY,
+              "--partner-bg": `${NAVY}0D`,
+            } as React.CSSProperties
+          }
         >
           <div className="grid gap-6 grid-cols-[minmax(0,1fr)_minmax(0,2fr)]">
             {/* LEFT: LOGO */}
