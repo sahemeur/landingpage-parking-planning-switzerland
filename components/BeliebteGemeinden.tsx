@@ -4,8 +4,8 @@ import { sanitizeForUrl } from "@/lib/util";
 import type { UiOrtschaft } from "@/lib/model";
 
 type Props = {
-  items: UiOrtschaft[];          // the first 10
-  moreItems?: UiOrtschaft[];     // the rest (optional)
+  items: UiOrtschaft[]; // the first 10
+  moreItems?: UiOrtschaft[]; // the rest (optional)
   title?: string;
   subtitle?: string;
 };
@@ -30,7 +30,7 @@ export default function BeliebteGemeinden({
             {visible.map((o) => (
               <Link
                 key={o.id}
-                href={`/ortschaft/${o.plz}_${sanitizeForUrl(o.name)}_${o.id}`}
+                href={`/${o.plz}_${sanitizeForUrl(o.name)}_${o.id}`}
                 className="inline-flex items-center rounded-full border border-slate-200 bg-white px-3 py-1.5 text-sm hover:border-slate-400 hover:shadow-sm"
                 aria-label={`${o.plz} ${o.name} öffnen`}
               >

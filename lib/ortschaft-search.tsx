@@ -25,7 +25,6 @@ export default function OrtschaftenSearch(props: { ortschaften: Ortschaft[] }) {
 
   return (
     <div className="relative w-full">
-
       <div className="pointer-events-none absolute inset-y-0 left-4 flex items-center">
         <svg
           className="h-5 w-5 text-gray-600"
@@ -59,16 +58,14 @@ export default function OrtschaftenSearch(props: { ortschaften: Ortschaft[] }) {
         <div
           className="absolute left-0 right-0 top-full z-50 mt-2 max-h-80 overflow-auto
                      rounded-xl border border-slate-200 bg-white shadow-xl"
-          onMouseDown={(e) => e.preventDefault()} 
+          onMouseDown={(e) => e.preventDefault()}
         >
-          <h2 className="px-4 pt-3 pb-2 text-sm font-semibold text-slate-700">
-            Gefundene Gemeinden
-          </h2>
+          <h2 className="px-4 pt-3 pb-2 text-sm font-semibold text-slate-700">Gefundene Gemeinden</h2>
           <ul className="divide-y divide-slate-100">
             {filteredOrtschaften.map((o) => (
               <li key={o.id}>
                 <Link
-                  href={`/ortschaft/${o.plz}_${sanitizeForUrl(o.name)}_${o.id}`}
+                  href={`/${o.plz}_${sanitizeForUrl(o.name)}_${o.id}`}
                   className="block px-4 py-2 text-slate-800 hover:bg-slate-50"
                 >
                   {o.plz} {o.name}
