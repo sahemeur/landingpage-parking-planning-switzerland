@@ -50,8 +50,6 @@ export default function Gemeinde(props: GemeindeProps) {
     const BRAND_GREEN = "#16A34A"; // green for emphasized Planungstool
     const logoSrc = f.logo;
 
-    console.log("Firma", f);
-
     // keep last word & street number from breaking badly
     const nameTight = (f.name || "").replace(/\s+(\S+)$/, "\u00A0$1");
     const streetTight = (f.strasse || "").replace(/\s+(\d[\w\-]*?)$/, "\u00A0$1");
@@ -161,15 +159,7 @@ export default function Gemeinde(props: GemeindeProps) {
   // --- Links / rail ---
   const plannerHref = firmen.find((f) => !!f.plannerlink)?.plannerlink || "https://heimstein.heimstein.cloud";
 
-  const cantonLawHref =
-    gemeinde.links.find((l) => /baugesetz|bauverordnung|kanton/i.test(l.name))?.url ||
-    `https://www.google.com/search?q=${encodeURIComponent(`Baugesetz ${kanton.name_de}`)}`;
-
   const richtlinienHref = gemeinde.links.find((l) => /richtlinie|gemeinde/i.test(l.name))?.url || gemeinde.links[0]?.url || "#";
-
-  const sichtzonenHref =
-    gemeinde.links.find((l) => /sichtzone|sicht/i.test(l.name))?.url ||
-    `https://www.google.com/search?q=${encodeURIComponent(`Sichtzonen ${gemeinde.name} ${kanton.name_de}`)}`;
 
   const stadtHref = gemeinde.links.find((l) => /stadtverwaltung|^gemeinde(?!.*richtlinie)|verwaltung/i.test(l.name))?.url;
 
@@ -177,9 +167,7 @@ export default function Gemeinde(props: GemeindeProps) {
 
   const railItems = [
     { label: "Planen Sie Ihren Parkplatz", href: plannerHref },
-    { label: `Baugesetzgebung des Kantons ${kanton.name_de}`, href: cantonLawHref },
     { label: `Richtlinien der Gemeinde ${gemeinde.name}`, href: richtlinienHref },
-    { label: "Regelungen zu Sichtzonen", href: sichtzonenHref },
     ...(stadtHref ? [{ label: `Stadtverwaltung ${gemeinde.name}`, href: stadtHref }] : []),
   ];
 
@@ -221,7 +209,7 @@ export default function Gemeinde(props: GemeindeProps) {
   };
 
   // Filter remaining links not promoted to rail
-  const promoted = new Set([cantonLawHref, richtlinienHref, sichtzonenHref, stadtHref].filter(Boolean) as string[]);
+  const promoted = new Set([richtlinienHref, stadtHref].filter(Boolean) as string[]);
   const remainingLinks = gemeinde.links.filter((l) => !promoted.has(l.url));
 
   // Favorites in same canton
