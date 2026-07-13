@@ -1,3 +1,40 @@
+# Parking Planning Switzerland
+
+## Overview
+
+This is a collaborative web application that helps users understand the planning process for building private parking spaces in Switzerland. It provides municipality-specific guidance, planning information and links to service providers.
+
+## My Contribution
+
+I joined an existing software project and contributed to the frontend implementation.
+
+My responsibilities included:
+
+- Redesigned the landing page and several content pages
+- Implemented UI improvements directly in the existing TypeScript / Next.js codebase
+- Improved layout, navigation and visual hierarchy
+- Added and integrated images and content
+- Improved usability and overall user experience
+
+## Technologies
+
+- TypeScript
+- React
+- Next.js
+- Prisma
+- Git
+- GitHub
+
+---
+
+## Credits
+
+This project was developed collaboratively. My contribution focused on frontend implementation and user interface improvements.
+
+---
+
+# Original Project Documentation
+
 Parkplatz Landingpage
 
 ## DB Setup
