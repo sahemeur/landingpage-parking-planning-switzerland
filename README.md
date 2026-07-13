@@ -1,4 +1,4 @@
-# Parking Planning Switzerland
+# Parking Planning Web Application
 
 ## Overview
 
