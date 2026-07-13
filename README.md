@@ -1,4 +1,4 @@
-# Parking Planning Web Application
+# Parking Planning Landing Page
 
 ## Overview
 
