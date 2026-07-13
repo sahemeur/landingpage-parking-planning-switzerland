@@ -25,6 +25,10 @@ My responsibilities included:
 - Git
 - GitHub
 
+## Challenges & Lessons Learned
+
+This was my first experience working in an existing TypeScript project. One of the biggest challenges was understanding the project structure and identifying where interface changes needed to be made, while applying my fundamental understanding of the coding language. Through this project, I gained experience navigating a larger codebase, implementing frontend changes, and testing my modifications within an established application.
+
 ---
 
 ## Credits
