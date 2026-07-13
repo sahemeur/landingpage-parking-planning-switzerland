@@ -27,7 +27,7 @@ My responsibilities included:
 
 ## Challenges & Lessons Learned
 
-This was my first experience working in an existing TypeScript project. One of the biggest challenges was understanding the project structure and identifying where interface changes needed to be made, while applying my fundamental understanding of the coding language. Through this project, I gained experience navigating a larger codebase, implementing frontend changes, and testing my modifications within an established application.
+This was my first experience contributing to an existing TypeScript codebase. One of the biggest challenges was understanding the project structure and identifying where interface changes needed to be made. Through this project, I gained experience navigating a larger codebase, implementing frontend changes, and testing my modifications within an established application.
 
 ---
 
